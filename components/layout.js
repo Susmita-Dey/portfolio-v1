@@ -1,9 +1,12 @@
+import Footer from "./footer";
+import Header from "./header";
+
 export default function Layout({ children }) {
   return (
     <>
-      <header>Header</header>
+      <Header></Header>
       <main>{children}</main>
-      <footer>&copy; - My portfolio</footer>
+      <Footer></Footer>
     </>
   );
 }
