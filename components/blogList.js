@@ -11,7 +11,7 @@ export default function blogLists({ posts }) {
             href={`https://blog.coreyodonnell.tech/${post.slug}`}
             className="md:w-2/3 lg:w-1/3 px-5 my-2"
           >
-            <BlogPreview post={post} />
+            {/* <BlogPreview post={post} /> */}
           </a>
         ))}
       </div>

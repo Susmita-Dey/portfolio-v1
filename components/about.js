@@ -9,8 +9,8 @@ export default function About() {
           <h2 className="text-2xl font-bold mb-6">My Skills</h2>
           <p className="text-lg font-normal mb-6">
             I love to explore new technologies and build projects and get used
-            to it. Currently I'm exploring Web3 and trying to implement in my
-            projects. Beside this I'm also building my side project <span className="text-white underline text-base">API World</span>
+            to it. Currently I&apos;m exploring Web3 and trying to implement in my
+            projects. Beside this I&apos;m also building my side project <span className="text-white underline text-base">API World</span>
           </p>
         </div>
         <div className="m-16 flex flex-col">

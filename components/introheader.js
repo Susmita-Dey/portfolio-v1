@@ -9,9 +9,9 @@ export default function IntroHeader() {
             Creative Developer
           </h1>
           <p className="text-lg mb-6">
-            I'm a final year undergrad college student pursuing B.Sc. Computer
-            Science(Hons.) course. I'm a MERN stack web developer passionate
-            about Open Source and hackathons.<br /> Currently I'm an MLH mentor and
+            I&apos;m a final year undergrad college student pursuing B.Sc. Computer
+            Science(Hons.) course. I&apos;m a MERN stack web developer passionate
+            about Open Source and hackathons.<br /> Currently I&apos;m an MLH mentor and
             Graphic Designer at Community Classroom.
           </p>
           <a
