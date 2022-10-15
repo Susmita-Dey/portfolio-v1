@@ -145,7 +145,7 @@ export default function Experience() {
           <h2 className="text-2xl font-bold">Experience</h2>
         </div>
         <div>
-          <Chrono items={items} slideShow mode="VERTICAL_ALTERNATING" />
+          <Chrono items={items} fontSizes="25px" useReadMore slideShow mode="VERTICAL_ALTERNATING" />
         </div>
       </div>
     </section>
