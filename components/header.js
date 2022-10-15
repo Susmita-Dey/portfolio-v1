@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <header className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 container mx-auto flex justify-between h-24 items-center">
+    <header className="text-white bg-indigo-900 container mx-auto flex justify-between h-24 items-center">
       <a href="/">
         <svg
           aria-label="My Name logo"
@@ -15,22 +17,26 @@ export default function Header() {
       </a>
       <nav>
         <ul className="flex gap-5">
-          <li className="hover:text-blue-800 focus:underline">
-            <a href="#">About Me</a>
+          <li className="hover:text-green-400 focus:underline">
+            <Link href="#">About Me</Link>
           </li>
-          <li className="hover:text-blue-800 focus:underline">
-            <a href="#">Experience</a>
+          <li className="hover:text-green-400 focus:underline">
+            <Link href="#">Experience</Link>
           </li>
-          <li className="hover:text-blue-800 focus:underline">
-            <a href="#">Projects</a>
+          <li className="hover:text-green-400 focus:underline">
+            <Link href="#">Projects</Link>
           </li>
-          <li className="hover:text-blue-800 focus:underline">
-            <a href="https://susmitadey.hashnode.dev/" target="_blank">
+          <li className="hover:text-green-400 focus:underline">
+            <Link
+              href="https://susmitadey.hashnode.dev/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Blog
-            </a>
+            </Link>
           </li>
-          <li className="mr-8 hover:text-blue-800 focus:underline">
-            <a href="#">Contact</a>
+          <li className="mr-8 hover:text-green-400 focus:underline">
+            <Link href="#">Contact</Link>
           </li>
         </ul>
       </nav>

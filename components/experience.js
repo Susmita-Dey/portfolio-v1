@@ -139,7 +139,7 @@ export default function Experience() {
   ];
   return (
     // <section className="bg-gradient-to-r from-cyan-500 to-blue-500 px-6">
-    <section className="bg-green-200 px-6">
+    <section className="bg-green-200 px-6 unselectable">
       <div className="max-w-4xl mx-auto py-12">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold">Experience</h2>

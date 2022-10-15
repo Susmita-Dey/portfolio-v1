@@ -4,6 +4,7 @@ import About from "../components/about";
 import Experience from "../components/experience";
 import IntroHeader from "../components/introheader";
 import Projects from "../components/projects";
+import RecentPosts from "../components/recentPosts";
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
       <About />
       <Experience />
       <Projects />
+      <RecentPosts />
     </div>
   );
 }

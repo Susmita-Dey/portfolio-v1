@@ -28,3 +28,22 @@ a {
     background: black;
   }
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: blueviolet;
+  background: white;
+}
+
+::selection {
+  color: blueviolet;
+  background: white;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: blueviolet;
+}
