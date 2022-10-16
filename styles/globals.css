@@ -45,7 +45,7 @@ a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: blueviolet;
+  color: rgb(0, 81, 255);
 }
 
 .typed-out{

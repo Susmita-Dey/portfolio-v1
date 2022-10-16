@@ -1,11 +1,24 @@
+import Image from "next/image";
 import Link from "next/link";
+import Logo from "../assets/logo.svg";
 
 export default function Header() {
   return (
-    <header className="text-white bg-indigo-900 container mx-auto flex justify-between h-24 items-center">
-      <Link href="/">
-        <p>Susmita Dey</p>
-      </Link>
+    <header className="bg-[#000125] text-white container mx-auto flex flex-wrap justify-between items-center">
+      <div className="flex flex-wrap ml-3 flex-col md:flex-row items-center">
+        <Link
+          href="/"
+          className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+        >
+          <Image
+            className="px-16 rounded-2xl"
+            src={Logo}
+            alt="name logo"
+            width="100rem"
+            height="100rem"
+          />
+        </Link>
+      </div>
       <nav>
         <ul className="flex gap-5">
           <li className="hover:text-green-400 focus:underline">
@@ -20,8 +33,9 @@ export default function Header() {
           <li className="hover:text-green-400 focus:underline">
             <Link
               href="https://susmitadey.hashnode.dev/"
-              target="_blank"
+              // target="_blank"
               rel="noreferrer"
+              // tabIndex={1}
             >
               Blog
             </Link>
