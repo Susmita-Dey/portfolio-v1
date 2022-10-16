@@ -1,9 +1,27 @@
+import React, { useEffect } from "react";
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { InlineWidget } from "react-calendly";
 
 export default function Contact() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <section className="bg-[#00023b] text-white px-6 py-12" id="contact">
+      <section
+        className="bg-[#00023b] text-white px-6 py-12"
+        id="contact"
+        data-aos="fade-up"
+        data-aos-offset="50"
+        data-aos-delay="50"
+        data-aos-duration="1300"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
         <div className="max-w-4xl mx-auto">
           <h2 className="text-center text-2xl font-bold mb-6">
             Schedule a Call

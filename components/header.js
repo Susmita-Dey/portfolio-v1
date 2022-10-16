@@ -4,7 +4,7 @@ import Logo from "../assets/logo.svg";
 
 export default function Header() {
   return (
-    <header className="bg-[#000125] text-white container mx-auto flex flex-wrap justify-between items-center">
+    <header className="bg-[#000125] text-white container mx-auto flex justify-between items-center px-6 md:px-0">
       <div className="flex flex-wrap ml-3 flex-col md:flex-row items-center">
         <Link
           href="/"
@@ -20,7 +20,7 @@ export default function Header() {
         </Link>
       </div>
       <nav>
-        <ul className="flex gap-5">
+        <ul className="flex gap-6 font-medium">
           <li className="hover:text-green-400 focus:underline">
             <Link href="#about">About Me</Link>
           </li>

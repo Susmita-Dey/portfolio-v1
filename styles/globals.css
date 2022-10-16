@@ -49,7 +49,8 @@ a {
   background: #083672;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: blueviolet;
   background: white;
 }
@@ -68,7 +69,7 @@ a {
   color: rgb(0, 81, 255);
 }
 
-.typed-out{
+.typed-out {
   overflow: hidden;
   /* border-right: .15em solid white; */
   white-space: nowrap;
@@ -78,6 +79,24 @@ a {
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
+/* 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 2s ease-in forwards;
+} */

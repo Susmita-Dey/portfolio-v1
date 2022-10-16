@@ -1,17 +1,39 @@
+import React, { useEffect } from "react";
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function About() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     // <section className="bg-gradient-to-r from-green-400 to-cyan-400 px-6 py-12">
     <section className="bg-[#00023b] text-white px-6 py-12" id="about">
       <div className="flex max-w-4xl mx-auto py-12 gap-10">
-        <div>
+        <div
+          data-aos="fade-right"
+          // data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+        >
           <h2 className="text-2xl font-bold mb-6">My Skills</h2>
           <p className="text-lg font-normal mb-6">
             I love to explore new technologies and build projects and get used
-            to it. Currently I&apos;m exploring Web3 and trying to implement in my
-            projects. Beside this I&apos;m also building my side project <span className="text-white underline text-base">API World</span>
+            to it. Currently I&apos;m exploring Web3 and trying to implement in
+            my projects. Beside this I&apos;m also building my side project{" "}
+            <span className="text-white underline text-base">API World</span>
           </p>
         </div>
-        <div className="flex flex-col">
+        <div
+          className="flex flex-col"
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <div className="flex">
             <img
               src="https://img.icons8.com/color/48/000000/html-5.png"

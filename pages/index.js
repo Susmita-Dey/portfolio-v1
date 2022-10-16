@@ -1,6 +1,5 @@
 import Head from "next/head";
 // import Image from "next/image";
-import { useParallax } from "react-scroll-parallax";
 import React, { useRef } from "react";
 import About from "../components/about";
 import Experience from "../components/experience";
@@ -13,7 +12,7 @@ import Contact from "../components/contact";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="scroll-smooth">
         <Head>
           <title>Susmita Dey | The Web Developer</title>
           <meta name="description" content="Susmita Dey Developer Portfolio" />
@@ -31,7 +30,6 @@ export default function Home() {
           </div>
         </div>
       </main> */}
-        {/* <div className="scrollbar"></div> */}
         <IntroHeader />
         <About />
         <Experience />
