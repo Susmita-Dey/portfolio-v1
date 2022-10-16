@@ -73,6 +73,26 @@ export default function Footer() {
               </svg>
             </Link>
           </li>
+          <li>
+            <Link
+              href="https://susmitadey.hashnode.dev/newsletter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22px"
+                height="22px"
+                viewBox="0 0 48 48"
+                fill="white"
+              >
+                <path
+                  fill="white"
+                  d="M42.164,17.126L30.874,5.835c-3.781-3.781-9.967-3.781-13.748,0L5.836,17.126	c-3.781,3.781-3.781,9.967,0,13.748l11.291,11.291c3.781,3.781,9.967,3.781,13.748,0l11.291-11.291	C45.945,27.093,45.945,20.907,42.164,17.126z M24,31c-3.866,0-7-3.134-7-7c0-3.866,3.134-7,7-7s7,3.134,7,7	C31,27.866,27.866,31,24,31z"
+                ></path>
+              </svg>
+            </Link>
+          </li>
         </ul>
       </nav>
       <p className="text-sm text-slate-100">

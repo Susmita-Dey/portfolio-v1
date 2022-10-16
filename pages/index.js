@@ -1,10 +1,13 @@
 import Head from "next/head";
 // import Image from "next/image";
+import { useParallax } from "react-scroll-parallax";
+import React, { useRef } from "react";
 import About from "../components/about";
 import Experience from "../components/experience";
 import IntroHeader from "../components/introheader";
 import Projects from "../components/featuredWork";
 import RecentPosts from "../components/recentPosts";
+import Contact from "../components/contact";
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -28,13 +31,14 @@ export default function Home() {
           </div>
         </div>
       </main> */}
+        {/* <div className="scrollbar"></div> */}
         <IntroHeader />
         <About />
         <Experience />
         <Projects />
         <RecentPosts />
+        <Contact />
       </div>
-      {/* <script src="spaghetti.js"></script> */}
     </>
   );
 }

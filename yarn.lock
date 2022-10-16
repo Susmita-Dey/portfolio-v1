@@ -492,6 +492,11 @@
   "resolved" "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   "version" "1.0.2"
 
+"bezier-easing@^2.1.0":
+  "integrity" "sha512-gbIqZ/eslnUFC1tjEvtz0sgx+xTK20wDnYMIA27VA04R7w6xxXQPZDbibjA9DTWZRA2CXtwHykkVzlCaAJAZig=="
+  "resolved" "https://registry.npmjs.org/bezier-easing/-/bezier-easing-2.1.0.tgz"
+  "version" "2.1.0"
+
 "binary-extensions@^2.0.0":
   "integrity" "sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA=="
   "resolved" "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz"
@@ -586,6 +591,16 @@
   "integrity" "sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw=="
   "resolved" "https://registry.npmjs.org/classnames/-/classnames-2.3.2.tgz"
   "version" "2.3.2"
+
+"clsx@^1.1.1":
+  "integrity" "sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg=="
+  "resolved" "https://registry.npmjs.org/clsx/-/clsx-1.2.1.tgz"
+  "version" "1.2.1"
+
+"cnbuilder@^3.1.0":
+  "integrity" "sha512-9sxWwwprkPNTVQnx92WYPEWCmyZRqbf9VWUYABU4rl0mLL17VAV2MvvOApkMA6bQVXRLJ8jN//8Yp6drElpLWA=="
+  "resolved" "https://registry.npmjs.org/cnbuilder/-/cnbuilder-3.1.0.tgz"
+  "version" "3.1.0"
 
 "color-convert@^1.9.0":
   "integrity" "sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg=="
@@ -1695,6 +1710,13 @@
   dependencies:
     "p-limit" "^3.0.2"
 
+"parallax-controller@^1.5.0":
+  "integrity" "sha512-X7FKD0bH27hJHdknH/UNEznmw6xjcWz/QA4M6RLlE/gUXfbePKhk+ld/20e58aAfjMqj+Q7RURryISFcDIVmtA=="
+  "resolved" "https://registry.npmjs.org/parallax-controller/-/parallax-controller-1.5.0.tgz"
+  "version" "1.5.0"
+  dependencies:
+    "bezier-easing" "^2.1.0"
+
 "parent-module@^1.0.0":
   "integrity" "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g=="
   "resolved" "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz"
@@ -1833,6 +1855,11 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
+"react-calendly@^4.1.0":
+  "integrity" "sha512-a4/yHZwwmuEgUZOfRh0Hs5lt96WSlWI3GQ0fNWWUnKN11YjR5E0fq4YZSMZ3Cas8FVcdoM88JSnNPbZoeLzbtQ=="
+  "resolved" "https://registry.npmjs.org/react-calendly/-/react-calendly-4.1.0.tgz"
+  "version" "4.1.0"
+
 "react-chrono@^1.19.2":
   "integrity" "sha512-phYGz599JGwRUCxMmqrMFHe74DRZiSHTTa339f6tijb7lXRV1zkDZqmHZmRhTjzBksccADt8QnnNvLYuunTllw=="
   "resolved" "https://registry.npmjs.org/react-chrono/-/react-chrono-1.19.2.tgz"
@@ -1842,7 +1869,7 @@
     "focus-visible" "^5.2.0"
     "styled-components" "^5.3.6"
 
-"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@^18.1.0", "react-dom@>= 16.8.0", "react-dom@18.2.0":
+"react-dom@^16.8.0-0 || >=17.0.1 || ^18.0.0", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@^18.1.0", "react-dom@>= 16.3.0", "react-dom@>= 16.8.0", "react-dom@>=16.8.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1850,12 +1877,36 @@
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
 
+"react-draggable@^4.4.5":
+  "integrity" "sha512-OMHzJdyJbYTZo4uQE393fHcqqPYsEtkjfMgvCHr6rejT+Ezn4OZbNyGH50vv+SunC1RMvwOTSWkEODQLzw1M9g=="
+  "resolved" "https://registry.npmjs.org/react-draggable/-/react-draggable-4.4.5.tgz"
+  "version" "4.4.5"
+  dependencies:
+    "clsx" "^1.1.1"
+    "prop-types" "^15.8.1"
+
 "react-is@^16.13.1", "react-is@^16.7.0", "react-is@>= 16.8.0":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@^18.2.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
+"react-scroll-parallax@^3.3.1":
+  "integrity" "sha512-yduD41rowkw6tRDXEshWK2pV8MKUoc8Err2kRXe2lJEryJ5gFXqBNbuSJfaSZAWqnrkHM/ClKyaQ9AL1fHP5ow=="
+  "resolved" "https://registry.npmjs.org/react-scroll-parallax/-/react-scroll-parallax-3.3.1.tgz"
+  "version" "3.3.1"
+  dependencies:
+    "parallax-controller" "^1.5.0"
+
+"react-scrollbars-custom@^4.1.1":
+  "integrity" "sha512-FOI1EMrdN5qziwvFAuH4saOo0+ggxeTuKLPpy6nezNdLUnDW1vCHGq0VSSfTSRstDgfXgwff5TMP9NeJ8NiFOQ=="
+  "resolved" "https://registry.npmjs.org/react-scrollbars-custom/-/react-scrollbars-custom-4.1.1.tgz"
+  "version" "4.1.1"
+  dependencies:
+    "cnbuilder" "^3.1.0"
+    "react-draggable" "^4.4.5"
+    "zoom-level" "^2.5.0"
+
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0-0 || >=17.0.1 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@^18.2.0", "react@>= 16.3.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.0.0", "react@>=16.8.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -2268,3 +2319,8 @@
   "integrity" "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
   "resolved" "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   "version" "0.1.0"
+
+"zoom-level@^2.5.0":
+  "integrity" "sha512-7UlRWU4Q3uCMCeDVMOm7eBrIu145OqsIJ3p6zq58l8UsSYwKWxc6zEapC5YA9tIeh0oheb4cT9Kk2Wq353loFg=="
+  "resolved" "https://registry.npmjs.org/zoom-level/-/zoom-level-2.5.0.tgz"
+  "version" "2.5.0"

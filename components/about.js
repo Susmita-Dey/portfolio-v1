@@ -1,7 +1,7 @@
 export default function About() {
   return (
     // <section className="bg-gradient-to-r from-green-400 to-cyan-400 px-6 py-12">
-    <section className="bg-[#00023b] text-white px-6 py-12">
+    <section className="bg-[#00023b] text-white px-6 py-12" id="about">
       <div className="flex max-w-4xl mx-auto py-12 gap-10">
         <div>
           <h2 className="text-2xl font-bold mb-6">My Skills</h2>

@@ -22,13 +22,13 @@ export default function Header() {
       <nav>
         <ul className="flex gap-5">
           <li className="hover:text-green-400 focus:underline">
-            <Link href="#">About Me</Link>
+            <Link href="#about">About Me</Link>
           </li>
           <li className="hover:text-green-400 focus:underline">
-            <Link href="#">Experience</Link>
+            <Link href="#experience">Experience</Link>
           </li>
           <li className="hover:text-green-400 focus:underline">
-            <Link href="#">Projects</Link>
+            <Link href="/mywork">Projects</Link>
           </li>
           <li className="hover:text-green-400 focus:underline">
             <Link
@@ -39,9 +39,10 @@ export default function Header() {
             >
               Blog
             </Link>
+            {/* <Link href="/blog">Blog</Link> */}
           </li>
           <li className="mr-8 hover:text-green-400 focus:underline">
-            <Link href="#">Contact</Link>
+            <Link href="#contact">Contact</Link>
           </li>
         </ul>
       </nav>
