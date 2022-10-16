@@ -3,7 +3,7 @@ import Head from "next/head";
 import About from "../components/about";
 import Experience from "../components/experience";
 import IntroHeader from "../components/introheader";
-import Projects from "../components/projects";
+import Projects from "../components/featuredWork";
 import RecentPosts from "../components/recentPosts";
 // import styles from '../styles/Home.module.css'
 
