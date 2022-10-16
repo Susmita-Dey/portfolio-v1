@@ -29,24 +29,24 @@ a {
   }
 }
 
-.scrollbar::-webkit-scrollbar {
-  width: 20px;
-  height: 20px;
+::-webkit-scrollbar {
+  width: 15px;
+  height: 30px;
 }
 
-.scrollbar::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   border-radius: 100vh;
-  background: #f7f4ed;
+  background: #01071f;
 }
 
-.scrollbar::-webkit-scrollbar-thumb {
-  background: #e0cbcb;
+::-webkit-scrollbar-thumb {
+  background: #083672;
   border-radius: 100vh;
-  border: 3px solid #f6f7ed;
+  border: 3px solid #3351d8;
 }
 
-.scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #c0a0b9;
+::-webkit-scrollbar-thumb:hover {
+  background: #083672;
 }
 
 ::-moz-selection { /* Code for Firefox */
