@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 
 export default function About() {
   useEffect(() => {
@@ -12,21 +13,56 @@ export default function About() {
     <section className="bg-[#00023b] text-white px-6 py-12" id="about">
       <div className="flex max-w-4xl mx-auto py-12 gap-10">
         <div
-          data-aos="fade-right"
-          // data-aos-offset="200"
+          className="rounded-xl"
+          data-aos="zoom-out"
+          data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="2000"
           data-aos-easing="ease-in-out"
         >
-          <h2 className="text-2xl font-bold mb-6">My Skills</h2>
-          <p className="text-lg font-normal mb-6">
-            I love to explore new technologies and build projects and get used
-            to it. Currently I&apos;m exploring Web3 and trying to implement in
-            my projects. Beside this I&apos;m also building my side project{" "}
-            <span className="text-white underline text-base">API World</span>
-          </p>
+          <Image
+            src="/Profile Photo (1).png"
+            alt="my-photo"
+            width="540"
+            height="540"
+            className="rounded-3xl"
+          />
         </div>
         <div
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+        >
+          <h2 className="text-2xl font-bold mb-6">About Me</h2>
+          <p className="text-lg font-normal mb-6">
+            <ul>
+              <li className="mb-2">Age: 19</li>
+              <li className="mb-2">
+                <strong>School:</strong>
+                <br /> Convent of Jesus and Mary
+              </li>
+              <li className="mb-2">
+                <strong>College:</strong>
+                <br /> Kalyani Mahavidyalaya
+              </li>
+              <li className="mb-2">
+                <strong>Areas of interest:</strong>
+                <br /> Web Development, Open Source, Hackathons, Web3, UI/UX
+              </li>
+              <li className="mb-2">
+                <strong>Hobbies:</strong>
+                <br /> Singing, Poetry, Reading Stories, Graphic Designing
+              </li>
+              <li className="mb-2">
+                <strong>Services:</strong>
+                <br /> Web Development, Graphic Design, UI/UX Design
+              </li>
+            </ul>
+          </p>
+        </div>
+        {/* <div
           className="flex flex-col"
           data-aos="fade-left"
           data-aos-offset="200"
@@ -100,7 +136,7 @@ export default function About() {
               alt="canva"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

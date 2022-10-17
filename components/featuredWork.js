@@ -23,7 +23,7 @@ export default function Projects() {
       data-aos-anchor-placement="top-center"
     >
       <div className="max-w-4xl mx-auto py-12">
-        <SectionHeader title="Featured Work" href="/projects" />
+        <SectionHeader title="Featured Work" href="/mywork" />
         <div className="flex flex-col gap-2">
           <Work
             workTitle="Sukoon"

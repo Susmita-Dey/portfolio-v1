@@ -45,7 +45,7 @@ export default function Header() {
             <Link href="/events">Events</Link>
           </li>
           <li className="mr-8 hover:text-green-400 focus:underline">
-            <Link href="#contact">Contact</Link>
+            <Link href="/#contact">Contact</Link>
           </li>
         </ul>
       </nav>
