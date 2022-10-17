@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo.png";
 
 export default function Header() {
   return (
@@ -22,10 +22,10 @@ export default function Header() {
       <nav>
         <ul className="flex gap-6 font-medium">
           <li className="hover:text-green-400 focus:underline">
-            <Link href="#about">About Me</Link>
+            <Link href="/#about">About Me</Link>
           </li>
           <li className="hover:text-green-400 focus:underline">
-            <Link href="#experience">Experience</Link>
+            <Link href="/#experience">Experience</Link>
           </li>
           <li className="hover:text-green-400 focus:underline">
             <Link href="/mywork">Projects</Link>
@@ -40,6 +40,9 @@ export default function Header() {
               Blog
             </Link>
             {/* <Link href="/blog">Blog</Link> */}
+          </li>
+          <li className="hover:text-green-400 focus:underline">
+            <Link href="/events">Events</Link>
           </li>
           <li className="mr-8 hover:text-green-400 focus:underline">
             <Link href="#contact">Contact</Link>

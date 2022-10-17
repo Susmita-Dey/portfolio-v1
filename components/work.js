@@ -1,26 +1,32 @@
-export default function Work() {
+import Image from "next/image";
+
+export default function Work({
+  workTitle,
+  imageUrl,
+  year = "2022",
+  tagName = "Website",
+  about = "Hello World",
+}) {
   return (
     <div className="flex items-center border-b-2 py-6">
-      <img
-        src="https://user-images.githubusercontent.com/98955085/184510782-3f699206-4768-4b3a-aa6d-40c924e13578.png"
-        alt="Work-image"
-        width="240"
-        height="240"
-        className="w-1/3 mr-6 rounded-lg"
-      />
+      <div className="mr-6">
+        <Image
+          src={imageUrl}
+          alt="Work-image"
+          width="500"
+          height="300"
+          className="rounded-lg"
+        />
+      </div>
       <div>
-        <h3 className="text-2xl mb-2 font-medium">Work title</h3>
-        <span className="text-gray-400 mb-4 block">
+        <h3 className="text-2xl mb-2 font-medium">{workTitle}</h3>
+        <span className="text-gray-300 mb-4 block">
           <date className="bg-blue-500 hover:bg-blue-700 text-white px-5 py-1.5 mr-4 rounded-xl">
-            2022
+            {year}
           </date>
-          Website
+          {tagName}
         </span>
-        <p>
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
+        <p className="text-white">{about}</p>
       </div>
     </div>
   );

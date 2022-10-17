@@ -23,10 +23,20 @@ export default function Projects() {
       data-aos-anchor-placement="top-center"
     >
       <div className="max-w-4xl mx-auto py-12">
-        <SectionHeader title="Featured Work" href="#" />
+        <SectionHeader title="Featured Work" href="/projects" />
         <div className="flex flex-col gap-2">
-          <Work />
-          <Work />
+          <Work
+            workTitle="Sukoon"
+            imageUrl="/Sukoon.png"
+            tagName="HTML, CSS, JS"
+            about="This is a stress-relieving website project made in my first hackathon Hackofiesta. This project is under the theme Healthcare. This project provides one step solution to get relief from your stress. Live a stress-free life.🕊️"
+          />
+          <Work
+            workTitle="Sukoon"
+            imageUrl="/Sukoon.png"
+            tagName="HTML, CSS, JS"
+            about="This is a stress-relieving website project made in my first hackathon Hackofiesta. This project is under the theme Healthcare. This project provides one step solution to get relief from your stress. Live a stress-free life.🕊️"
+          />
         </div>
       </div>
     </section>

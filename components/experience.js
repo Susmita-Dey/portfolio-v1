@@ -132,8 +132,13 @@ export default function Experience() {
     },
   ];
   return (
-    // <section className="bg-gradient-to-r from-cyan-500 to-blue-900 px-6">
-    <section className="bg-[#000358] px-6 unselectable" id="experience">
+    // <section className="bg-[#000358] bg-gradient-to-r from-cyan-500 to-blue-900 px-6">
+    <section className="px-6 unselectable" id="experience">
+      <div>
+        <video loop muted autoPlay id="bgVideo">
+          <source src="Black.mp4" type="video/mp4" />
+        </video>
+      </div>
       <div className="max-w-4xl mx-auto py-12">
         <div className="text-center mb-8">
           <h2 className="text-2xl text-white font-bold">Experience</h2>
