@@ -33,7 +33,7 @@ export default function Layout({ children }) {
       <Header />
       <main>{children}</main>
       <Footer />
-      <button class="back-to-top hidden">
+      <button className="back-to-top hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="back-to-top-icon"

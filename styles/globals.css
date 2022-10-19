@@ -171,3 +171,10 @@ p {
   background-color: rgb(13, 67, 228);
   color: white;
 }
+
+.globe {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  cursor: grabbing;
+}
