@@ -68,7 +68,7 @@ export default function Experience() {
       media: {
         type: "IMAGE",
         source: {
-          url: "https://media-exp1.licdn.com/dms/image/C4D2DAQEoA6ILmNaVCQ/profile-treasury-image-shrink_800_800/0/1657979016455?e=1666440000&v=beta&t=EIgtS4ge10R5FB9ByaTXhQjghDSOXtrpk1UuZ_K_bZA",
+          url: "https://media-exp1.licdn.com/dms/image/C4D22AQHNhmEEiJcFIA/feedshare-shrink_1280/0/1657976441771?e=1669852800&v=beta&t=vuSG5lNvY7Ii4kaST1aiPpNh1czRiQdQBHNRUpoHMqc",
         },
       },
     },
@@ -82,7 +82,7 @@ export default function Experience() {
       media: {
         type: "IMAGE",
         source: {
-          url: "https://media-exp1.licdn.com/dms/image/sync/C4D27AQEtkgjZn47Vaw/articleshare-shrink_800/0/1664909637301?e=1666440000&v=beta&t=qGRKUKjxdkNXTWGQRWLsyWofRB2bIii7O-4NWFX-xp4",
+          url: "https://drive.google.com/file/d/1pOI39vzW2lPhkhRPoWJsYHwuiwBt3Gsh/preview",
         },
       },
     },
@@ -143,7 +143,7 @@ export default function Experience() {
             items={items}
             useReadMore
             slideShow
-            slideItemDuration={4500}
+            slideItemDuration={1500}
             mode="VERTICAL_ALTERNATING"
             fontSizes={{
               cardSubtitle: "1.25rem",
