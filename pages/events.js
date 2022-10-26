@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Event from "../components/event";
+import ParticlesComponent from "../components/particles";
 
 export default function Events() {
   return (
@@ -12,16 +13,13 @@ export default function Events() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <section className="bg-gradient-to-r from-cyan-500 to-blue-500 px-6"> */}
       <section className="px-6">
         <div>
-          <video loop muted autoPlay id="bgVideo">
-            <source src="Snowflakes.mp4" type="video/mp4" />
-          </video>
+          <ParticlesComponent />
         </div>
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto gap-14 items-center flex-col-reverse md:flex-row">
           <h1 className="text-white text-3xl font-bold mb-6 p-4">Events</h1>
-          <div className="text-white grid">
+          <div className="text-white">
             <Event
               imgUrl="Developer stories podcast series.png"
               eventName="Developer Stories Podcast"

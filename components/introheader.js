@@ -20,7 +20,7 @@ export default function IntroHeader() {
             Community Classroom.
           </p>
           <a
-            href="https://resume.showwcase.com/susmitadey.pdf"
+            href="https://drive.google.com/file/d/1KAwnHGJmdAcoEh9O80YuFMoev_OG_LjA/view?usp=sharing"
             className="bg-blue-800 text-white px-6 py-4 rounded text-lg hover:bg-blue-700 mb-12"
           >
             <em>Hire Me!</em>

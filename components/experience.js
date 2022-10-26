@@ -133,10 +133,10 @@ export default function Experience() {
   ];
   return (
     // <section className="bg-[#000358] bg-gradient-to-r from-cyan-500 to-blue-900 px-6">
-    <section className="px-6 unselectable" id="experience">
-      <div className="max-w-4xl mx-auto py-12">
+    <section className="p-6 unselectable" id="experience">
+      <div className="max-w-4xl mx-auto items-center md:flex-row">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold">Experience</h2>
+          <h2 className="text-2xl font-bold text-white">Experience</h2>
         </div>
         <div>
           <Chrono

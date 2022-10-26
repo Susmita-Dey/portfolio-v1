@@ -157,7 +157,7 @@ export default function WorkPage() {
             <div className="">
               <Work
                 workTitle="JavaScript30"
-                imageUrl="/javaScript30.gif"
+                imageUrl="/javaScript30.jpg"
                 tagName="HTML, Tailwind, JS"
                 about="This shows my progress of learning javaScript and lists the source code of 30 different mini websites merged into one and showcased together. Basically, you may call it a version of 30 Days of JavaScript Challenge!! #30DaysOfJavaScript"
                 repo="https://github.com/Susmita-Dey/JavaScript30"

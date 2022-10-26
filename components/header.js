@@ -7,14 +7,11 @@ export default function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="bg-[#000125] border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <nav className="bg-[#000125] border-gray-200 px-2 sm:px-4 py-2.5 rounded">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-2.5 md:block">
-            <a
-              href="/"
-              className="flex title-font font-medium items-center text-white mb-4 md:mb-0"
-            >
+            <a href="/" className="flex items-center text-white mb-4 md:mb-0">
               <Image
                 className="px-16 rounded-2xl"
                 src={Logo}
@@ -29,20 +26,24 @@ export default function Header() {
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
-                  <svg
+                  <img
                     className="w-6 h-6"
-                    aria-hidden="true"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                    src="https://img.icons8.com/ios-glyphs/30/FFFFFF/multiply.png"
+                  />
                 ) : (
+                  // <svg
+                  //   className="w-6 h-6"
+                  //   aria-hidden="true"
+                  //   fill="currentColor"
+                  //   viewBox="0 0 20 20"
+                  //   xmlns="http://www.w3.org/2000/svg"
+                  // >
+                  //   <path
+                  //     fill-rule="evenodd"
+                  //     d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  //     clip-rule="evenodd"
+                  //   ></path>
+                  // </svg>
                   <svg
                     className="w-6 h-6"
                     aria-hidden="true"
@@ -67,15 +68,15 @@ export default function Header() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="flex flex-col p-4 mt-4 bg-[#000125] text-white md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+            <ul className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-base md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-bold md:border-0">
               <li className="hover:text-green-400 focus:underline">
-                <Link href="/#about">About Me</Link>
+                <Link href="./#about">About Me</Link>
               </li>
               <li className="hover:text-green-400 focus:underline">
-                <Link href="/#experience">Experience</Link>
+                <Link href="./#experience">Experience</Link>
               </li>
               <li className="hover:text-green-400 focus:underline">
-                <Link href="/mywork">Projects</Link>
+                <Link href="./mywork">Projects</Link>
               </li>
               <li className="hover:text-green-400 focus:underline">
                 <Link
@@ -84,15 +85,17 @@ export default function Header() {
                   rel="noreferrer"
                   // tabIndex={1}
                 >
-                  Blog
+                  <a target="_blank" rel="noopener noreferrer">
+                    Blog
+                  </a>
                 </Link>
                 {/* <Link href="/blog">Blog</Link> */}
               </li>
               <li className="hover:text-green-400 focus:underline">
-                <Link href="/events">Events</Link>
+                <Link href="./events">Events</Link>
               </li>
-              <li className="mr-8 hover:text-green-400 focus:underline">
-                <Link href="/#contact">Contact</Link>
+              <li className="hover:text-green-400 focus:underline">
+                <Link href="./#contact">Contact</Link>
               </li>
             </ul>
           </div>
