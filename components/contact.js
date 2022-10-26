@@ -11,13 +11,13 @@ export default function Contact() {
   return (
     <>
       <section
-        className="bg-[#00023b] text-white px-6 py-12"
+        className="bg-[#000325] text-white px-6 py-12"
         id="contact"
         data-aos="fade-up"
         data-aos-offset="50"
         data-aos-delay="50"
         data-aos-duration="1300"
-        data-aos-easing="ease-in-out"
+        data-aos-easing="ease-in"
         data-aos-mirror="true"
         data-aos-once="false"
         data-aos-anchor-placement="top-center"

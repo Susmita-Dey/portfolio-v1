@@ -11,13 +11,13 @@ export default function Projects() {
   }, []);
   return (
     <section
-      className="bg-[#000479] text-white px-6"
+      className="bg-[#000325] text-white px-6"
       id="projects"
       data-aos="fade-down"
       data-aos-offset="50"
       data-aos-delay="50"
       data-aos-duration="5000"
-      data-aos-easing="ease-in-out"
+      data-aos-easing="ease-in"
       data-aos-mirror="true"
       data-aos-once="false"
       data-aos-anchor-placement="top-center"

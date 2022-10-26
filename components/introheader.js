@@ -3,8 +3,8 @@ import profilePic from "../assets/my-profile-photo.jpg";
 
 export default function IntroHeader() {
   return (
-    // <header className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:bg-slate-800 px-6 py-12">
-    <header className="bg-[#000235] text-white px-6 py-12">
+    // <header className="bg-gradient-to-r bg-[#000235] from-indigo-500 via-purple-500 to-pink-500 dark:bg-slate-800 px-6 py-12">
+    <header className="text-white px-6 py-12">
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col-reverse md:flex-row">
         <div>
           <h1 className="text-3xl font-bold mb-6 typed-out">

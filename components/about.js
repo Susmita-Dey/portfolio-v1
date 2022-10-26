@@ -10,7 +10,7 @@ export default function About() {
   }, []);
   return (
     // <section className="bg-gradient-to-r from-green-400 to-cyan-400 px-6 py-12">
-    <section className="bg-[#00023b] text-white px-6 py-12" id="about">
+    <section className="bg-[#000325] text-white px-6 py-12" id="about">
       <div className="flex max-w-4xl mx-auto py-12 gap-10">
         <div
           className="rounded-xl"
@@ -18,7 +18,7 @@ export default function About() {
           data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="2000"
-          data-aos-easing="ease-in-out"
+          data-aos-easing="ease-in"
         >
           <Image
             src="/Profile Photo (1).png"
@@ -33,7 +33,7 @@ export default function About() {
           data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="2000"
-          data-aos-easing="ease-in-out"
+          data-aos-easing="ease-in"
         >
           <h2 className="text-2xl font-bold mb-6">About Me</h2>
           <p className="text-lg font-normal mb-6">
