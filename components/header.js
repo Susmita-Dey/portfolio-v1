@@ -73,6 +73,9 @@ export default function Header() {
                 <Link href="./#about">About Me</Link>
               </li>
               <li className="hover:text-green-400 focus:underline">
+                <Link href="./#skills">Skills</Link>
+              </li>
+              <li className="hover:text-green-400 focus:underline">
                 <Link href="./#experience">Experience</Link>
               </li>
               <li className="hover:text-green-400 focus:underline">

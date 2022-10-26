@@ -8,6 +8,7 @@ import Projects from "../components/featuredWork";
 import RecentPosts from "../components/recentPosts";
 import Contact from "../components/contact";
 import ParticlesComponent from "../components/particles";
+import Skills from "../components/mySkills";
 // import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
         <ParticlesComponent />
         <IntroHeader />
         <About />
+        <Skills />
         <Experience />
         <Projects />
         <RecentPosts />
