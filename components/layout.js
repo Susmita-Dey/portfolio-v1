@@ -1,4 +1,7 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+import useSound from "use-sound";
+// import boopSfx from "../../sounds/boop.mp3";
+// import Imagination from "../assets/guitar-loop.mp3";
 import Footer from "./footer";
 import Header from "./header";
 
@@ -28,6 +31,27 @@ export default function Layout({ children }) {
     backToTopButton.addEventListener("click", goToTop);
   });
 
+  // const soundUrl = "../assets/guitar-loop.mp3";
+  // const [play] = useSound(soundUrl);
+  // const audio = new Audio("../assets/guitar-loop.mp3");
+
+  const [audio, setAudio] = useState(null);
+
+  useEffect(() => {
+    setAudio(new Audio("../assets/guitar-loop.mp3")); // only call client
+  });
+  if (typeof document !== "undefined") {
+    const buttons = document.querySelectorAll(".btn-sound");
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        audio.play();
+      });
+    });
+  }
+
+  // const [play, { stop, isPlaying }] = useSound(soundUrl);
+
   return (
     <>
       <Header />
@@ -49,6 +73,15 @@ export default function Layout({ children }) {
           />
         </svg>
       </button>
+      <div className="play-sound">
+        <button className="btn-sound">
+          <img
+            className="back-to-top-icon"
+            src="https://i.gifer.com/Z23b.gif"
+            alt="sound-gif"
+          />
+        </button>
+      </div>
     </>
   );
 }

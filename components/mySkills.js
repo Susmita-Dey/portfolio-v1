@@ -31,32 +31,37 @@ export default function Skills() {
             data-aos-easing="ease-in"
           >
             <div className="grid grid-cols-3 grid-flow-row gap-6">
-              <div className="grid grid-cols-5 grid-flow-row gap-3">
-                <img
-                  className="bg-white p-2 my-3 mx-auto rounded"
-                  src="https://img.icons8.com/color/48/000000/html-5.png"
-                  alt="html5"
-                />
-                <img
-                  className="bg-white p-2 my-3 mx-auto rounded"
-                  src="https://img.icons8.com/color/48/000000/css3.png"
-                  alt="css3"
-                />
-                <img
-                  className="bg-white p-2 my-3 mx-auto rounded"
-                  src="https://img.icons8.com/color/48/000000/bootstrap.png"
-                  alt="bootstrap"
-                />
-                <img
-                  className="bg-white p-2 my-3 mx-auto rounded"
-                  src="https://img.icons8.com/fluency/48/000000/tailwind_css.png"
-                  alt="tailwind"
-                />
-                <img
-                  className="bg-white p-2 my-3 mx-auto rounded"
-                  src="https://img.icons8.com/color/48/000000/javascript.png"
-                  alt="js"
-                />
+              <div className="grid grid-cols-5 grid-flow-row gap-4 place-content-center">
+                <div className="bg-white p-2 my-3 mx-auto rounded">
+                  <img className="h-full w-full"
+                    src="https://img.icons8.com/color/48/000000/html-5.png"
+                    alt="html5"
+                  />
+                </div>
+                <div className="bg-white p-2 my-3 mx-auto rounded">
+                  <img
+                    src="https://img.icons8.com/color/48/000000/css3.png"
+                    alt="css3"
+                  />
+                </div>
+                <div className="bg-white p-2 my-3 mx-auto rounded">
+                  <img
+                    src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                    alt="bootstrap"
+                  />
+                </div>
+                <div className="bg-white p-2 my-3 mx-auto rounded">
+                  <img
+                    src="https://img.icons8.com/fluency/48/000000/tailwind_css.png"
+                    alt="tailwind"
+                  />
+                </div>
+                <div className="bg-white p-2 my-3 mx-auto rounded">
+                  <img
+                    src="https://img.icons8.com/color/48/000000/javascript.png"
+                    alt="js"
+                  />
+                </div>
               </div>
             </div>
             <div className="grid grid-cols-3 grid-flow-row gap-6">

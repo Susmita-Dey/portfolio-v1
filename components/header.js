@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../assets/logo.png";
@@ -5,6 +6,7 @@ import { useState } from "react";
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
+  const router = useRouter();
 
   return (
     <nav className="bg-[#000125] border-gray-200 px-2 sm:px-4 py-2.5 rounded">
@@ -66,7 +68,9 @@ export default function Header() {
                 <Link href="./#experience">Experience</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
-                <Link href="./mywork">Projects</Link>
+                <button onClick={() => router.push("./mywork")}>
+                  Projects
+                </button>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <Link
@@ -82,7 +86,7 @@ export default function Header() {
                 {/* <Link href="/blog">Blog</Link> */}
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
-                <Link href="./events">Events</Link>
+                <button onClick={() => router.push("./events")}>Events</button>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <Link href="./#contact">Contact</Link>
