@@ -6,6 +6,7 @@ import Footer from "./footer";
 import Header from "./header";
 
 export default function Layout({ children }) {
+  const [audio, setAudio] = useState(null);
   useEffect(() => {
     const showOnPx = 300;
     const backToTopButton = document.querySelector(".back-to-top");
@@ -35,7 +36,6 @@ export default function Layout({ children }) {
   // const [play] = useSound(soundUrl);
   // const audio = new Audio("../assets/guitar-loop.mp3");
 
-  const [audio, setAudio] = useState(null);
 
   useEffect(() => {
     setAudio(new Audio("../assets/guitar-loop.mp3")); // only call client
