@@ -13,7 +13,7 @@ export default function Skills() {
       className="bg-[#000325] text-center text-white px-6 py-12"
       id="skills"
     >
-      <div className="w-screen mx-auto flex gap-14 items-center flex-col md:flex-row">
+      <div className="w-screen justify-center mx-auto flex gap-14 items-center flex-col md:flex-row">
         <div
           data-aos="fade-up"
           data-aos-offset="200"
@@ -30,7 +30,7 @@ export default function Skills() {
             data-aos-duration="1000"
             data-aos-easing="ease-in"
           >
-            <div className="grid grid-cols-3 grid-flow-row gap-6">
+            <div className="grid grid-flow-row gap-6">
               <div className="grid grid-cols-5 grid-flow-row gap-4 place-content-center">
                 <div className="bg-white p-2 my-3 mx-auto rounded">
                   <img
@@ -65,7 +65,7 @@ export default function Skills() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-3 grid-flow-row gap-6">
+            <div className="grid grid-flow-row gap-6">
               <div className="grid grid-cols-5 grid-flow-row gap-3">
                 <img
                   className="bg-white p-2 my-3 mx-auto rounded"
@@ -94,7 +94,7 @@ export default function Skills() {
                 />
               </div>
             </div>
-            <div className="grid grid-cols-3 grid-flow-row gap-6">
+            <div className="grid grid-flow-row gap-6">
               <div className="grid grid-cols-5 grid-flow-row gap-3">
                 <img
                   className="bg-white p-2 my-3 mx-auto rounded"
