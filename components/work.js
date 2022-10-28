@@ -22,7 +22,7 @@ export default function Work({
       </div>
       <div>
         <div className="mx-auto flex">
-          <h3 className="text-2xl mb-2 font-medium">{workTitle}</h3>
+          <h4 className="text-2xl mb-2 font-medium">{workTitle}</h4>
           <div className="mx-2 mt-2 cursor-pointer">
             <Link href={repo} target="_blank" rel="noopener noreferrer">
               <svg
@@ -38,9 +38,9 @@ export default function Work({
           </div>
         </div>
         <span className="text-gray-300 mb-4 block">
-          <p className="bg-blue-500 hover:bg-blue-700 text-white px-5 py-1.5 mr-4 rounded-xl">
+          <span className="cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-5 py-1.5 mr-4 rounded-xl">
             {year}
-          </p>
+          </span>
           {tagName}
         </span>
         <p className="text-white">{about}</p>

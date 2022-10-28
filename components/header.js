@@ -56,19 +56,19 @@ export default function Header() {
             }`}
           >
             <ul className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-base md:flex-row md:space-x-6 md:mt-0 md:text-base md:font-bold md:border-0">
-              <li className="hover:text-green-400 focus:underline">
-                <Link href="./#about">About Me</Link>
+              <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
+                <Link href="./#about">About</Link>
               </li>
-              <li className="hover:text-green-400 focus:underline">
+              <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <Link href="./#skills">Skills</Link>
               </li>
-              <li className="hover:text-green-400 focus:underline">
+              <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <Link href="./#experience">Experience</Link>
               </li>
-              <li className="hover:text-green-400 focus:underline">
+              <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <Link href="./mywork">Projects</Link>
               </li>
-              <li className="hover:text-green-400 focus:underline">
+              <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <Link
                   href="https://susmitadey.hashnode.dev/"
                   // target="_blank"
@@ -81,10 +81,10 @@ export default function Header() {
                 </Link>
                 {/* <Link href="/blog">Blog</Link> */}
               </li>
-              <li className="hover:text-green-400 focus:underline">
+              <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <Link href="./events">Events</Link>
               </li>
-              <li className="hover:text-green-400 focus:underline">
+              <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <Link href="./#contact">Contact</Link>
               </li>
             </ul>

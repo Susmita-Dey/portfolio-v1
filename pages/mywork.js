@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ParticlesComponent from "../components/particles";
 import Work from "../components/work";
 
 export default function WorkPage() {
@@ -60,9 +61,11 @@ export default function WorkPage() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="bg-gradient-to-r from-purple-500 to-pink-500 px-6">
+      {/* <section className="bg-gradient-to-r from-green-500 via-cyan-500 to-pink-500 px-6"> */}
+      <section className="px-6">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl text-center font-bold mb-6 p-4">Work</h1>
+          <ParticlesComponent />
+          <h1 className="text-3xl text-center font-bold mb-6 p-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">Work</h1>
           {/* <!-- Control buttons --> */}
           <div id="myBtnContainer">
             <button className="btn active" onclick="filterSelection('all')">
@@ -106,7 +109,7 @@ export default function WorkPage() {
               DevOps
             </button>
           </div>
-          <div className="contain">
+          <div className="contain text-white">
             <div className="basic-website">
               <Work
                 workTitle="Sukoon"
@@ -157,7 +160,7 @@ export default function WorkPage() {
             <div className="">
               <Work
                 workTitle="JavaScript30"
-                imageUrl="/javaScript30.jpg"
+                imageUrl="/javascript30.jpg"
                 tagName="HTML, Tailwind, JS"
                 about="This shows my progress of learning javaScript and lists the source code of 30 different mini websites merged into one and showcased together. Basically, you may call it a version of 30 Days of JavaScript Challenge!! #30DaysOfJavaScript"
                 repo="https://github.com/Susmita-Dey/JavaScript30"

@@ -7,7 +7,7 @@ export default function IntroHeader() {
     <header className="text-white px-6 py-12">
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col-reverse md:flex-row">
         <div>
-          <h1 className="text-3xl font-bold mb-6 typed-out">
+          <h1 className="mb-6 typed-out font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-300">
             Hi, I am Susmita Dey!
             <br />
             Creative Developer
@@ -21,7 +21,7 @@ export default function IntroHeader() {
           </p>
           <a type="text/html"
             href="https://drive.google.com/file/d/1KAwnHGJmdAcoEh9O80YuFMoev_OG_LjA/view?usp=sharing"
-            className="bg-blue-800 text-white px-6 py-4 rounded text-lg hover:bg-blue-700 mb-12"
+            className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12"
           >
             <em>Hire Me!</em>
           </a>
