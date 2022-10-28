@@ -11,7 +11,7 @@ export default function Article({
     <article className={`bg-white p-4 ${className}`}>
       <h3 className="text-2xl mb-2 font-medium">{postTitle}</h3>
       <span className="text-gray-600 mb-4 block">
-        <date>{postDate}</date> |{" "}
+        <p>{postDate}</p> |{" "}
         <Link href={postLink}>
           <a target="_blank" rel="noopener noreferrer">
             Hashnode

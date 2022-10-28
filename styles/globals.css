@@ -35,8 +35,8 @@ a {
   }
 }
 
-nav li {
-  font-family: "Poppins", sans-serif;
+nav li, h2 {
+  font-family: "Poppins", -serif;
 }
 
 p {

@@ -23,94 +23,99 @@ export default function Skills() {
         >
           <h2 className="text-2xl font-bold mb-8">My Skills</h2>
           <div
-            className="grid grid-cols-4 grid-flow-row gap-4"
+            className="grid gap-4 place-content-center h-48"
             data-aos="fade-left"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in"
           >
-            {/* <div className="grid grid-cols-6 grid-flow-row gap-6"> */}
-            <div>
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/color/48/000000/html-5.png"
-                alt="html5"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/color/48/000000/css3.png"
-                alt="css3"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/color/48/000000/bootstrap.png"
-                alt="bootstrap"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/fluency/48/000000/tailwind_css.png"
-                alt="tailwind"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/color/48/000000/javascript.png"
-                alt="js"
-              />
+            <div className="grid grid-cols-3 grid-flow-row gap-6">
+              <div className="grid grid-cols-5 grid-flow-row gap-3">
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/color/48/000000/html-5.png"
+                  alt="html5"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/color/48/000000/css3.png"
+                  alt="css3"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                  alt="bootstrap"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/fluency/48/000000/tailwind_css.png"
+                  alt="tailwind"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/color/48/000000/javascript.png"
+                  alt="js"
+                />
+              </div>
             </div>
-            <div>
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/color/48/000000/git.png"
-                alt="git"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/ios-filled/48/000000/github.png"
-                alt="github"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/plasticine/48/000000/react.png"
-                alt="reactjs"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/color/48/000000/nodejs.png"
-                alt="nodejs"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/color/48/000000/mongodb.png"
-                alt="mongodb"
-              />
+            <div className="grid grid-cols-3 grid-flow-row gap-6">
+              <div className="grid grid-cols-5 grid-flow-row gap-3">
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/color/48/000000/git.png"
+                  alt="git"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/ios-filled/48/000000/github.png"
+                  alt="github"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/plasticine/48/000000/react.png"
+                  alt="reactjs"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/color/48/000000/nodejs.png"
+                  alt="nodejs"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/color/48/000000/mongodb.png"
+                  alt="mongodb"
+                />
+              </div>
             </div>
-            <div>
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/ios/48/000000/express-js.png"
-                alt="express-js"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/nolan/48/java-coffee-cup-logo.png"
-                alt="java"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/fluency/48/000000/python.png"
-                alt="python"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/color/48/000000/figma.png"
-                alt="figma"
-              />
-              <img
-                className="bg-white p-5 my-3 mx-auto rounded"
-                src="https://img.icons8.com/cute-clipart/48/000000/canva-app.png"
-                alt="canva"
-              />
+            <div className="grid grid-cols-3 grid-flow-row gap-6">
+              <div className="grid grid-cols-5 grid-flow-row gap-3">
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/ios/48/000000/express-js.png"
+                  alt="express-js"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/nolan/48/java-coffee-cup-logo.png"
+                  alt="java"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/fluency/48/000000/python.png"
+                  alt="python"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/color/48/000000/figma.png"
+                  alt="figma"
+                />
+                <img
+                  className="bg-white p-2 my-3 mx-auto rounded"
+                  src="https://img.icons8.com/cute-clipart/48/000000/canva-app.png"
+                  alt="canva"
+                />
+              </div>
             </div>
           </div>
         </div>

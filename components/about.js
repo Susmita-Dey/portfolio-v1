@@ -36,7 +36,7 @@ export default function About() {
           data-aos-easing="ease-in"
         >
           <h2 className="text-2xl font-bold mb-6">About Me</h2>
-          <p className="text-lg font-normal mb-6">
+          <div className="text-lg font-normal mb-6">
             <ul>
               <li className="mb-2">Age: 19</li>
               <li className="mb-2">
@@ -60,7 +60,7 @@ export default function About() {
                 <br /> Web Development, Graphic Design, UI/UX Design
               </li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </section>

@@ -19,9 +19,9 @@ export default function Event({
       <div>
         <h3 className="text-2xl mb-2 font-medium">{eventName}</h3>
         <span className="text-gray-400 mb-4 block">
-          <date className="bg-blue-500 hover:bg-blue-700 text-white px-5 py-1.5 mr-4 rounded-xl">
+          <p className="bg-blue-500 hover:bg-blue-700 text-white px-5 py-1.5 mr-4 rounded-xl">
             2022
-          </date>
+          </p>
           <Link href={eventLink}>Event Page</Link>&nbsp;&nbsp;|&nbsp;&nbsp;
           <span className="text-gray-100 hover:text-black rounded-lg py-2 px-4 hover:bg-green-300">
             {eventStatus}

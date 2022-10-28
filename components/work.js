@@ -38,9 +38,9 @@ export default function Work({
           </div>
         </div>
         <span className="text-gray-300 mb-4 block">
-          <date className="bg-blue-500 hover:bg-blue-700 text-white px-5 py-1.5 mr-4 rounded-xl">
+          <p className="bg-blue-500 hover:bg-blue-700 text-white px-5 py-1.5 mr-4 rounded-xl">
             {year}
-          </date>
+          </p>
           {tagName}
         </span>
         <p className="text-white">{about}</p>
