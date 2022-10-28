@@ -19,7 +19,7 @@ export default function IntroHeader() {
             <br /> Currently I&apos;m an MLH mentor and Graphic Designer at
             Community Classroom.
           </p>
-          <a
+          <a type="text/html"
             href="https://drive.google.com/file/d/1KAwnHGJmdAcoEh9O80YuFMoev_OG_LjA/view?usp=sharing"
             className="bg-blue-800 text-white px-6 py-4 rounded text-lg hover:bg-blue-700 mb-12"
           >

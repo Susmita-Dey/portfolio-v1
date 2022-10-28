@@ -13,9 +13,9 @@ export default function Skills() {
       className="bg-[#000325] text-center text-white px-6 py-12"
       id="skills"
     >
-      <div className="max-w-4xl mx-auto grid gap-14 items-center grid-col md:grid-row">
+      <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col md:flex-row">
         <div
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="2000"
@@ -23,8 +23,8 @@ export default function Skills() {
         >
           <h2 className="text-2xl font-bold mb-8">My Skills</h2>
           <div
-            className="grid gap-4 place-content-center h-48"
-            data-aos="fade-left"
+            className="grid h-50 place-items-center skills"
+            data-aos="fade-right"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"

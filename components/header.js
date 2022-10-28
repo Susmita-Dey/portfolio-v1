@@ -31,19 +31,6 @@ export default function Header() {
                     src="https://img.icons8.com/ios-glyphs/30/FFFFFF/multiply.png"
                   />
                 ) : (
-                  // <svg
-                  //   className="w-6 h-6"
-                  //   aria-hidden="true"
-                  //   fill="currentColor"
-                  //   viewBox="0 0 20 20"
-                  //   xmlns="http://www.w3.org/2000/svg"
-                  // >
-                  //   <path
-                  //     fill-rule="evenodd"
-                  //     d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  //     clipRule="evenodd"
-                  //   ></path>
-                  // </svg>
                   <svg
                     className="w-6 h-6"
                     aria-hidden="true"
@@ -68,7 +55,7 @@ export default function Header() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-base md:flex-row md:space-x-8 md:mt-0 md:text-base md:font-bold md:border-0">
+            <ul className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-base md:flex-row md:space-x-6 md:mt-0 md:text-base md:font-bold md:border-0">
               <li className="hover:text-green-400 focus:underline">
                 <Link href="./#about">About Me</Link>
               </li>
