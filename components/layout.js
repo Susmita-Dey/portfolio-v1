@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 // import useSound from "use-sound";
 import Footer from "./footer";
 import Header from "./header";
-import SoundBar from "./SoundBar";
+// import SoundBar from "./SoundBar";
 
 export default function Layout({ children }) {
   useEffect(() => {
