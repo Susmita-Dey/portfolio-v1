@@ -23,8 +23,8 @@ export default function About() {
           <Image
             src="/Profile Photo (1).png"
             alt="my-photo"
-            width="540"
-            height="540"
+            width={540}
+            height={540}
             className="rounded-3xl"
           />
         </div>
@@ -35,7 +35,9 @@ export default function About() {
           data-aos-duration="2000"
           data-aos-easing="ease-in"
         >
-          <h2 className="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-pink-500">About Me</h2>
+          <h2 className="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-pink-500">
+            About Me
+          </h2>
           <div className="text-lg font-normal mb-6">
             <ul>
               <li className="mb-2">Age: 19</li>

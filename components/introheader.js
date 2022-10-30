@@ -19,7 +19,8 @@ export default function IntroHeader() {
             <br /> Currently I&apos;m an MLH mentor and Graphic Designer at
             Community Classroom.
           </p>
-          <a type="text/html"
+          <a
+            type="text/html"
             href="https://drive.google.com/file/d/1KAwnHGJmdAcoEh9O80YuFMoev_OG_LjA/view?usp=sharing"
             className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12"
           >
@@ -31,8 +32,8 @@ export default function IntroHeader() {
             src={profilePic}
             alt="Image of Susmita"
             className="z-10 relative rounded-full"
-            width="540"
-            height="540"
+            width={540}
+            height={540}
             loading="eager"
             priority
           />

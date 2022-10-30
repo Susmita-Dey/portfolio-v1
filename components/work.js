@@ -15,8 +15,8 @@ export default function Work({
         <Image
           src={imageUrl}
           alt="Work-image"
-          width="500"
-          height="300"
+          width={500}
+          height={335}
           className="rounded-lg"
         />
       </div>
