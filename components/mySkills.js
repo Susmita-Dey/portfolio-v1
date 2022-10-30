@@ -13,7 +13,7 @@ export default function Skills() {
       className="bg-[#000325] text-center text-white px-6 py-12"
       id="skills"
     >
-      <div className="w-screen justify-center mx-auto flex gap-14 items-center flex-col md:flex-row">
+      <div className="max-w-4xl justify-center mx-auto flex gap-14 items-center flex-col md:flex-row">
         <div
           data-aos="fade-up"
           data-aos-offset="200"

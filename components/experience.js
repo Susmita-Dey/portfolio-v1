@@ -40,7 +40,7 @@ export default function Experience() {
       media: {
         type: "IMAGE",
         source: {
-          url: "https://media-exp1.licdn.com/dms/image/C4D2DAQG8PtSpsMmCQA/profile-treasury-image-shrink_1920_1920/0/1655265530771?e=1666440000&v=beta&t=UpHs2bgGBqYx6C9jTv_JKkUr3I0wHogUDPCVyji-ZNs",
+          url: "https://cdn.pixabay.com/photo/2017/09/08/18/46/volunteers-2729696_960_720.png",
         },
       },
     },
@@ -80,10 +80,11 @@ export default function Experience() {
       cardDetailedText:
         "This channel is my initiative to spread knowledge based on coding and tech topics(Computer Science) and help people grow, learn and build some amazing web development and simple projects.",
       media: {
-        type: "IMAGE",
+        // name: "Demystifying Hacktoberfest @DigitalOcean",
         source: {
-          url: "https://drive.google.com/file/d/1pOI39vzW2lPhkhRPoWJsYHwuiwBt3Gsh/preview",
+          url: "https://yt3.ggpht.com/r8tQ1cNtVirJBMOU1cxrfqxBWAFpSezt-eQqBd2dPF2tNlfg_T2W2j5Z3mrpphpm2dtvXs0s=s600-c-k-c0x00ffffff-no-rj-rp-mo",
         },
+        type: "IMAGE",
       },
     },
     {
