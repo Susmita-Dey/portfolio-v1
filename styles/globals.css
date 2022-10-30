@@ -35,7 +35,8 @@ a {
   }
 }
 
-nav li, h2 {
+nav li,
+h2 {
   font-family: "Poppins", -serif;
 }
 
@@ -123,7 +124,7 @@ p {
   }
 }
 
-.skills{
+.skills {
   overflow: hidden;
 }
 
@@ -174,7 +175,7 @@ p {
   cursor: grabbing;
 } */
 
-.play-sound{
+.play-sound {
   position: fixed;
   left: 2rem;
   bottom: 2rem;

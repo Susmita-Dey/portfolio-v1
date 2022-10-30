@@ -1,24 +1,10 @@
 import { useState, useEffect } from "react";
-import useSound from "use-sound";
-// import boopSfx from "../../sounds/boop.mp3";
-import Imagination from "../assets/guitar-loop.mp3";
+// import useSound from "use-sound";
 import Footer from "./footer";
 import Header from "./header";
+import SoundBar from "./SoundBar";
 
 export default function Layout({ children }) {
-  // const [audio, setAudio] = useState(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [play, { stop }] = useSound(Imagination);
-
-  function playSong() {
-    setIsPlaying(true);
-    play();
-  }
-
-  function stopSong() {
-    setIsPlaying(false);
-    stop();
-  }
   useEffect(() => {
     const showOnPx = 300;
     const backToTopButton = document.querySelector(".back-to-top");
@@ -44,25 +30,6 @@ export default function Layout({ children }) {
     backToTopButton.addEventListener("click", goToTop);
   });
 
-  // const soundUrl = "../assets/guitar-loop.mp3";
-  // const [play] = useSound(soundUrl);
-  // const audio = new Audio("../assets/guitar-loop.mp3");
-
-  useEffect(() => {
-    setAudio(new Audio("../assets/guitar-loop.mp3")); // only call client
-  });
-  if (typeof document !== "undefined") {
-    const buttons = document.querySelectorAll(".btn-sound");
-
-    buttons.forEach((button) => {
-      button.addEventListener("click", () => {
-        audio.play();
-      });
-    });
-  }
-
-  // const [play, { stop, isPlaying }] = useSound(soundUrl);
-
   return (
     <>
       <Header />
@@ -84,15 +51,16 @@ export default function Layout({ children }) {
           />
         </svg>
       </button>
-      <div className="play-sound">
-        <button className="btn-sound" onClick={isPlaying ? stopSong : playSong}>
+      {/* <SoundBar /> */}
+      {/* <div className="play-sound">
+        <button className="btn-sound">
           <img
             className="back-to-top-icon"
             src="https://i.gifer.com/Z23b.gif"
             alt="sound-gif"
           />
         </button>
-      </div>
+      </div> */}
     </>
   );
 }
