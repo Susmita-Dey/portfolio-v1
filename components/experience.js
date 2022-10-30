@@ -80,7 +80,6 @@ export default function Experience() {
       cardDetailedText:
         "This channel is my initiative to spread knowledge based on coding and tech topics(Computer Science) and help people grow, learn and build some amazing web development and simple projects.",
       media: {
-        // name: "Demystifying Hacktoberfest @DigitalOcean",
         source: {
           url: "https://yt3.ggpht.com/r8tQ1cNtVirJBMOU1cxrfqxBWAFpSezt-eQqBd2dPF2tNlfg_T2W2j5Z3mrpphpm2dtvXs0s=s600-c-k-c0x00ffffff-no-rj-rp-mo",
         },

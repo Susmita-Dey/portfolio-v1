@@ -1,56 +1,60 @@
 import Head from "next/head";
 import ParticlesComponent from "../components/particles";
 import Work from "../components/work";
+import { useEffect } from "react";
 
 export default function WorkPage() {
-  // filterSelection("all");
-  // function filterSelection(c) {
-  //   // var x, i;
-  //   const x = document.getElementsByClassName("filterDiv");
-  //   if (c == "all") c = "";
-  //   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  //   for (var i = 0; i < x.length; i++) {
-  //     w3RemoveClass(x[i], "show");
-  //     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  //   }
-  // }
+  useEffect(() => {
+    filterObjects("all");
+    function filterObjects(c) {
+      var x, i;
+      if (typeof window != undefined) {
+        x = document.getElementsByClassName("box");
+      }
+      if (c == "all") c = "";
+      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+      for (i = 0; i < x.length; i++) {
+        removeClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
+      }
+    }
 
-  // // Show filtered elements
-  // function w3AddClass(element, name) {
-  //   var i, arr1, arr2;
-  //   arr1 = element.className.split(" ");
-  //   arr2 = name.split(" ");
-  //   for (i = 0; i < arr2.length; i++) {
-  //     if (arr1.indexOf(arr2[i]) == -1) {
-  //       element.className += " " + arr2[i];
-  //     }
-  //   }
-  // }
+    // Show filtered elements
+    function addClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {
+          element.className += " " + arr2[i];
+        }
+      }
+    }
 
-  // // Hide elements that are not selected
-  // function w3RemoveClass(element, name) {
-  //   var i, arr1, arr2;
-  //   arr1 = element.className.split(" ");
-  //   arr2 = name.split(" ");
-  //   for (i = 0; i < arr2.length; i++) {
-  //     while (arr1.indexOf(arr2[i]) > -1) {
-  //       arr1.splice(arr1.indexOf(arr2[i]), 1);
-  //     }
-  //   }
-  //   element.className = arr1.join(" ");
-  // }
+    // Hide elements that are not selected
+    function removeClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
 
-  // // Add active class to the current control button (highlight it)
-  // const btnContainer = document.getElementById("myBtnContainer");
-  // const btns = btnContainer.getElementsByClassName("btn");
-  // for (var i = 0; i < btns.length; i++) {
-  //   btns[i].addEventListener("click", function () {
-  //     var current = document.getElementsByClassName("active");
-  //     current[0].className = current[0].className.replace(" active", "");
-  //     this.className += " active";
-  //   });
-  // }
-
+    // Add active class to the current control button (highlight it)
+    const btnContainer = document.getElementById("myBtnContainer");
+    const btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  }, []);
   return (
     <div>
       <Head>
@@ -65,52 +69,54 @@ export default function WorkPage() {
       <section className="px-6">
         <div className="max-w-4xl mx-auto">
           <ParticlesComponent />
-          <h1 className="text-3xl text-center font-bold mb-6 p-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">Work</h1>
+          <h1 className="text-3xl text-center font-bold mb-6 p-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
+            Work
+          </h1>
           {/* <!-- Control buttons --> */}
           <div id="myBtnContainer">
-            <button className="btn active" onclick="filterSelection('all')">
+            <button className="btn active" onclick="filterObjects('all')">
               {" "}
               Show all
             </button>
-            <button className="btn" onclick="filterSelection('basic-website')">
+            <button className="btn" onclick="filterObjects('basic-website')">
               {" "}
               Basic Website
             </button>
-            <button className="btn" onclick="filterSelection('tailwind')">
+            <button className="btn" onclick="filterObjects('tailwind')">
               {" "}
               Tailwind
             </button>
-            <button className="btn" onclick="filterSelection('react')">
+            <button className="btn" onclick="filterObjects('react')">
               {" "}
               React
             </button>
-            <button className="btn" onclick="filterSelection('ui-ux')">
+            <button className="btn" onclick="filterObjects('ui-ux')">
               {" "}
               UI/UX
             </button>
-            <button className="btn" onclick="filterSelection('web3')">
+            <button className="btn" onclick="filterObjects('web3')">
               {" "}
               Web3
             </button>
-            <button className="btn" onclick="filterSelection('backend')">
+            <button className="btn" onclick="filterObjects('backend')">
               {" "}
               Backend
             </button>
-            <button className="btn" onclick="filterSelection('angular')">
+            <button className="btn" onclick="filterObjects('angular')">
               {" "}
               Angular
             </button>
-            <button className="btn" onclick="filterSelection('ai')">
+            <button className="btn" onclick="filterObjects('ai')">
               {" "}
               AI/ML
             </button>
-            <button className="btn" onclick="filterSelection('devops')">
+            <button className="btn" onclick="filterObjects('devops')">
               {" "}
               DevOps
             </button>
           </div>
           <div className="contain text-white">
-            <div className="basic-website">
+            <div className="box basic-website">
               <Work
                 workTitle="Sukoon"
                 imageUrl="/Sukoon.png"
@@ -119,7 +125,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/Sukoon"
               />
             </div>
-            <div className="basic-website tailwind">
+            <div className="box basic-website tailwind">
               <Work
                 workTitle="Moody"
                 imageUrl="/Moody.png"
@@ -128,7 +134,16 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/Moody"
               />
             </div>
-            <div className="">
+            <div className="box web3">
+              <Work
+                workTitle="dApp"
+                imageUrl="/My-First-dApp.png"
+                tagName="HTML5, CSS, Solidity"
+                about="This is a web3 project. This is my First Decentralized app which will take mood as input and also output mood. It works on Goerli Test Network. Connect your Ethereum wallet and see the magic. ✨"
+                repo="https://github.com/Susmita-Dey/dApp"
+              />
+            </div>
+            <div className="box basic-website">
               <Work
                 workTitle="All Round Calculator"
                 imageUrl="/All-round-calculator.svg"
@@ -138,7 +153,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/all-round-calculator"
               />
             </div>
-            <div className="">
+            <div className="react">
               <Work
                 workTitle="TextUtils"
                 imageUrl="/TextUtils.png"
@@ -148,7 +163,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/TextUtils"
               />
             </div>
-            <div className="">
+            <div className="box basic-website tailwind">
               <Work
                 workTitle="PetMe"
                 imageUrl="/PetMe.png"
@@ -157,7 +172,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/PetMe"
               />
             </div>
-            <div className="">
+            <div className="box basic-website tailwind">
               <Work
                 workTitle="JavaScript30"
                 imageUrl="/javascript30.jpg"
@@ -166,7 +181,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/JavaScript30"
               />
             </div>
-            <div className="">
+            <div className="box basic-website">
               <Work
                 workTitle="Safari"
                 imageUrl="/Safari.png"
@@ -175,7 +190,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/Safari"
               />
             </div>
-            <div className="">
+            <div className="box python">
               <Work
                 workTitle="Alexia"
                 imageUrl="/alexa.jpg"
@@ -184,7 +199,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/Alexia"
               />
             </div>
-            <div className="">
+            <div className="box react">
               <Work
                 workTitle="API World"
                 imageUrl="/API.jpg"
@@ -193,7 +208,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/API-World"
               />
             </div>
-            <div className="">
+            <div className="box backend">
               <Work
                 workTitle="Secrets"
                 imageUrl="/secret.jpg"
