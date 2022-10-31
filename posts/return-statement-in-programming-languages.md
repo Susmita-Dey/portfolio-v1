@@ -1,8 +1,8 @@
 ---
-title: 'Return Statement in Programming Languages'
-description: 'Getting Started With Open Source'
-image: "https://cdn.hashnode.com/res/hashnode/image/unsplash/XJXWbfSo2f0/upload/v1643637299774/s0mCJ5F4_.jpeg"
-date: '2022-08-22'
+title: Return Statement in Programming Languages
+description: In this article we'll learn about Return Statement and how it is being used in programming and it's process of execution and termination...
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/XJXWbfSo2f0/upload/v1643637299774/s0mCJ5F4_.jpeg
+date: '2022-01-31'
 tags: 
     - programming
     - return

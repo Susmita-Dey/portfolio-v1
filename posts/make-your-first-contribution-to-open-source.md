@@ -1,8 +1,8 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Make Your First Contribution To Open Source
+description: Getting Started With Open Source. Open Source is something awesome. It will make you fall in love with it...
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1643101681877/FMMG8JYgF.png
+date: '2022-01-25'
 tags: 
     - open source
     - github
@@ -30,6 +30,8 @@ I started my Open Source journey by the inspiration of
 💡**Important One:-**
 This is my [GitHub profile link.](https://github.com/Susmita-Dey)
 Do check it out and feel free to contribute to any of my repositories. Start doing your first contribution on GitHub today. 
+
+> Originally published at [Hashnode](https://susmitadey.hashnode.dev/make-your-first-contribution-to-open-source)
 
 ## Hope this helps you. Thank you for reading, and let's connect!
 Thank you for reading my blog. Feel free to subscribe to my [YouTube Channel](https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw) and connect on [LinkedIn](https://www.linkedin.com/in/susmita-dey-15a15a210/) or [Twitter](https://twitter.com/its_SusmitaDey).

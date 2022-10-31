@@ -132,7 +132,6 @@ export default function Experience() {
     },
   ];
   return (
-    // <section className="bg-[#000358] bg-gradient-to-r from-cyan-500 to-blue-900 px-6">
     <section className="p-6 unselectable" id="experience">
       <div className="max-w-4xl mx-auto items-center md:flex-row">
         <div className="text-center mb-8">

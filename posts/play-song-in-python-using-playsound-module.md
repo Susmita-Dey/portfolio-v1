@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Play Song In Python Using PlaySound Module
+description: Let's play some music using python module. 🐍🎼
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/toA-KC8Kwys/upload/v1645270553954/Z65YQ2H9I.jpeg
+date: '2022-01-29'
 tags: 
-    - open source
-    - github
+    - python
+    - playsound-module
 ---
-
-# Play Song In Python Using PlaySound Module
 
 Hello everyone!! Today we will discuss on how to play song or music using playsound module in  python. 
 

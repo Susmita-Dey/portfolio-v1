@@ -9,7 +9,7 @@ export default function Article({ post, className = "rounded-lg" }) {
         </h3>
       </Link>
       <span className="text-gray-300 mb-4 block">
-        <date>{post?.date}</date> | {post?.tags?.map((tag) => tag).join(", ")}
+        <span>{post?.date}</span> | {post?.tags?.map((tag) => tag).join(", ")}
       </span>
       <p>{post?.description}</p>
     </article>

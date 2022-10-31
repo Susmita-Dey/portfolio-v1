@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
+title: Confidential - TryHackMe Room WalkThrough
+description: Let's find the secret key. I'm back with another TryHackMe room walkthrough named "Confidential". It's a new room recently created by...
 image: ./alexa.jpg
-date: '2022-09-22'
+date: '2022-08-20'
 tags: 
-    - open source
-    - github
+    - cybersecurity
+    - tryhackme
 ---
-
-# Confidential : TryHackMe Room WalkThrough
 
 Hello folks, I'm back with another TryHackMe room walkthrough named "Confidential". It's a new room recently created by [cmnatic](https://tryhackme.com/p/cmnatic). It's a pretty easy room but tricky.
 
@@ -44,6 +42,8 @@ Credits to [TryHackMe](https://tryhackme.com) and [cmnatic](https://tryhackme.co
 **Happy Hacking!** 😊
 
 Check my profile on TryHackMe: https://tryhackme.com/p/Susmita.Dey
+
+> Originally published at [Hashnode](https://susmitadey.hashnode.dev/confidential-tryhackme-room-walkthrough)
 
 ## Hope this helps you. Thank you for reading, and let's connect!
 Thank you for reading my blog. Feel free to subscribe to my [YouTube Channel](https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw) and connect on [LinkedIn](https://www.linkedin.com/in/susmita-dey-15a15a210/) or [Twitter](https://twitter.com/its_SusmitaDey).

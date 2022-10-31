@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Use Emojis Anywhere You Like In Windows
+description: Are you a Windows user and you want to use emojis anywhere you like on your system...
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/CUCGsuAyufc/upload/v1644157731821/AnJoqypjP.jpeg
+date: '2022-02-06'
 tags: 
-    - open source
-    - github
+    - windows
+    - productivity
 ---
-
-# Use Emojis Anywhere You Like In Windows
 
 ### Intro
 Are you a Windows user and you want to use emojis anywhere you like on your system?

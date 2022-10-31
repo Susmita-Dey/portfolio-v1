@@ -7,6 +7,13 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  images: {
+    domains: [
+      "cdn.pixabay.com",
+      "user-images.githubusercontent.com",
+      "cdn.hashnode.com",
+    ],
+  },
 };
 
 module.exports = nextConfig;

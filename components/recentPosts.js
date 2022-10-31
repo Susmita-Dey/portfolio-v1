@@ -27,44 +27,6 @@ export default function RecentPosts({ posts }) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Article post={posts[0]} />
           <Article post={posts[1]} />
-          {/* <article className="bg-white p-4 rounded-lg">
-            <h3 className="text-2xl mb-2 font-medium">
-              A complete guide for Markdown files
-            </h3>
-            <span className="text-gray-600 mb-4 block">
-              <span>Sep 26, 2022</span> |{" "}
-              <Link href="https://susmitadey.hashnode.dev/a-complete-guide-for-markdown-files">
-                <a target="_blank" rel="noopener noreferrer">
-                  Hashnode
-                </a>
-              </Link>
-            </span>
-            <p>
-              Markdown is a lightweight markup language for creating formatted
-              text using a plain-text editor. Markdown is widely used in
-              blogging, instant messaging, online forums, collaborative
-              software, documentation pages, and readme files.
-            </p>
-          </article>
-          <article className="bg-white p-4 rounded-lg">
-            <h3 className="text-2xl mb-2 font-medium">
-              Confidential : TryHackMe Room WalkThrough
-            </h3>
-            <span className="text-gray-600 mb-4 block">
-              <span>Aug 20, 2022</span> |{" "}
-              <Link href="https://susmitadey.hashnode.dev/confidential-tryhackme-room-walkthrough">
-                <a target="_blank" rel="noopener noreferrer">
-                  Hashnode
-                </a>
-              </Link>
-            </span>
-            <p>
-              Hello folks, I'm back with another TryHackMe room walkthrough
-              named 'Confidential'. It's a new room recently created by cmnatic.
-              It's a pretty easy room but tricky. Room Link:-
-              tryhackme.com/room/confidential
-            </p>
-          </article> */}
         </div>
       </div>
     </section>

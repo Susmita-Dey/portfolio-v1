@@ -10,6 +10,7 @@ import Contact from "../components/contact";
 import ParticlesComponent from "../components/particles";
 import Skills from "../components/mySkills";
 import { getAllPosts, getAllWork } from "../lib/api";
+// import Certificates from "../components/certificates";
 
 export async function getStaticProps() {
   const posts = getAllPosts();
@@ -50,6 +51,7 @@ export default function Home({ posts, work }) {
         <Skills />
         <Experience />
         <Projects work={work} />
+        {/* <Certificates /> */}
         <RecentPosts posts={posts} />
         <Contact />
       </div>

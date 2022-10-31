@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: 5 most important tips every programmer should know
+description: Tips and hacks every programmer should know to increase their coding skills
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1643641982070/-MpZ4FXPg.png
+date: '2022-01-31'
 tags: 
-    - open source
-    - github
+    - productivity
+    - development
 ---
-
-# 5 most important tips every programmer should know
 
 ## 5 most important tips every programmer should know to increase their coding skills
 

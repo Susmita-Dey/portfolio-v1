@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Watch Star Wars Movie In Command Prompt(cmd)
+description: Let's learn some command prompt hacks and have some fun...
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1644735567109/44kKuUsu4.png
+date: '2022-02-13'
 tags: 
-    - open source
-    - github
+    - command-prompt
+    - terminal
 ---
-
-# Watch Star Wars Movie In Command Prompt(cmd)
 
 ## Do you wanna watch STAR WARS Movie through Command Prompt?
 > If yes, then go ahead and follow the instructions below. 😊

@@ -9,7 +9,6 @@ export default function About() {
     AOS.init();
   }, []);
   return (
-    // <section className="bg-gradient-to-r from-green-400 to-cyan-400 px-6 py-12">
     <section className="bg-[#000325] text-white px-6 py-12" id="about">
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col md:flex-row">
         <div
