@@ -1,3 +1,13 @@
+---
+title: 'Make Your First Contribution To Open Source'
+description: 'Getting Started With Open Source'
+image: ./alexa.jpg
+date: '2022-09-22'
+tags: 
+    - open source
+    - github
+---
+
 # Difference Between a Framework and a Library
 
 Developers often use the terms **framework** and **library** alternatively but many of them don't know the differences between the two. In today's article, we'll discuss them and I hope this will clear your concepts between the two.

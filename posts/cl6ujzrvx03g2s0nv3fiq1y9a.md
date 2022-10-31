@@ -1,3 +1,13 @@
+---
+title: 'Make Your First Contribution To Open Source'
+description: 'Getting Started With Open Source'
+image: ./alexa.jpg
+date: '2022-09-22'
+tags: 
+    - open source
+    - github
+---
+
 # Introductory Networking : TryHackMe Room Walkthrough
 
 Hello everyone, I'm back with another article for you people. 

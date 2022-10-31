@@ -1,3 +1,13 @@
+---
+title: 'Make Your First Contribution To Open Source'
+description: 'Getting Started With Open Source'
+image: ./alexa.jpg
+date: '2022-09-22'
+tags: 
+    - open source
+    - github
+---
+
 # Confidential : TryHackMe Room WalkThrough
 
 Hello folks, I'm back with another TryHackMe room walkthrough named "Confidential". It's a new room recently created by [cmnatic](https://tryhackme.com/p/cmnatic). It's a pretty easy room but tricky.

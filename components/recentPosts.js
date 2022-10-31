@@ -4,8 +4,9 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SectionHeader from "./sectionHeader";
+import Article from "./article";
 
-export default function RecentPosts() {
+export default function RecentPosts({ posts }) {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -27,7 +28,9 @@ export default function RecentPosts() {
           href="https://susmitadey.hashnode.dev/"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <article className="bg-white p-4 rounded-lg">
+          <Article post={posts[0]} />
+          <Article post={posts[1]} />
+          {/* <article className="bg-white p-4 rounded-lg">
             <h3 className="text-2xl mb-2 font-medium">
               A complete guide for Markdown files
             </h3>
@@ -64,7 +67,7 @@ export default function RecentPosts() {
               It's a pretty easy room but tricky. Room Link:-
               tryhackme.com/room/confidential
             </p>
-          </article>
+          </article> */}
         </div>
       </div>
     </section>

@@ -1,4 +1,14 @@
-# A complete guide for Markdown files
+# A complete guide for
+---
+title: 'Make Your First Contribution To Open Source'
+description: 'Getting Started With Open Source'
+image: ./alexa.jpg
+date: '2022-09-22'
+tags: 
+    - open source
+    - github
+---
+ Markdown files
 
 ## What is  Markdown?
 According to Wikipedia: 
@@ -306,8 +316,8 @@ Did you know I have a stress-relieving [Website](https://sukoon-stress-free.netl
 **Syntax:**
 
 ```
-| Fruit | Emoji |
-| ----------- | ----------- |
+| Fruit | Emoji   |
+| ----- | ------- |
 | Mango | :mango: |
 | Lemon | :lemon: |
 ```
@@ -316,27 +326,27 @@ Did you know I have a stress-relieving [Website](https://sukoon-stress-free.netl
 
 
 | Fruit | Emoji |
-| ----------- | ----------- |
-| Mango | 🥭 |
-| Lemon | 🍋 |
+| ----- | ----- |
+| Mango | 🥭     |
+| Lemon | 🍋     |
 
 ## Table With Alignments
 
 **Syntax:**
 
 ```
-| Fruit(left)      | Emoji(center) | Taste(right)     |
-| :---        |    :----:   |          ---: |
-| Mango is the king of Fruits      | :mango:       | Sweet and I love it  |
-| Lemon is good for health   | :lemon:        | Sour, mix it in the water     |
+| Fruit(left)                 | Emoji(center) |              Taste(right) |
+| :-------------------------- | :-----------: | ------------------------: |
+| Mango is the king of Fruits |    :mango:    |       Sweet and I love it |
+| Lemon is good for health    |    :lemon:    | Sour, mix it in the water |
 ```
 
 **Output:**
 
-| Fruit(left)      | Emoji(center) | Taste(right)     |
-| :---        |    :----:   |          ---: |
-| Mango is the king of Fruits      |  🥭    | Sweet and I love it  |
-| Lemon is good for health   |   🍋     | Sour, mix it in the water     |
+| Fruit(left)                 | Emoji(center) |              Taste(right) |
+| :-------------------------- | :-----------: | ------------------------: |
+| Mango is the king of Fruits |       🥭       |       Sweet and I love it |
+| Lemon is good for health    |       🍋       | Sour, mix it in the water |
 
 ## Horizontal Line
 

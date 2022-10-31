@@ -1,3 +1,13 @@
+---
+title: 'Make Your First Contribution To Open Source'
+description: 'Getting Started With Open Source'
+image: ./alexa.jpg
+date: '2022-09-22'
+tags: 
+    - open source
+    - github
+---
+
 # My Experiences of Participating in Holiday Hacks Hackathon
 
 ## Before Participation

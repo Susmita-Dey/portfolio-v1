@@ -1,3 +1,13 @@
+---
+title: 'Make Your First Contribution To Open Source'
+description: 'Getting Started With Open Source'
+image: ./alexa.jpg
+date: '2022-07-22'
+tags: 
+    - open source
+    - github
+---
+
 # Swapping Of Two Numbers In Python in One Line
 
 ## Do you know that using only just 1 line of code in Python you can Swap 2 numbers without using any third variable?

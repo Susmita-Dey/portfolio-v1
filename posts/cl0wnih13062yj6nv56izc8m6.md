@@ -1,3 +1,13 @@
+---
+title: 'Make Your First Contribution To Open Source'
+description: 'Getting Started With Open Source'
+image: './alexa.jpg'
+date: '2022-09-22'
+tags: 
+    - open source
+    - github
+---
+
 # Some of my Graphic Designs and Video Editing Work on Canva
 
 Today I wanna showcase some of my designs on Canva.

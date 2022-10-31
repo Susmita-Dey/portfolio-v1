@@ -1,4 +1,12 @@
-# Make Your First Contribution To Open Source
+---
+title: 'Make Your First Contribution To Open Source'
+description: 'Getting Started With Open Source'
+image: ./alexa.jpg
+date: '2022-09-22'
+tags: 
+    - open source
+    - github
+---
 
 ## Open Source is something awesome. It will make you fall in love with it.
 
