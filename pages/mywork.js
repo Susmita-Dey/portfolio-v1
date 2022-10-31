@@ -98,6 +98,10 @@ export default function WorkPage({ work }) {
               {" "}
               UI/UX
             </button>
+            <button className="btn" onClick="filterObjects('backend')">
+              {" "}
+              Backend
+            </button>
             <button className="btn" onClick="filterObjects('web3')">
               {" "}
               Web3

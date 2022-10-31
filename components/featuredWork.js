@@ -25,7 +25,7 @@ export default function Projects({ work }) {
       <div className="max-w-4xl mx-auto py-12">
         <SectionHeader title="Featured Work" href="/mywork" />
         <div className="flex flex-col gap-2">
-          {work?.map((workItem) => (
+          {work?.slice(0, 3).map((workItem) => (
             <Work key={workItem.title} item={workItem} />
           ))}
         </div>

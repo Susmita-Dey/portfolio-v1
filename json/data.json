@@ -9,12 +9,12 @@
       "description": "This is a stress-relieving website project made in my first hackathon Hackofiesta. This project is built using HTML, CSS, JS. It provides one step solution to get relief from your stress. Live a stress-free life.🕊️"
     },
     {
-      "title": "Moody",
-      "image": "/Moody.png",
+      "title": "All Round Calculator",
+      "image": "/All-round-calculator.svg",
       "year": 2022,
-      "category": "Frontend",
-      "repository": "https://github.com/Susmita-Dey/Moody",
-      "description": "Moody is a Chrome extension that will help you filter your home page of your Chrome Browser according to your mood. It is built with HTML, Tailwind CSS. It helps you to do your work according to your mood and also get back your mood to normal. 🕊️"
+      "category": "Backend",
+      "repository": "https://github.com/Susmita-Dey/all-round-calculator",
+      "description": "An npm library package to calculate everything you want. It's simple and lightweight. It contains many in-built functions and also very easy to use. This is my first npm package based on calculations. This was made for developers to help them in your calculation-based projects."
     },
     {
       "title": "dApp",
@@ -23,6 +23,14 @@
       "category": "Web3",
       "repository": "https://github.com/Susmita-Dey/dApp",
       "description": "This is a web3 project. This is my First Decentralized app built using HTML, JS and Solidity which will take mood as input and also output mood. It works on Goerli Test Network. Connect your Ethereum wallet and see the magic. ✨"
+    },
+    {
+      "title": "Moody",
+      "image": "/Moody.png",
+      "year": 2022,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/Moody",
+      "description": "Moody is a Chrome extension that will help you filter your home page of your Chrome Browser according to your mood. It is built with HTML, Tailwind CSS. It helps you to do your work according to your mood and also get back your mood to normal. 🕊️"
     }
   ]
 }
