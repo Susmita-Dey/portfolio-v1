@@ -3,7 +3,6 @@ import profilePic from "../assets/my-profile-photo.jpg";
 
 export default function IntroHeader() {
   return (
-    // <header className="bg-gradient-to-r bg-[#000235] from-indigo-500 via-purple-500 to-pink-500 dark:bg-slate-800 px-6 py-12">
     <header className="text-white px-6 py-12">
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col-reverse md:flex-row">
         <div>
@@ -21,7 +20,7 @@ export default function IntroHeader() {
           </p>
           <a
             type="text/html"
-            href="https://drive.google.com/file/d/1KAwnHGJmdAcoEh9O80YuFMoev_OG_LjA/view?usp=sharing"
+            href="https://www.canva.com/design/DAE7lTrsuWE/ah18kbrS5nZ9hvIM8OQIIQ/view?utm_content=DAE7lTrsuWE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
             className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12"
           >
             <em>Hire Me!</em>
