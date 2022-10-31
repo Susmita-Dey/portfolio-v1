@@ -1,14 +1,12 @@
-# A complete guide for
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: A complete guide for Markdown files
+description: The only Markdown guide you need as a reference..
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1664212240911/CKhiBcFFJ.png
+date: '2022-09-26'
 tags: 
-    - open source
+    - markdown
     - github
 ---
- Markdown files
 
 ## What is  Markdown?
 According to Wikipedia: 
@@ -147,7 +145,7 @@ You can write code here
 **Output:**
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664210036368/GDes3axlz.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664210036368/GDes3axlz.png )
 
 ---
 
@@ -237,7 +235,7 @@ echo 1
 **DO NOT UNDERESTIMATE THE POWER OF A PROGRAMMER.**
 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664210778385/XINmqpSv1.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664210778385/XINmqpSv1.png )
 
 ## Italic
 
@@ -427,7 +425,7 @@ Did you know I have a stress-relieving [Website](https://sukoon-stress-free.netl
 
     **Output**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665295554522/ViK4lERUX.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665295554522/ViK4lERUX.png )
 
 2. **Block Expressions:**
 
@@ -459,7 +457,7 @@ Did you know I have a stress-relieving [Website](https://sukoon-stress-free.netl
 
     **Output**
     
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665295889450/ZIcCx4mRH.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1665295889450/ZIcCx4mRH.png)
 
 For more information on how to write mathematical expressions, [visit this page](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 

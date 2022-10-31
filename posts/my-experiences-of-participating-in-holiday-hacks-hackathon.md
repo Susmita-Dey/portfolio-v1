@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: My Experiences of Participating in Holiday Hacks Hackathon
+description: Hackathons are always super awesome. Sharing my experiences of participating in my second hackathon called...
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/14JOIxmsOqA/upload/v1651477543646/LG5wv5xxM.jpeg
+date: '2022-05-02'
 tags: 
     - open source
-    - github
+    - hackathon
 ---
-
-# My Experiences of Participating in Holiday Hacks Hackathon
 
 ## Before Participation
 I came across a website named [Devfolio](https://devfolio.co/) via my friend's reference. Actually one of my friend had participated in a hackathon named as [Hack4Bengal](https://hack4bengal.tech/) and they had to submit their project on the Devfolio dashboard. So, I asked him to show me what project he and his teammates have made together and what is a hackathon and other stuffs and details of participating in a hackathon as I have never participated in any hackathon before. 
@@ -55,7 +53,7 @@ Tech Stack:- **HTML, Bootstrap, JavaScript**
 
 Check out the GitHub [repository](https://github.com/Susmita-Dey/Moody) and the YT [video](https://youtu.be/jSUDUitqoOI).
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651485996471/5CrHTCwZU.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1651485996471/5CrHTCwZU.png )
 
 ---
 

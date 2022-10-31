@@ -1,8 +1,8 @@
 ---
-title: Confidential - TryHackMe Room WalkThrough
+title: Confidential - TryHackMe Room WalkThrough 🔐
 description: Let's find the secret key. I'm back with another TryHackMe room walkthrough named "Confidential". It's a new room recently created by...
-image: ./alexa.jpg
-date: '2022-08-20'
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1660555557927/ROW4pb3cI.png
+date: '2022-08-15'
 tags: 
     - cybersecurity
     - tryhackme

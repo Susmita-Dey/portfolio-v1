@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Text Overlay on an Image Using HTML & CSS
+description: Do you know how to fill an image with text and make it a little blur using...
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1644923220118/3J-VNVkvj.png
+date: '2022-02-15'
 tags: 
-    - open source
-    - github
+    - html5
+    - css3
 ---
-
-# Text Overlay on an Image Using HTML & CSS
 
 ### Do you know how to fill an image with text and make it a little blur using HTML and CSS (Text Overlay on an Image)?
 > Today we'll learn  how to make a text overlay on an image using HTML and CSS.

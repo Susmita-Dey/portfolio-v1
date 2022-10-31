@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Getting Started With Python
+description: Introduction to Python. Python is a simple, well-structured, easy-to-read syntax interpreted high-level programming language...🐍
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/5uU8HSpfwkI/upload/v1645179926506/b03ADeQEEv.jpeg
+date: '2022-02-19'
 tags: 
-    - open source
-    - github
+    - python
+    - programming
 ---
-
-# Getting Started With Python
 
 ## Introduction to Python
 > Python is a simple, well-structured, easy-to-read syntax interpreted high-level programming language.

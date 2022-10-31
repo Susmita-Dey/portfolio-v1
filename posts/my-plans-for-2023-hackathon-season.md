@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: My plans for 2023 Hackathon Season
+description: Hackathons are always super awesome and fun to me. I have some plans for the MLH 2023 season. Do you have too? 👀
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/ylveRpZ8L1s/upload/v1657374992603/6naDcs9vq.jpeg
+date: '2022-07-09'
 tags: 
-    - open source
-    - github
+    - hackathons
+    - mlh
 ---
-
-# My plans for 2023 Hackathon Season
 
 Hello everyone 👋 I'm back with this new article and a new challenge with you. In this article, I'll share some tips and hacks about hackathons and my experiences of participating in MLH GHW INIT 2023 hackathon.
 

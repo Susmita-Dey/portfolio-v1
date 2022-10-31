@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Blogging As Your Next Income 💰
+description: Do you wanna have some side income? Are you passionate about writing blogs? Here's an great opportunity for you...
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/lCPhGxs7pww/upload/v1646028160429/2X5s-PXe3.jpeg
+date: '2022-03-13'
 tags: 
-    - open source
-    - github
+    - blogging
+    - money
 ---
-
-# Blogging As Your Next Income 💰
 
 ## What is Blogging?
 Blogging is something like documenting your learnings in an article. 

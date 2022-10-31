@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Getting Started With Shell Scripting(Shell Programming)
+description: A shell is a command line tool in Linux/Unix operating systems. It processes the command entered by the user and interprets into machine-readable...
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/4Mw7nkQDByk/upload/v1645182767347/pLt2r-U2p.jpeg
+date: '2022-02-18'
 tags: 
-    - open source
-    - github
+    - linux
+    - shell-scripting
 ---
-
-# Getting Started With Shell Scripting(Shell Programming)
 
 ## What is a Shell?
 

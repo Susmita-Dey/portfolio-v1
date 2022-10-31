@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Getting Started With React.js
+description: React is a popular library developed by Meta. Let's deep dive into its basics and get started...
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1655694894367/Stfc_G8Yo.png
+date: '2022-06-21'
 tags: 
-    - open source
-    - github
+    - react
+    - frontend
 ---
-
-# Getting Started With React.js
 
 ## Introduction to React
 React is a JavaScript-based library used for making static **Single Page Web Applications**. This was developed by Facebook. This helps in breaking down complex UI into simpler components. ReactJS has a high market in the field of Web development and it's increasing every day.
@@ -41,15 +39,15 @@ Let's create a React app using the following steps:
 - Open up a folder in your terminal.
 - Type `npx create-react-app my-app` in your terminal and hit Enter. This will take some time to install React and some other packages and dependencies to make your app ready.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655705636238/gVQOwkj8i.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655705636238/gVQOwkj8i.png )
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655706219994/UwpeRC-gQ.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655706219994/UwpeRC-gQ.png )
 
 - Go inside the folder by typing `cd my-app` in your terminal.
 - Now use `npm start` in your terminal to see your app running locally at **http://localhost:3000/**
 You'll see the following image when your app runs locally on your computer.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655706393907/HX-QBTu0h.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655706393907/HX-QBTu0h.png )
 
 ---
 
@@ -60,7 +58,7 @@ You might get scared of watching the huge codebase i.e., the files and folders a
 
 But no need to worry because I'm here to help you. Open up the folder called **my-app** in Visual Studio Code. You'll see the folders somewhat like this.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655706519608/6LL25uR3b.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655706519608/6LL25uR3b.png )
 
 Now, here forget about the *node modules* folder as it only contains the packages and dependencies needed to make our ReactJS application. It got installed when we run our first command `npx create-react-app my-app`. So, we'll not be dealing with that folder, just keep it as it is.
 
@@ -81,7 +79,7 @@ JSX stands for **Javascript XML**. It is the syntax extension of Javascript whic
 
 JSX in simple terms is like HTML wearing the crown of JavaScript. Let's see the `App.js` file inside the **src** folder. It looks like this:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655707631168/8TbvgGrg6.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655707631168/8TbvgGrg6.png )
 
 The highlighted part is known as JSX.
 
@@ -93,11 +91,11 @@ With return() we can return only one tag or Element. If you want to return two e
 
 **Code:**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655708224938/6ebTt3JL5.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655708224938/6ebTt3JL5.png )
 
 **Output:**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655708281863/DVTWKpnU1.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1655708281863/DVTWKpnU1.png )
 
 You can learn more about JSX from [here](https://reactjs.org/docs/introducing-jsx.html).
 

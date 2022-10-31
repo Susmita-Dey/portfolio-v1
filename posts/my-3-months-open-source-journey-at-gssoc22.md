@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: My 3-months Open Source Journey at GSSoC'22
+description: In this blog, I want to share my journey and experiences of participating for the first in an open-source program like GirlScript Summer of Code as a contributor...
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1654005117970/AGetj2kLw.png
+date: '2022-06-01'
 tags: 
-    - open source
-    - github
+    - open source programs
+    - GSSoC
 ---
-
-# My 3-months Open Source Journey at GSSoC'22
 
 Hello folks!! In this blog, I want to share my journey and experiences of participating for the first in an open-source program like GirlScript Summer of Code as a contributor. 
 
@@ -34,14 +32,14 @@ I saw that they're accepting applications in the month of February and also ther
 My badge is below. 
 
 
-![badge.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654017856960/InWd0d22B.png align="center")
+![badge.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654017856960/InWd0d22B.png)
 
 ---
 
 ## Schedule of GSSoC'22
 Below is the timeline for GSSoC 2022.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654018101697/YvIgwIKCO.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654018101697/YvIgwIKCO.png)
 
 As per the schedule, the coding period started on the 1st of March and ended yesterday(31st of May). This happens every year and in the meanwhile, we have some mini amazing sessions while the coding period and get to learn a lot of things.
 
@@ -79,9 +77,9 @@ Here are my contributions below.
 
 These are my current PRs and my rank on the leaderboard as of now is below.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654066235512/iYsx73kUX.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654066235512/iYsx73kUX.png)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654066274066/RjrASieaN.png align="center")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1654066274066/RjrASieaN.png)
 
 You can check out the leaderboard of GSSoC by going [here](https://gssoc.girlscript.tech/leaderboard).
 

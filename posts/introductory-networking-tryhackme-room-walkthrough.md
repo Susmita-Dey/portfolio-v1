@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Introductory Networking - TryHackMe Room Walkthrough
+description: This is a walkthrough for the room Introductory Networking on TryHackMe. Let's deep dive into the world of networks. 🕸️
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1660555557927/ROW4pb3cI.png
+date: '2022-08-15'
 tags: 
-    - open source
-    - github
+    - networking
+    - tryhackme
 ---
-
-# Introductory Networking : TryHackMe Room Walkthrough
 
 Hello everyone, I'm back with another article for you people. 
 
@@ -176,7 +174,7 @@ The basic syntax for ping is `ping <target>`.
 
 Let's ping **Google**
 
-![ping-google.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660545909754/3XjhvZ2UF.png align="left")
+![ping-google.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660545909754/3XjhvZ2UF.png )
 You'll get a lot of data like this. Here you can see that the ping command actually returned the IP address for the Google server that it connected to, rather than the URL that was requested. 
 
 For other commands realted to `ping`, you can use `man ping` and hit enter in your terminal.
@@ -189,7 +187,7 @@ For other commands realted to `ping`, you can use `man ping` and hit enter in yo
 **Question 2:** *Ping muirlandoracle.co.uk*
 What is the IPv4 address?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660547820674/_vTde2fKp.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660547820674/_vTde2fKp.png )
 Since, we're searching for IPv4 address, we have to use `-4` before `muirlandoracle.co.uk`.
 
 > 217.160.0.152
@@ -201,17 +199,17 @@ Since, we're searching for IPv4 address, we have to use `-4` before `muirlandora
 
 **Question 3:** What switch lets you change the interval of sent ping requests?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660547778225/M8YElaKeC.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660547778225/M8YElaKeC.png )
 > -i
 
 **Question 4:** What switch would allow you to restrict requests to IPv4?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660547640831/nKG-0CbH3.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660547640831/nKG-0CbH3.png )
 > -4
 
 **Question 5:** What switch would give you a more verbose output?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660547797351/CNPWDz9zW.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660547797351/CNPWDz9zW.png )
 > -v
 
 ---
@@ -235,12 +233,12 @@ Can you see the path your request has taken?
 
 **Question 2:** What switch would you use to specify an interface when using Traceroute?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660551725383/0u0LNMZjG.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660551725383/0u0LNMZjG.png )
 > -i
 
 **Question 3:** What switch would you use if you wanted to use TCP SYN requests when tracing the route?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660551705042/fOMeOHiVE.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660551705042/fOMeOHiVE.png )
 > -T
 
 **Question 4:** **[Lateral Thinking]** Which layer of the TCP/IP model will traceroute run on by default (Windows)?
@@ -259,47 +257,47 @@ In this task, you're gonna learn about an interesting tool called `whois`.
 
 **Question 1:** **Perform a whois search on `facebook.com`**
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660553905224/6jbMvtOq6.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660553905224/6jbMvtOq6.png )
 You'll get a lot of information like this about the domain.
 
 > No answer needed
 
 **Question 2:** What is the registrant postal code for facebook.com?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554097997/T993YuQ54.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554097997/T993YuQ54.png )
 > 94025
 
 **Question 3:** When was the facebook.com domain first registered (Format: DD/MM/YYYY)?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554048903/deawtfAwR.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554048903/deawtfAwR.png )
 > 29/03/1997
 
 **Question 4:** **Perform a whois search on `microsoft.com`**
 
 (Note: If you fail to read the above instruction and consequently get the wrong answer for the next question, don't expect a helpful response if you report it as a bug...)
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554135120/7ZlEhp2cr.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554135120/7ZlEhp2cr.png )
 You'll get a lot of information like this against the domain.
 
 > No answer needed
 
 **Question 5:** Which city is the registrant based in?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554237630/Y3-eAvFEI.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554237630/Y3-eAvFEI.png )
 > Redmond
 
 **Question 6:** **[OSINT]** What is the name of the golf course that is near the registrant address for microsoft.com?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554456785/ZF7C-yFDZ.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554456785/ZF7C-yFDZ.png )
 Let's use the above address info and do a google search.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554584775/dnssLCuSZ.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554584775/dnssLCuSZ.png )
 Now let's go to the maps to see the location.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554642436/Cva0jXUfl.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554642436/Cva0jXUfl.png )
 Now click on Nearby button and search **Golf Course**. The nearest thing we can see is:
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554788095/r_43-dCBD.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554788095/r_43-dCBD.png )
 
 <iframe src="https://giphy.com/embed/Fka9XXT8NrHv66rQaX" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/peacocktv-Fka9XXT8NrHv66rQaX">via GIPHY</a></p>
 
@@ -307,7 +305,7 @@ Now click on Nearby button and search **Golf Course**. The nearest thing we can 
 
 **Question 7:** What is the registered Tech Email for microsoft.com?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554372023/CtFSs31h4.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554372023/CtFSs31h4.png )
 > msnhst@microsoft.com
 
 ---

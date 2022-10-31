@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: './alexa.jpg'
-date: '2022-09-22'
+title: Some of my Graphic Designs and Video Editing Work on Canva
+description: Showcasing some of my graphic designing skills using Canva. CAnva is a great tool..
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/dym3_MMlJGI/upload/v1647621037404/fAwPtFxR0.jpeg
+date: '2022-03-18'
 tags: 
-    - open source
-    - github
+    - graphics
+    - canva
 ---
-
-# Some of my Graphic Designs and Video Editing Work on Canva
 
 Today I wanna showcase some of my designs on Canva.
 

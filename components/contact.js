@@ -38,16 +38,16 @@ export default function Contact() {
               //   utmTerm: 'Spring'
               // }}
               prefill={{
-                email: "test@test.com",
-                firstName: "Jon",
-                lastName: "Snow",
-                name: "Jon Snow",
-                guests: ["janedoe@example.com", "johndoe@example.com"],
-                customAnswers: {
-                  a1: "a1",
-                  a2: "a2",
-                  a3: "a3",
-                },
+                //   email: "test@test.com",
+                //   firstName: "Jon",
+                //   lastName: "Snow",
+                //   name: "Jon Snow",
+                //   guests: ["janedoe@example.com", "johndoe@example.com"],
+                //   customAnswers: {
+                //     a1: "a1",
+                //     a2: "a2",
+                //     a3: "a3",
+                //   },
                 date: new Date(Date.now() + 86400000),
               }}
             />

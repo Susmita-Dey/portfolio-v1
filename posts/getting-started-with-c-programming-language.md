@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Getting Started With C Programming Language
+description: C is a general-purpose, procedural, middle-level programming language developed in 1972 by Dennis M. Ritchie...
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/UjJWhMerJx0/upload/v1646496930990/4Ct3AxfXM.jpeg
+date: '2022-03-05'
 tags: 
-    - open source
-    - github
+    - C
+    - programming
 ---
-
-# Getting Started With C Programming Language
 
 ## What is C?
 C is a general-purpose, procedural, middle-level programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system.

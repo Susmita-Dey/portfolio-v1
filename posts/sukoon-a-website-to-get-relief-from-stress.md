@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Sukoon - A Website to get relief from stress
+description: Introducing Sukoon...The one step solution to relieve your stress...Wanna explore? 🕊️✌️
+image: https://cdn.hashnode.com/res/hashnode/image/upload/v1653048969654/rnXPavCfc.png
+date: '2022-05-20'
 tags: 
     - open source
-    - github
+    - project
 ---
-
-# Sukoon - A Website to get relief from stress
 
 Hello, everyone 👋
 Today we're gonna get introduced to **Sukoon**. We'll know about its idea, history, birth, making it up, and serving people. Now, this might sound typical to you. But wait for a while and read the full blog.
@@ -44,7 +42,7 @@ I discussed this with my teammates and they agreed and we started building it wi
 ## Making of Sukoon
 We divided our work among ourselves and start building different parts of the web page. First, we made the hero section and it wasn't looking so good as you can see below.
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1653051192740/x-xcQhXJE.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1653051192740/x-xcQhXJE.png )
 
 Then we thought of making a UI design for our website using [**Figma**](https://www.figma.com/).
 I made a rough design using Figma which you can see below.

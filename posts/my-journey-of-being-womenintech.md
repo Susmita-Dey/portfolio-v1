@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: My Journey of Being `#WomenInTech`
+description: From day 1 to now...here's all about my journey of getting into the tech world..
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/5ZnS3wK6sUg/upload/v1647145394574/58JdfvIaM.jpeg
+date: '2022-03-13'
 tags: 
-    - open source
-    - github
+    - women-in-tech
+    - journey
 ---
-
-# My Journey of Being #WomenInTech
 
 ## School Days
 I studied in [Convent of Jesus and Mary](https://www.cjmranaghat.org/) school. I was a Science student pursuing PCMB along with Computer Science as my subjects in Class 11 and 12. When I was in class 12 studying in school, I had no idea or thought that I would be into tech after an year. My ambition was to give the NEET Exam and get into a medical college. 

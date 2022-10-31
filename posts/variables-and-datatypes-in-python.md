@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
-description: 'Getting Started With Open Source'
-image: ./alexa.jpg
-date: '2022-09-22'
+title: Variables and Datatypes in Python
+description: Let's deep dive into the world of variables and datatypes of the famous Python programming language...🐍
+image: https://cdn.hashnode.com/res/hashnode/image/unsplash/vb-3qEe3rg8/upload/v1645273222959/RjQPqG7WeC.jpeg
+date: '2022-03-13'
 tags: 
-    - open source
-    - github
+    - python
+    - datatypes
 ---
-
-# Variables and Datatypes in Python
 
 # Variables
 As the name suggests, variables means something that can vary. That means, something that can be changed.      
