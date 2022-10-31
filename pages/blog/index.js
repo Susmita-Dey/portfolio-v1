@@ -25,7 +25,7 @@ export default function Blog({ posts }) {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold mb-6 p-4 text-blue-800">Blogs</h1>
           {posts.map((post) => (
-            <Article key={post.slug} className="border-b-2" post={post} />
+            <Article key={post?.slug} className="border-b-2" post={post} />
           ))}
         </div>
       </section>

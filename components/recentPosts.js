@@ -23,10 +23,7 @@ export default function RecentPosts({ posts }) {
       data-aos-anchor-placement="top-center"
     >
       <div className="max-w-4xl mx-auto py-12 px-4">
-        <SectionHeader
-          title="Recent Posts"
-          href="https://susmitadey.hashnode.dev/"
-        />
+        <SectionHeader title="Recent Posts" href="/blog" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Article post={posts[0]} />
           <Article post={posts[1]} />

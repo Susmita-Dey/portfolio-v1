@@ -1,14 +1,12 @@
 ---
-title: 'Make Your First Contribution To Open Source'
+title: 'Return Statement in Programming Languages'
 description: 'Getting Started With Open Source'
 image: ./alexa.jpg
 date: '2022-08-22'
 tags: 
-    - open source
-    - github
+    - programming
+    - return
 ---
-
-# Return Statement in Programming Languages
 
 In this article we'll learn about Return Statement and how it is being used in programming and it's process of execution and termination.
 
