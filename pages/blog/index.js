@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Article from "../../components/article";
+import ParticlesComponent from "../../components/particles";
 import { getAllPosts } from "../../lib/api";
 
 export async function getStaticProps() {
@@ -22,8 +23,9 @@ export default function Blog({ posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="px-6">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl font-bold mb-6 p-4 text-blue-800">Blogs</h1>
+        <ParticlesComponent />
+        <div className="max-w-4xl mx-auto text-white">
+          <h1 className="text-3xl font-bold mb-6 p-4">Blogs</h1>
           {posts.map((post) => (
             <Article key={post?.slug} className="border-b-2" post={post} />
           ))}

@@ -9,12 +9,12 @@
       "description": "This is a stress-relieving website project made in my first hackathon Hackofiesta. This project is built using HTML, CSS, JS. It provides one step solution to get relief from your stress. Live a stress-free life.🕊️"
     },
     {
-      "title": "All Round Calculator",
-      "image": "/All-round-calculator.svg",
+      "title": "PetMe",
+      "image": "/PetMe.png",
       "year": 2022,
-      "category": "Backend",
-      "repository": "https://github.com/Susmita-Dey/all-round-calculator",
-      "description": "An npm library package to calculate everything you want. It's simple and lightweight. It contains many in-built functions and also very easy to use. This is my first npm package based on calculations. This was made for developers to help them in your calculation-based projects."
+      "category": "Full-Stack",
+      "repository": "https://github.com/Susmita-Dey/PetMe",
+      "description": "It has been estimated that more than one million adoptable dogs and cats are euthanized in US each year because there are too many pets that are enrolled into shelters. Here comes PetMe into place to help those innocent pets find a home."
     },
     {
       "title": "dApp",
@@ -25,12 +25,148 @@
       "description": "This is a web3 project. This is my First Decentralized app built using HTML, JS and Solidity which will take mood as input and also output mood. It works on Goerli Test Network. Connect your Ethereum wallet and see the magic. ✨"
     },
     {
+      "title": "All Round Calculator",
+      "image": "/All-round-calculator.svg",
+      "year": 2022,
+      "category": "Backend",
+      "repository": "https://github.com/Susmita-Dey/all-round-calculator",
+      "description": "An npm library package to calculate everything you want. It's simple and lightweight. It contains many in-built functions and also very easy to use. This is my first npm package based on calculations. This was made for developers to help them in your calculation-based projects."
+    },
+    {
       "title": "Moody",
       "image": "/Moody.png",
       "year": 2022,
       "category": "Frontend",
       "repository": "https://github.com/Susmita-Dey/Moody",
       "description": "Moody is a Chrome extension that will help you filter your home page of your Chrome Browser according to your mood. It is built with HTML, Tailwind CSS. It helps you to do your work according to your mood and also get back your mood to normal. 🕊️"
+    },
+    {
+      "title": "OpenSourceHub Website UI",
+      "image": "/OpenSourceHub-Website-UI.png",
+      "year": 2021,
+      "category": "UI/UX",
+      "repository": "https://www.figma.com/file/FGXuDWDC15n2BOqD8SDduC/OpenSourceHub-Website-UI",
+      "description": "This is a prototype and UI design set for my community website called OpenSourceHub."
+    },
+    {
+      "title": "TextUtils",
+      "image": "/TextUtils.png",
+      "year": 2022,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/TextUtils",
+      "description": "TextUtils is a text analyzer, word counter and converter made with React. It can be called as my first React project. It has various features like Convert text to UpperCase and LowerCase, Extract Numbers from text, Extract Text, Copy to clipboard, Speech to text and vice-versa, etc.📝"
+    },
+    {
+      "title": "Safari",
+      "image": "/Safari.png",
+      "year": 2022,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/Safari",
+      "description": "Safari is a web-based board game similar to Snakes and Ladders game but it's based on our Indian culture. It's a complete package of fun, thrill, learning and testing your knowledge on Indian heritage and diversity. 🎮"
+    },
+    {
+      "title": "NFTee",
+      "image": "https://cdn.pixabay.com/photo/2022/02/19/17/59/nft-7023209_960_720.jpg",
+      "year": 2022,
+      "category": "Web3",
+      "repository": "https://github.com/Susmita-Dey/NFTee",
+      "description": "NFTee is a Web3 project built with Solidity, Node.js and HardHat. It's a simple NFT using ERC-721."
+    },
+    {
+      "title": "JavaScript30",
+      "image": "/javascript30.jpg",
+      "year": 2022,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/JavaScript30",
+      "description": "This shows my progress of learning javaScript and lists the source code of 30 different mini websites merged into one and showcased together. Basically, you may call it a version of 30 Days of JavaScript Challenge!! #30DaysOfJavaScript"
+    },
+    {
+      "title": "Netflix Clone",
+      "image": "https://user-images.githubusercontent.com/79099734/156505537-8e28ee14-dd20-4299-9eea-984d7068c7fd.png",
+      "year": 2021,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/Netflix-Clone",
+      "description": "This is the core code from scratch to clone the landing page of Netflix using HTML, CSS and JavaScript."
+    },
+    {
+      "title": "Alexia",
+      "image": "/alexa.jpg",
+      "year": 2022,
+      "category": "AI",
+      "repository": "https://github.com/Susmita-Dey/Alexia",
+      "description": "Alexia is an Amazon Alexa fact skill. I was exploring Amazon Alexa Developer Website and I just tried to build a fact skill and train and deploy it on Amazon Web Services(AWS). ☁️🤖"
+    },
+    {
+      "title": "Shrinkly",
+      "image": "https://user-images.githubusercontent.com/79099734/197540255-c5898acc-4fc1-45d0-bef3-8359eda1e7ed.png",
+      "year": 2022,
+      "category": "Full-Stack",
+      "repository": "https://github.com/Susmita-Dey/Shrinkly",
+      "description": "Shrinkly is a full-stack MongoDB project where you can shorten long links. This tool is mostly used by content creators and also by developers. This is something similar to bit.ly. 🔗"
+    },
+    {
+      "title": "Secrets",
+      "image": "/secret.jpg",
+      "year": 2022,
+      "category": "Full-Stack",
+      "repository": "https://github.com/Susmita-Dey/Secrets",
+      "description": "This is a full stack MongoDB web application to store your secret. In this application, you can anonysmously store your secret in the database and also view others(anonymous). 🤫"
+    },
+    {
+      "title": "Password Generator",
+      "image": "https://user-images.githubusercontent.com/79099734/156152396-d586d3d2-c269-4f38-bbf3-86ba7649851c.png",
+      "year": 2021,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/Netflix-Clone",
+      "description": "A simple password generator made using HTML, CSS and JavaScript. This generates some secure passwords for the users. Users can take the help of this passwords and use them in their various aacounts. Data is random and we respect your privacy. 🔐"
+    },
+    {
+      "title": "API World",
+      "image": "/API.jpg",
+      "year": 2023,
+      "category": "Full-Stack",
+      "repository": "https://github.com/Susmita-Dey/API-World",
+      "description": "Inpired by ReactPlay, API World is an web application containing all types of API applications. Basically, it's a collection of various web applications where different types of APIs have been used to build each applications. 🕸️"
+    },
+    {
+      "title": "E-commerce-store",
+      "image": "https://user-images.githubusercontent.com/79099734/156911971-22aa4135-3da6-43c5-a631-89bacdaf8922.png",
+      "year": 2021,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/E-commerce-store",
+      "description": "This is a template of E-commerce store made with Bootstrap. I used the Bootstrap studio to built this. Bootstrap Studio is part of GitHub Education Pack."
+    },
+    {
+      "title": "Atelas Esports Website",
+      "image": "https://user-images.githubusercontent.com/90236635/174437418-73ffa2c9-35f1-4e1e-bbc0-c45e1e5959fb.gif",
+      "year": 2022,
+      "category": "Freelance",
+      "repository": "https://github.com/Susmita-Dey/Atelas-Esports-Website",
+      "description": "Atelas Esports Website - Indian Govt. Affliated Website. This is a gaming website freelance project."
+    },
+    {
+      "title": "S-Fitness",
+      "image": "/Fitness-Website.png",
+      "year": 2022,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/S-Fitness",
+      "description": "This is a static fitness website made using Tailblocks. It's fully responsive gym website."
+    },
+    {
+      "title": "Devosa",
+      "image": "/bot1.png",
+      "year": 2023,
+      "category": "AI",
+      "repository": "https://github.com/Susmita-Dey/Devosa",
+      "description": "Devosa is a twitter bot to retweet about Open Source and Developer Resources."
+    },
+    {
+      "title": "Encourage Bot",
+      "image": "/bot2.png",
+      "year": 2023,
+      "category": "AI",
+      "repository": "https://github.com/Susmita-Dey/Encourage-Bot",
+      "description": "Encourage bot is a discord bot to encourage people for my own server."
     }
   ]
 }

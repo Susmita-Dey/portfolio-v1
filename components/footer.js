@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#00012c] container mx-auto flex flex-col justify-center items-center h-60 gap-10">
+    <footer className="bg-[#00012c] container mx-auto flex flex-col justify-center items-center h-56 gap-10">
       <nav>
-        <ul className="flex gap-6">
+        <ul className="flex gap-6 cursor-pointer">
           <li>
             <Link
               href="mailto:susmitadey475@gmail.com"
@@ -96,6 +96,8 @@ export default function Footer() {
         </ul>
       </nav>
       <p className="text-sm text-slate-100">
+        <span>Built with 💖 using NextJS and Tailwind</span>
+        <br />
         &copy; 2022{" "}
         <b>
           <Link

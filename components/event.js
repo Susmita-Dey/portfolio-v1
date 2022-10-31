@@ -8,13 +8,13 @@ export default function Event({
   eventStatus = "Upcoming",
 }) {
   return (
-    <div className="flex items-center border-b-2 py-6">
+    <div className="flex items-center border-b-2 py-6 flex-col md:flex-row">
       <img
         src={imgUrl}
         alt="Event-image"
         width="240"
         height="240"
-        className="w-1/3 mr-6 rounded-lg"
+        className="md:w-1/3 w-full md:mb-0 mb-4 md:mr-6 mx-2 rounded-lg"
       />
       <div>
         <h3 className="text-2xl mb-2 font-medium">{eventName}</h3>

@@ -4,7 +4,10 @@ import Link from "next/link";
 export default function Work({ item }) {
   return (
     <article className="flex items-center border-b-2 py-6 flex-col md:flex-row">
-      <img src={item?.image} className="md:w-1/3 w-full mr-6 rounded-lg" />
+      <img
+        src={item?.image}
+        className="md:w-1/3 w-full md:mb-0 mb-4 md:mr-6 mx-2 rounded-lg"
+      />
       <div>
         <div className="flex">
           <h3 className="text-2xl mb-2 font-medium">{item?.title}</h3>

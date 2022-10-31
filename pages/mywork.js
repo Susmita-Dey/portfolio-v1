@@ -118,113 +118,14 @@ export default function WorkPage({ work }) {
               {" "}
               DevOps
             </button>
+            <button className="btn" onClick="filterObjects('freelance')">
+              {" "}
+              Freelance
+            </button>
           </div>
           {work?.map((workItem) => (
             <Work key={workItem?.title} item={workItem} />
           ))}
-          {/* <div className="contain text-white">
-            <div className="box basic-website">
-              <Work
-                workTitle="Sukoon"
-                imageUrl="/Sukoon.png"
-                tagName="HTML, CSS, JS"
-                about="This is a stress-relieving website project made in my first hackathon Hackofiesta. This project is under the theme Healthcare. This project provides one step solution to get relief from your stress. Live a stress-free life.🕊️"
-                repo="https://github.com/Susmita-Dey/Sukoon"
-              />
-            </div>
-            <div className="box basic-website tailwind">
-              <Work
-                workTitle="Moody"
-                imageUrl="/Moody.png"
-                tagName="HTML, Tailwind CSS"
-                about="Moody is a Chrome extension that will help you filter your home page of your Chrome Browser according to your mood. It helps you to do your work according to your mood and also get back your mood to normal. 🕊️"
-                repo="https://github.com/Susmita-Dey/Moody"
-              />
-            </div>
-            <div className="box web3">
-              <Work
-                workTitle="dApp"
-                imageUrl="/My-First-dApp.png"
-                tagName="HTML5, CSS, Solidity"
-                about="This is a web3 project. This is my First Decentralized app which will take mood as input and also output mood. It works on Goerli Test Network. Connect your Ethereum wallet and see the magic. ✨"
-                repo="https://github.com/Susmita-Dey/dApp"
-              />
-            </div>
-            <div className="box basic-website">
-              <Work
-                workTitle="All Round Calculator"
-                imageUrl="/All-round-calculator.svg"
-                tagName="Javascript"
-                about="An npm library package to calculate everything you want. It's simple and lightweight.
-                It contains many in-built functions and also very easy to use. This is my first npm package based on calculations. This was made for developers to help them in your calculation-based projects."
-                repo="https://github.com/Susmita-Dey/all-round-calculator"
-              />
-            </div>
-            <div className="react">
-              <Work
-                workTitle="TextUtils"
-                imageUrl="/TextUtils.png"
-                tagName="ReactJS"
-                about="TextUtils is a text analyzer, word counter and converter made with React. It can be called as my first React project. It has various features like Convert text to UpperCase and LowerCase, Extract Numbers from text
-                Extract Text, Copy to clipboard, Speech to text and vice-versa, etc."
-                repo="https://github.com/Susmita-Dey/TextUtils"
-              />
-            </div>
-            <div className="box basic-website tailwind">
-              <Work
-                workTitle="PetMe"
-                imageUrl="/PetMe.png"
-                tagName="HTML, Tailwind"
-                about="It has been estimated that more than one million adoptable dogs and cats are euthanized in US each year because there are too many pets that are enrolled into shelters. Here comes PetMe into place to help those innocent pets find a home."
-                repo="https://github.com/Susmita-Dey/PetMe"
-              />
-            </div>
-            <div className="box basic-website tailwind">
-              <Work
-                workTitle="JavaScript30"
-                imageUrl="/javascript30.jpg"
-                tagName="HTML, Tailwind, JS"
-                about="This shows my progress of learning javaScript and lists the source code of 30 different mini websites merged into one and showcased together. Basically, you may call it a version of 30 Days of JavaScript Challenge!! #30DaysOfJavaScript"
-                repo="https://github.com/Susmita-Dey/JavaScript30"
-              />
-            </div>
-            <div className="box basic-website">
-              <Work
-                workTitle="Safari"
-                imageUrl="/Safari.png"
-                tagName="HTML, Tailwind, JS"
-                about="Safari is a web-based board game similar to Snakes and Ladders game but it's based on our Indian culture. It's a complete package of fun, thrill, learning and testing your knowledge on Indian heritage and diversity."
-                repo="https://github.com/Susmita-Dey/Safari"
-              />
-            </div>
-            <div className="box python">
-              <Work
-                workTitle="Alexia"
-                imageUrl="/alexa.jpg"
-                tagName="Python"
-                about="Alexia is an Amazon Alexa fact skill. I was exploring Amazon Alexa Developer Website and I just tried to build a fact skill and train and deploy it on Amazon Web Services(AWS).☁️🤖"
-                repo="https://github.com/Susmita-Dey/Alexia"
-              />
-            </div>
-            <div className="box react">
-              <Work
-                workTitle="API World"
-                imageUrl="/API.jpg"
-                tagName="ReactJS, API, NextJS, Go"
-                about="Inpired by ReactPlay, API World is an web application containing all types of API applications. Basically, it's a collection of various web applications where different types of APIs have been used to build each applications."
-                repo="https://github.com/Susmita-Dey/API-World"
-              />
-            </div>
-            <div className="box backend">
-              <Work
-                workTitle="Secrets"
-                imageUrl="/secret.jpg"
-                tagName="Backend"
-                about="This is a full stack MongoDB web application to store your secret. In this application, you can anonysmously store your secret in the database and also view others(anonymous)."
-                repo="https://github.com/Susmita-Dey/Secrets"
-              />
-            </div>
-          </div> */}
         </div>
       </section>
     </div>
