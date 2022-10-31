@@ -9,19 +9,21 @@ import RecentPosts from "../components/recentPosts";
 import Contact from "../components/contact";
 import ParticlesComponent from "../components/particles";
 import Skills from "../components/mySkills";
-import { getAllPosts } from "../lib/api";
+import { getAllPosts, getAllWork } from "../lib/api";
 
 export async function getStaticProps() {
   const posts = getAllPosts();
+  const work = getAllWork();
 
   return {
     props: {
       posts,
+      work,
     },
   };
 }
 
-export default function Home({ posts }) {
+export default function Home({ posts, work }) {
   return (
     <>
       <div className="scroll-smooth">
@@ -47,7 +49,7 @@ export default function Home({ posts }) {
         <About />
         <Skills />
         <Experience />
-        <Projects />
+        <Projects work={work} />
         <RecentPosts posts={posts} />
         <Contact />
       </div>

@@ -1,7 +1,7 @@
 ---
 title: 'Return Statement in Programming Languages'
 description: 'Getting Started With Open Source'
-image: ./alexa.jpg
+image: "https://cdn.hashnode.com/res/hashnode/image/unsplash/XJXWbfSo2f0/upload/v1643637299774/s0mCJ5F4_.jpeg"
 date: '2022-08-22'
 tags: 
     - programming

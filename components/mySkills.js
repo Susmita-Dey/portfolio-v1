@@ -8,7 +8,6 @@ export default function Skills() {
     AOS.init();
   }, []);
   return (
-    // <section className="bg-gradient-to-r from-green-400 to-cyan-400 px-6 py-12">
     <section
       className="bg-[#000325] text-center text-white px-6 py-12"
       id="skills"
@@ -17,7 +16,7 @@ export default function Skills() {
         <div
           data-aos="fade-up"
           data-aos-offset="200"
-          data-aos-delay="50"
+          data-aos-delay="10"
           data-aos-duration="2000"
           data-aos-easing="ease-in"
         >
@@ -26,7 +25,7 @@ export default function Skills() {
             className="grid h-50 place-items-center skills"
             data-aos="fade-right"
             data-aos-offset="200"
-            data-aos-delay="50"
+            data-aos-delay="30"
             data-aos-duration="1000"
             data-aos-easing="ease-in"
           >

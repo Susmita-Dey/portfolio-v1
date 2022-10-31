@@ -1,0 +1,28 @@
+{
+  "work": [
+    {
+      "title": "Sukoon",
+      "image": "/Sukoon.png",
+      "year": 2021,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/Sukoon",
+      "description": "This is a stress-relieving website project made in my first hackathon Hackofiesta. This project is built using HTML, CSS, JS. It provides one step solution to get relief from your stress. Live a stress-free life.🕊️"
+    },
+    {
+      "title": "Moody",
+      "image": "/Moody.png",
+      "year": 2022,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/Moody",
+      "description": "Moody is a Chrome extension that will help you filter your home page of your Chrome Browser according to your mood. It is built with HTML, Tailwind CSS. It helps you to do your work according to your mood and also get back your mood to normal. 🕊️"
+    },
+    {
+      "title": "dApp",
+      "image": "/My-First-dApp.png",
+      "year": 2022,
+      "category": "Web3",
+      "repository": "https://github.com/Susmita-Dey/dApp",
+      "description": "This is a web3 project. This is my First Decentralized app built using HTML, JS and Solidity which will take mood as input and also output mood. It works on Goerli Test Network. Connect your Ethereum wallet and see the magic. ✨"
+    }
+  ]
+}

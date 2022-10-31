@@ -59,13 +59,15 @@ export default function Header() {
           >
             <ul className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-lg md:flex-row md:space-x-6 md:mt-0 md:text-lg md:font-bold md:border-0">
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
-                <Link href="./#about">About</Link>
+                <button onClick={() => router.push("./#about")}>About</button>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
-                <Link href="./#skills">Skills</Link>
+                <button onClick={() => router.push("./#skills")}>Skills</button>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
-                <Link href="./#experience">Experience</Link>
+                <button onClick={() => router.push("./#experience")}>
+                  Experience
+                </button>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <button onClick={() => router.push("./mywork")}>
@@ -73,23 +75,16 @@ export default function Header() {
                 </button>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
-                <Link
-                  href="https://susmitadey.hashnode.dev/"
-                  // target="_blank"
-                  rel="noreferrer"
-                  // tabIndex={1}
-                >
-                  <a target="_blank" rel="noopener noreferrer">
-                    Blog
-                  </a>
-                </Link>
-                {/* <Link href="/blog">Blog</Link> */}
+                <button onClick={() => router.push("./blog")}>Blogs</button>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
                 <button onClick={() => router.push("./events")}>Events</button>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline hover:underline-offset-2">
-                <Link href="./#contact">Contact</Link>
+                {/* <Link href="./#contact">Contact</Link> */}
+                <button onClick={() => router.push("./#contact")}>
+                  Contact
+                </button>
               </li>
             </ul>
           </div>

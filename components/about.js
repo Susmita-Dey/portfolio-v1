@@ -16,7 +16,7 @@ export default function About() {
           className="rounded-xl"
           data-aos="zoom-out"
           data-aos-offset="200"
-          data-aos-delay="50"
+          data-aos-delay="10"
           data-aos-duration="2000"
           data-aos-easing="ease-in"
         >
@@ -26,12 +26,13 @@ export default function About() {
             width={540}
             height={540}
             className="rounded-3xl"
+            priority
           />
         </div>
         <div
           data-aos="fade-left"
           data-aos-offset="200"
-          data-aos-delay="50"
+          data-aos-delay="30"
           data-aos-duration="2000"
           data-aos-easing="ease-in"
         >

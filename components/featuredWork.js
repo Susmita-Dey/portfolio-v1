@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import SectionHeader from "./sectionHeader";
 import Work from "./work";
 
-export default function Projects() {
+export default function Projects({ work }) {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -25,20 +25,9 @@ export default function Projects() {
       <div className="max-w-4xl mx-auto py-12">
         <SectionHeader title="Featured Work" href="/mywork" />
         <div className="flex flex-col gap-2">
-          <Work
-            workTitle="Sukoon"
-            imageUrl="/Sukoon.png"
-            tagName="HTML, CSS, JS"
-            about="This is a stress-relieving website project made in my first hackathon Hackofiesta. This project is under the theme Healthcare. This project provides one step solution to get relief from your stress. Live a stress-free life.🕊️"
-            repo="https://github.com/Susmita-Dey/Sukoon"
-          />
-          <Work
-            workTitle="Moody"
-            imageUrl="/Moody.png"
-            tagName="HTML, Tailwind CSS"
-            about="Moody is a Chrome extension that will help you filter your home page of your Chrome Browser according to your mood. It helps you to do your work according to your mood and also get back your mood to normal. 🕊️"
-            repo="https://github.com/Susmita-Dey/Moody"
-          />
+          {work?.map((workItem) => (
+            <Work key={workItem.title} item={workItem} />
+          ))}
         </div>
       </div>
     </section>

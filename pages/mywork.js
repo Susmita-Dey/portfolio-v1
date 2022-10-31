@@ -2,8 +2,18 @@ import Head from "next/head";
 import ParticlesComponent from "../components/particles";
 import Work from "../components/work";
 import { useEffect } from "react";
+import { getAllWork } from "../lib/api";
 
-export default function WorkPage() {
+export async function getStaticProps() {
+  const work = getAllWork();
+  return {
+    props: {
+      work,
+    },
+  };
+}
+
+export default function WorkPage({ work }) {
   useEffect(() => {
     filterObjects("all");
     function filterObjects(c) {
@@ -65,57 +75,50 @@ export default function WorkPage() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <section className="bg-gradient-to-r from-green-500 via-cyan-500 to-pink-500 px-6"> */}
-      <section className="px-6">
+      <section className="px-6 text-white">
         <div className="max-w-4xl mx-auto">
           <ParticlesComponent />
           <h1 className="text-3xl text-center font-bold mb-6 p-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
             Work
           </h1>
           {/* <!-- Control buttons --> */}
-          <div id="myBtnContainer">
-            <button className="btn active" onclick="filterObjects('all')">
+          <div
+            id="myBtnContainer"
+            className="flex justify-center align-center flex-wrap md:flex-row mb-8"
+          >
+            <button className="btn active" onClick="filterObjects('all')">
               {" "}
               Show all
             </button>
-            <button className="btn" onclick="filterObjects('basic-website')">
+            <button className="btn" onClick="filterObjects('frontend')">
               {" "}
-              Basic Website
+              Frontend
             </button>
-            <button className="btn" onclick="filterObjects('tailwind')">
-              {" "}
-              Tailwind
-            </button>
-            <button className="btn" onclick="filterObjects('react')">
-              {" "}
-              React
-            </button>
-            <button className="btn" onclick="filterObjects('ui-ux')">
+            <button className="btn" onClick="filterObjects('ui-ux')">
               {" "}
               UI/UX
             </button>
-            <button className="btn" onclick="filterObjects('web3')">
+            <button className="btn" onClick="filterObjects('web3')">
               {" "}
               Web3
             </button>
-            <button className="btn" onclick="filterObjects('backend')">
+            <button className="btn" onClick="filterObjects('full-stack')">
               {" "}
-              Backend
+              Full-Stack
             </button>
-            <button className="btn" onclick="filterObjects('angular')">
-              {" "}
-              Angular
-            </button>
-            <button className="btn" onclick="filterObjects('ai')">
+            <button className="btn" onClick="filterObjects('ai')">
               {" "}
               AI/ML
             </button>
-            <button className="btn" onclick="filterObjects('devops')">
+            <button className="btn" onClick="filterObjects('devops')">
               {" "}
               DevOps
             </button>
           </div>
-          <div className="contain text-white">
+          {work?.map((workItem) => (
+            <Work key={workItem?.title} item={workItem} />
+          ))}
+          {/* <div className="contain text-white">
             <div className="box basic-website">
               <Work
                 workTitle="Sukoon"
@@ -217,7 +220,7 @@ export default function WorkPage() {
                 repo="https://github.com/Susmita-Dey/Secrets"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
