@@ -20,14 +20,15 @@ export default function Skills() {
           data-aos-duration="2000"
           data-aos-easing="ease-in"
         >
-          <h2 className="text-2xl font-bold mb-8 text-cyan-200">My Skills</h2>
+          <h2 className="text-3xl font-bold mb-8 text-cyan-200">My Skills</h2>
           <div
             className="grid h-50 place-items-center skills"
             data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="30"
-            data-aos-duration="1000"
+            data-aos-offset="50"
+            data-aos-duration="500"
             data-aos-easing="ease-in"
+            data-aos-mirror="true"
+            data-aos-once="false"
           >
             <div className="grid grid-flow-row gap-6">
               <div className="grid grid-cols-5 grid-flow-row gap-4 place-content-center">

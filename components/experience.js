@@ -135,7 +135,7 @@ export default function Experience() {
     <section className="p-6 unselectable" id="experience">
       <div className="max-w-4xl mx-auto items-center md:flex-row">
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold text-white">Experience</h2>
+          <h2 className="text-3xl font-bold text-white">Experience</h2>
         </div>
         <div>
           <Chrono

@@ -15,10 +15,9 @@ export default function RecentPosts({ posts }) {
       className=""
       data-aos="fade-right"
       data-aos-offset="50"
-      data-aos-delay="50"
-      data-aos-duration="1300"
+      data-aos-duration="500"
       data-aos-easing="ease-in"
-      data-aos-mirror="false"
+      data-aos-mirror="true"
       data-aos-once="false"
       data-aos-anchor-placement="top-center"
     >

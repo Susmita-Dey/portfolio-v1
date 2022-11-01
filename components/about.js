@@ -30,12 +30,12 @@ export default function About() {
         </div>
         <div
           data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-delay="30"
-          data-aos-duration="2000"
+          data-aos-offset="50"
+          data-aos-delay="10"
+          data-aos-duration="500"
           data-aos-easing="ease-in"
         >
-          <h2 className="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-pink-500">
+          <h2 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-pink-500">
             About Me
           </h2>
           <div className="text-lg font-normal mb-6">

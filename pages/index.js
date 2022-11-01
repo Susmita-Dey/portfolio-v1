@@ -1,5 +1,4 @@
 import Head from "next/head";
-// import Image from "next/image";
 import React, { useRef } from "react";
 import About from "../components/about";
 import Experience from "../components/experience";
@@ -10,8 +9,8 @@ import Contact from "../components/contact";
 import ParticlesComponent from "../components/particles";
 import Skills from "../components/mySkills";
 import { getAllPosts, getAllWork } from "../lib/api";
-import Carousel from "../components/Carousel";
 import Certificates from "../components/certificates";
+import Awards from "../components/awards";
 
 export async function getStaticProps() {
   const posts = getAllPosts();
@@ -52,9 +51,9 @@ export default function Home({ posts, work }) {
         <Skills />
         <Experience />
         <Projects work={work} />
-        {/* <Carousel /> */}
-        <Certificates />
         <RecentPosts posts={posts} />
+        <Certificates />
+        <Awards />
         <Contact />
       </div>
     </>
