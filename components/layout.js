@@ -87,7 +87,7 @@ export default function Layout({ children }) {
         src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
         data-id="susmitadey"
         data-description="Support me on Buy me a coffee!"
-        data-message="Thank You For Your Kind Support"
+        data-message="Support My Work!"
         data-color="#40DCA5"
         data-position="Right"
         data-x_margin="18"
