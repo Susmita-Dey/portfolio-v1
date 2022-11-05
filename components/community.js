@@ -9,7 +9,7 @@ export default function Community() {
     AOS.init();
   }, []);
   return (
-    <section className="bg-[#000325] text-white px-6 py-12" id="about">
+    <section className="text-white px-6 py-12" id="about">
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col md:flex-row">
         <div
           className="rounded-xl"
@@ -35,7 +35,7 @@ export default function Community() {
           data-aos-duration="500"
           data-aos-easing="ease-in"
         >
-          <h2 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-pink-500">
+          <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-pink-500">
             Giving Back to the Community
           </h2>
           <div className="text-lg font-normal mb-6">Hello</div>

@@ -20,7 +20,7 @@ export default function Skills() {
           // data-aos-duration="2000"
           // data-aos-easing="ease-in"
         >
-          <h2 className="text-3xl font-bold mb-8 text-cyan-200">My Skills</h2>
+          <h2 className="text-4xl font-bold mb-8 text-cyan-200">My Skills</h2>
           <div
             className="grid h-50 place-items-center skills"
             data-aos="fade-right"

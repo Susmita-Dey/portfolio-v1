@@ -11,6 +11,7 @@ import Skills from "../components/mySkills";
 import { getAllPosts, getAllWork } from "../lib/api";
 import Certificates from "../components/certificates";
 import Awards from "../components/awards";
+import Community from "../components/community";
 
 export async function getStaticProps() {
   const posts = getAllPosts();
@@ -53,7 +54,8 @@ export default function Home({ posts, work }) {
         <Projects work={work} />
         <RecentPosts posts={posts} />
         <Certificates />
-        <Awards />
+        {/* <Awards /> */}
+        {/* <Community /> */}
         <Contact />
       </div>
     </>

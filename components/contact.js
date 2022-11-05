@@ -30,12 +30,14 @@ export default function Contact() {
                 alt="girl-coding"
                 width={580}
                 height={680}
+                // layout="responsive"
+                priority
               />
             </div>
             <div>
               <div className="container flex flex-col">
                 <div className="flex flex-col mx-auto my-8">
-                  <h2 className="text-center text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
+                  <h2 className="text-center text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
                     Contact Me
                   </h2>
                   <p>Feel free to reach out to me by filling this form.</p>
@@ -60,7 +62,7 @@ export default function Contact() {
 
                 <form action="https://formspree.io/f/mvoygqdg" method="POST">
                   <div className="my-3 flex flex-col">
-                    <label for="name" className="mb-3 font-semibold">
+                    <label htmlFor="name" className="mb-3 font-semibold">
                       Name
                     </label>
                     <input
@@ -73,7 +75,7 @@ export default function Contact() {
                   </div>
 
                   <div className="my-3 flex flex-col">
-                    <label for="email" className="mb-3 font-semibold">
+                    <label htmlFor="email" className="mb-3 font-semibold">
                       Email ID
                     </label>
                     <input
@@ -86,7 +88,7 @@ export default function Contact() {
                   </div>
 
                   <div className="my-3 flex flex-col">
-                    <label for="subject" className="mb-3 font-semibold">
+                    <label htmlFor="subject" className="mb-3 font-semibold">
                       Subject
                     </label>
                     <input
@@ -99,7 +101,7 @@ export default function Contact() {
                   </div>
 
                   <div className="my-3 flex flex-col">
-                    <label for="message" className="mb-3 font-semibold">
+                    <label htmlFor="message" className="mb-3 font-semibold">
                       Message
                     </label>
                     <textarea

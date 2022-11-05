@@ -11,7 +11,7 @@ export default function IntroHeader() {
             <br />
             Creative Developer
           </h1>
-          <p className="text-lg mb-6">
+          <p className="text-xl mb-6">
             I&apos;m a final year undergrad college student pursuing B.Sc.
             Computer Science(Hons.) course. I&apos;m a MERN stack web developer
             passionate about Open Source and hackathons.

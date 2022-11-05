@@ -66,10 +66,10 @@ p {
 
 .back-to-top {
   position: fixed;
-  right: 2rem;
+  left: 2rem;
   bottom: 2rem;
   border-radius: 100%;
-  background-color: #8fa0ea;
+  background-color: #0240b3f8;
   padding: 0.8rem;
   border: none;
   cursor: pointer;
@@ -79,11 +79,11 @@ p {
 .back-to-top-icon {
   width: 1.5rem;
   height: 1.5rem;
-  color: black;
+  /* color: black; */
 }
 
 .back-to-top:hover {
-  opacity: 70%;
+  opacity: 75%;
 }
 
 ::-moz-selection {

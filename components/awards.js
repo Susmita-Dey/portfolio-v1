@@ -32,7 +32,7 @@ export default function Awards() {
         <div className="max-w-4xl mx-auto gap-14 items-center flex-col md:flex-row">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-white">
-              Swags and Rewads 🏆
+              Swags and Rewards 🏆
             </h2>
           </div>
           <Swiper
