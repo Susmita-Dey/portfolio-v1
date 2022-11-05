@@ -1,4 +1,5 @@
 import Link from "next/link";
+// import Image from "next/image";
 
 export default function Event({
   imgUrl,
@@ -12,12 +13,12 @@ export default function Event({
       <img
         src={imgUrl}
         alt="Event-image"
-        width="240"
-        height="240"
+        // width="960"
+        // height="640"
         className="md:w-1/3 w-full md:mb-0 mb-4 md:mr-6 mx-2 rounded-lg"
       />
       <div className="bg-mobile">
-        <h3 className="text-4xl mb-2 font-medium">{eventName}</h3>
+        <h3 className="text-2xl mb-2 font-medium">{eventName}</h3>
         <span className="text-gray-400 mb-4 block">
           <span className="bg-blue-500 hover:bg-blue-700 text-white px-5 py-1.5 mr-4 rounded-xl">
             2022

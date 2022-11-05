@@ -27,8 +27,7 @@ I'm mentioning _Twitter_ because I myself have personally learnt many things fro
 
 ## Video:- 
 
-
-%[https://youtu.be/1BMf-TKnhDs]
+[![IMAGE_ALT](https://img.youtube.com/vi/1BMf-TKnhDs/0.jpg)](https://youtu.be/1BMf-TKnhDs)
 
 ---
 

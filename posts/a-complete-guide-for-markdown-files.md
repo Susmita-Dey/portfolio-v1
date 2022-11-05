@@ -208,7 +208,7 @@ echo 1
 
 **Output:**
 
-<s>Work all day without taking rest.</s>
+~~Work all day without taking rest.~~
 
 ## Blockquote Text
 
@@ -220,7 +220,7 @@ echo 1
 
 **Output:**
 
-> “I'm unpredictable, I never know where I'm going until I get there, I'm so random, I'm always growing, learning, changing, I'm never the same person twice. But one thing you can be sure of about me; is I will always do exactly what I want to do.”
+> I'm unpredictable, I never know where I'm going until I get there, I'm so random, I'm always growing, learning, changing, I'm never the same person twice. But one thing you can be sure of about me; is I will always do exactly what I want to do.
 
 ## Bold
 
@@ -468,7 +468,7 @@ This is a comprehensive list for you all as your guide. Hope all went well and y
 
 More powers to you. 💪 
 
-<iframe src="https://giphy.com/embed/287U9qQH5vrKg7KYSH" width="480" height="390" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jackiejameswhiskey-good-luck-crossing-fingers-cross-287U9qQH5vrKg7KYSH">via GIPHY</a></p>
+![Fingers-crossed.gif](https://media.giphy.com/media/287U9qQH5vrKg7KYSH/giphy.gif)
 
 ---
 
