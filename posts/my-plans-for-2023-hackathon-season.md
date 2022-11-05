@@ -28,7 +28,7 @@ Some hackathons are held online and some are held offline. After the wave of pan
 - Opportunities to win some awesome swag
 - Building new project together in a team, and a lot more...
 
-<iframe src="https://giphy.com/embed/TdfyKrN7HGTIY" width="480" height="275" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/happy-spongebob-squarepants-patrick-TdfyKrN7HGTIY">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/TdfyKrN7HGTIY" width="480" height="275" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/happy-spongebob-squarepants-patrick-TdfyKrN7HGTIY">via GIPHY</a></p>
 
 ---
 
@@ -64,7 +64,7 @@ Here's a challenge for you to participate in a hackathon of 2023 season of MLH a
 
 Go with the following motivation: 💪
 
-<iframe src="https://giphy.com/embed/PjCYZIG4slHoM8G3Ad" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thespanishprincess-starz-royalty-the-spanish-princess-PjCYZIG4slHoM8G3Ad">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/PjCYZIG4slHoM8G3Ad" width="480" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thespanishprincess-starz-royalty-the-spanish-princess-PjCYZIG4slHoM8G3Ad">via GIPHY</a></p>
 
 ---
 

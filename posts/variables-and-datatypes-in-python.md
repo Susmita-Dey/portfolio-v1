@@ -131,7 +131,7 @@ Now, you might feel confused. 😵
 So, let me explain. In the last example we've taken two variables having the same values called Susmita. Since python treats the values as objects and assigns the unique id to the objects and not to the variables and the variables act as pointers pointing to the object, so its obvious that the code snippet will return same values.
 Hope, this clears your confusion. 
 
-*<iframe src="https://giphy.com/embed/hVYVYZZBgF50k" width="280" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/daughter-houston-bathtub-hVYVYZZBgF50k">GIF source is via GIPHY</a></p>*
+*<iframe src="https://giphy.com/embed/hVYVYZZBgF50k" width="280" height="280" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/daughter-houston-bathtub-hVYVYZZBgF50k">GIF source is via GIPHY</a></p>*
 
 ---
 # Data Types

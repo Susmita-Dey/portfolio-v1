@@ -12,6 +12,7 @@ const nextConfig = {
       "cdn.pixabay.com",
       "user-images.githubusercontent.com",
       "cdn.hashnode.com",
+      "images.pexels.com",
     ],
   },
 };

@@ -468,7 +468,7 @@ This is a comprehensive list for you all as your guide. Hope all went well and y
 
 More powers to you. 💪 
 
-<iframe src="https://giphy.com/embed/287U9qQH5vrKg7KYSH" width="480" height="390" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jackiejameswhiskey-good-luck-crossing-fingers-cross-287U9qQH5vrKg7KYSH">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/287U9qQH5vrKg7KYSH" width="480" height="390" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jackiejameswhiskey-good-luck-crossing-fingers-cross-287U9qQH5vrKg7KYSH">via GIPHY</a></p>
 
 ---
 

@@ -15,9 +15,9 @@ export default function Skills() {
       <div className="max-w-4xl justify-center mx-auto flex gap-14 items-center flex-col md:flex-row">
         <div
           data-aos="fade-up"
-          data-aos-offset="200"
-          data-aos-delay="10"
-          data-aos-duration="2000"
+          // data-aos-offset="200"
+          // data-aos-delay="10"
+          // data-aos-duration="2000"
           // data-aos-easing="ease-in"
         >
           <h2 className="text-3xl font-bold mb-8 text-cyan-200">My Skills</h2>

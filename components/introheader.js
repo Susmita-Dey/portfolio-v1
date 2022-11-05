@@ -31,7 +31,7 @@ export default function IntroHeader() {
             <Image
               src={profilePic}
               alt="Image of Susmita"
-              className="z-10 relative rounded-full"
+              className="z-10 relative rounded-full brightness-95"
               width={940}
               height={940}
               loading="eager"

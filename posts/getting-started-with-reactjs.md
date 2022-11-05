@@ -54,7 +54,7 @@ You'll see the following image when your app runs locally on your computer.
 ## Understanding the file structure 📂
 You might get scared of watching the huge codebase i.e., the files and folders after you have created your React app. Some people might run like this shutting down their computers.
 
-<iframe src="https://giphy.com/embed/12RfP2odT4hEOI" width="480" height="437" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/scared-boy-meets-world-12RfP2odT4hEOI">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/12RfP2odT4hEOI" width="480" height="437" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/scared-boy-meets-world-12RfP2odT4hEOI">via GIPHY</a></p>
 
 But no need to worry because I'm here to help you. Open up the folder called **my-app** in Visual Studio Code. You'll see the folders somewhat like this.
 

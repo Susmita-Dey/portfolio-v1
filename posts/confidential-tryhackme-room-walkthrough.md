@@ -12,7 +12,7 @@ Hello folks, I'm back with another TryHackMe room walkthrough named "Confidentia
 
 Room Link:- https://tryhackme.com/room/confidential 
 
-<iframe src="https://giphy.com/embed/XHX9s5YLavonUU4Cbr" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SportsManias-sports-sportsmanias-here-we-go-XHX9s5YLavonUU4Cbr">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/XHX9s5YLavonUU4Cbr" width="480" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SportsManias-sports-sportsmanias-here-we-go-XHX9s5YLavonUU4Cbr">via GIPHY</a></p>
 
 As per the room: 
 > We got our hands on a confidential case file from some self-declared "black hat hackers"... it looks like they have a secret invite code available within a QR code, but it's covered by some image in this PDF! If we want to thwart whatever it is they are planning, we need your help to uncover what that QR code says!
@@ -33,7 +33,7 @@ I just started the attackbox and the machine attached to the room and then the o
 
 **Note:** I would recommend you to follow your own way of finding the flag before going with mine.
 
-<iframe src="https://giphy.com/embed/69jFQEKHTFZZYRzjpY" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/CBSAllAccess-fight-good-the-69jFQEKHTFZZYRzjpY">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/69jFQEKHTFZZYRzjpY" width="480" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/CBSAllAccess-fight-good-the-69jFQEKHTFZZYRzjpY">via GIPHY</a></p>
 
 ---
 

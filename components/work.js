@@ -29,7 +29,7 @@ export default function Work({ item }) {
           </div>
           <div className="mt-1 cursor-pointer">
             {" "}
-            <Link href={item?.repository}>
+            <Link href={item?.preview}>
               <a target="_blank" rel="noopener noreferrer">
                 <span className="flex flex-row text-base">
                   View Demo &nbsp;

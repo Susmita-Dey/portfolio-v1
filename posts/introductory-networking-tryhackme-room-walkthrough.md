@@ -16,7 +16,7 @@ Before this I’ll recommend you guys please complete this room all by yourself 
 
 **Room Link:- https://tryhackme.com/room/introtonetworking**
 
-<iframe src="https://giphy.com/embed/HyxK9xIodu1mb2yVnN" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/teleraptor-concert-microphone-texto-dallas-HyxK9xIodu1mb2yVnN">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/HyxK9xIodu1mb2yVnN" width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/teleraptor-concert-microphone-texto-dallas-HyxK9xIodu1mb2yVnN">via GIPHY</a></p>
 
 ---
 
@@ -81,7 +81,7 @@ You can learn all about these layers in detail from the room itself and solve th
 **Question 10:** **[Research]** Which layer would the FTP protocol communicate with?
 
 *Hint -> For this, I'd say Google is your best friend. Go and hit a search.*
-<iframe src="https://giphy.com/embed/rcmg2ogSBedUs" width="480" height="220" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/grace-helbig-rcmg2ogSBedUs">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/rcmg2ogSBedUs" width="480" height="220" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/grace-helbig-rcmg2ogSBedUs">via GIPHY</a></p>
 
 > 7
 
@@ -194,7 +194,7 @@ Since, we're searching for IPv4 address, we have to use `-4` before `muirlandora
 
 
 ***For the following questions, it's time for using `man ping` command.***
-<iframe src="https://giphy.com/embed/zcLSzR6aFaK1a" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-cute-ping-pong-zcLSzR6aFaK1a">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/zcLSzR6aFaK1a" width="480" height="269" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-cute-ping-pong-zcLSzR6aFaK1a">via GIPHY</a></p>
 
 
 **Question 3:** What switch lets you change the interval of sent ping requests?
@@ -299,7 +299,7 @@ Now click on Nearby button and search **Golf Course**. The nearest thing we can 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660554788095/r_43-dCBD.png )
 
-<iframe src="https://giphy.com/embed/Fka9XXT8NrHv66rQaX" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/peacocktv-Fka9XXT8NrHv66rQaX">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/Fka9XXT8NrHv66rQaX" width="480" height="480" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/peacocktv-Fka9XXT8NrHv66rQaX">via GIPHY</a></p>
 
 > Bellevue Golf Course
 
@@ -337,7 +337,7 @@ According to TryHackMe:
 
 **Question 5:** **[Research]** Google runs two public DNS servers. One of them can be queried with the IP 8.8.8.8, what is the IP address of the other one?
 
-<iframe src="https://giphy.com/embed/gLnZ2mo2dGcLK" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/madonna-look-it-up-gLnZ2mo2dGcLK">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/gLnZ2mo2dGcLK" width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/madonna-look-it-up-gLnZ2mo2dGcLK">via GIPHY</a></p>
 
 > 8.8.4.4
 
@@ -351,13 +351,13 @@ It's a wrap up task and you can read more in details on your own. Internet has m
 
 Go and enjoy.
 
-<iframe src="https://giphy.com/embed/fQx7FeYapEpzUDyyfR" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/flying-door-in-the-sky-fQx7FeYapEpzUDyyfR">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/fQx7FeYapEpzUDyyfR" width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/flying-door-in-the-sky-fQx7FeYapEpzUDyyfR">via GIPHY</a></p>
 
 > No answer needed
 
 ---
 
-<iframe src="https://giphy.com/embed/LpQrsRA3zOuJNk7KYt" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/somegoodnews-we-did-it-wedidit-its-done-LpQrsRA3zOuJNk7KYt">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/LpQrsRA3zOuJNk7KYt" width="480" height="270" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/somegoodnews-we-did-it-wedidit-its-done-LpQrsRA3zOuJNk7KYt">via GIPHY</a></p>
 
 All credits goes to [TryHackMe](https://tryhackme.com) and [MuirlandOracle](https://tryhackme.com/p/MuirlandOracle)
 
