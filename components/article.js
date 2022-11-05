@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Article({ post, className = "rounded-lg" }) {
   return (
-    <article className={`bg-transparent text-white p-4 ${className}`}>
+    <article className={`bg-[#01071f] text-white p-4 mb-2 ${className}`}>
       <Link href={`blog/${post?.slug}`}>
-        <h3 className="text-2xl mb-2 font-medium hover:text-purple-500 cursor-pointer">
+        <h3 className="text-2xl mb-2 font-medium hover:text-yellow-300 cursor-pointer">
           {post?.title}
         </h3>
       </Link>

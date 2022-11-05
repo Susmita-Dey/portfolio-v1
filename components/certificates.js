@@ -69,6 +69,13 @@ export default function Certificates() {
             <SwiperSlide>
               <img
                 className="object-fit w-full h-1/2 md:object-fill md:h-96"
+                src="/certificates/TechTogether Microsoft Challenge.png"
+                alt="image slide 4"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="object-fit w-full h-1/2 md:object-fill md:h-96"
                 src="/certificates/UI UX Workshop Certificate.png"
                 alt="image slide 4"
               />

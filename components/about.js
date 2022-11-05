@@ -13,11 +13,10 @@ export default function About() {
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col md:flex-row">
         <div
           className="rounded-xl"
-          data-aos="zoom-out"
-          data-aos-offset="200"
-          data-aos-delay="10"
-          data-aos-duration="2000"
-          data-aos-easing="ease-in"
+          // data-aos="fade-right"
+          // data-aos-offset="200"
+          // data-aos-duration="2000"
+          // data-aos-easing="ease-in"
         >
           <Image
             src="/Profile Photo (1).png"
@@ -25,6 +24,7 @@ export default function About() {
             width={540}
             height={540}
             className="rounded-3xl"
+            loading="eager"
             priority
           />
         </div>

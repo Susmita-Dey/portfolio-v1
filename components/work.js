@@ -8,7 +8,7 @@ export default function Work({ item }) {
         src={item?.image}
         className="md:w-1/3 w-full md:mb-0 mb-4 md:mr-6 mx-2 rounded-lg"
       />
-      <div>
+      <div className="bg-mobile">
         <div className="flex">
           <h3 className="text-2xl mb-2 font-medium">{item?.title}</h3>
           <div className="mx-2 mt-2 cursor-pointer">

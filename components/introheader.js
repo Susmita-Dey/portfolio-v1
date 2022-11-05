@@ -1,11 +1,11 @@
 import Image from "next/image";
-import profilePic from "../assets/my-profile-photo.jpg";
+import profilePic from "../assets/Profile Photo (2).png";
 
 export default function IntroHeader() {
   return (
     <header className="text-white px-6 py-12">
       <div className="max-w-4xl mx-auto flex gap-14 items-center flex-col-reverse md:flex-row">
-        <div>
+        <div className="bg-mobile">
           <h1 className="mb-6 typed-out font-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-300">
             Hi, I am Susmita Dey!
             <br />
@@ -26,17 +26,19 @@ export default function IntroHeader() {
             <em>Hire Me!</em>
           </a>
         </div>
-        <span className="m-5 inline-block before:w-full before:aspect-square before:-left-1.5 before:block before:absolute before:bg-blue-400 relative z-0 before:rounded-full">
-          <Image
-            src={profilePic}
-            alt="Image of Susmita"
-            className="z-10 relative rounded-full"
-            width={540}
-            height={540}
-            loading="eager"
-            priority
-          />
-        </span>
+        <div>
+          <span className="m-5 inline-block before:w-full before:aspect-square before:-left-1.5 before:block before:absolute before:bg-blue-400 relative z-0 before:rounded-full">
+            <Image
+              src={profilePic}
+              alt="Image of Susmita"
+              className="z-10 relative rounded-full"
+              width={940}
+              height={940}
+              loading="eager"
+              priority
+            />
+          </span>
+        </div>
       </div>
     </header>
   );
