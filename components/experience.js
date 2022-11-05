@@ -132,12 +132,12 @@ export default function Experience() {
     },
   ];
   return (
-    <section className="p-6 unselectable" id="experience">
+    <section className="p-6 select-none text-[#0051ff]" id="experience">
       <div className="max-w-4xl mx-auto items-center md:flex-row">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-white">Experience</h2>
         </div>
-        <div>
+        <div className="break-words">
           <Chrono
             items={items}
             useReadMore

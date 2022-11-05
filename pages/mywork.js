@@ -1,7 +1,7 @@
 import Head from "next/head";
 import ParticlesComponent from "../components/particles";
 import Work from "../components/work";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { getAllWork } from "../lib/api";
 
 export async function getStaticProps() {
@@ -14,57 +14,6 @@ export async function getStaticProps() {
 }
 
 export default function WorkPage({ work }) {
-  useEffect(() => {
-    filterObjects("all");
-    function filterObjects(c) {
-      var x, i;
-      if (typeof window != undefined) {
-        x = document.getElementsByClassName("box");
-      }
-      if (c == "all") c = "";
-      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-      for (i = 0; i < x.length; i++) {
-        removeClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
-      }
-    }
-
-    // Show filtered elements
-    function addClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) {
-          element.className += " " + arr2[i];
-        }
-      }
-    }
-
-    // Hide elements that are not selected
-    function removeClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        while (arr1.indexOf(arr2[i]) > -1) {
-          arr1.splice(arr1.indexOf(arr2[i]), 1);
-        }
-      }
-      element.className = arr1.join(" ");
-    }
-
-    // Add active class to the current control button (highlight it)
-    const btnContainer = document.getElementById("myBtnContainer");
-    const btns = btnContainer.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    }
-  }, []);
   return (
     <div>
       <Head>

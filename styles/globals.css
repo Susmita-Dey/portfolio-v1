@@ -6,6 +6,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -21,10 +25,6 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -35,9 +35,9 @@ a {
   }
 }
 
-nav li,
+nav,
 h2 {
-  font-family: "Poppins", serif;
+  font-family: "Poppins";
 }
 
 p {
@@ -97,13 +97,22 @@ p {
   background: white;
 }
 
-.unselectable {
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: rgb(0, 81, 255);
+.nav-item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .typed-out {
@@ -127,8 +136,8 @@ p {
 .skills {
   overflow: hidden;
 }
-/* 
-.contain {
+
+/* .contain{
   overflow: hidden;
 } */
 
@@ -222,7 +231,7 @@ p {
 @media only screen and (max-width: 600px) {
   /*Big smartphones [426px -> 600px]*/
   .bg-mobile {
-    background-color: #01071f;
+    background-color: #000025;
     padding: 2rem;
     border-radius: 0.75rem;
   }
@@ -231,7 +240,7 @@ p {
   /*Small smartphones [325px -> 425px]*/
 
   .bg-mobile {
-    background-color: #01071f;
+    background-color: #000025;
     padding: 3rem;
     border-radius: 0.75rem;
   }

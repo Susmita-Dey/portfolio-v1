@@ -2,15 +2,18 @@
   "name": "susmita--portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://susmita-dey.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "fs": "^0.0.1-security",
+    "gh-pages": "^4.0.0",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
     "next": "12.3.1",

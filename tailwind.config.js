@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Proxima Nova"],
+        Poppins: ["Poppins"],
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };

@@ -27,6 +27,27 @@ export default function Work({ item }) {
               </a>
             </Link>
           </div>
+          <div className="mt-1 cursor-pointer">
+            {" "}
+            <Link href={item?.repository}>
+              <a target="_blank" rel="noopener noreferrer">
+                <span className="flex flex-row text-base">
+                  View Demo &nbsp;
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 50 50"
+                    fill="white"
+                  >
+                    <path d="M 25 2 C 12.308594 2 2 12.308594 2 25 C 2 37.691406 12.308594 48 25 48 C 37.691406 48 48 37.691406 48 25 C 48 12.308594 37.691406 2 25 2 Z M 25 4 C 36.609375 4 46 13.390625 46 25 C 46 36.609375 36.609375 46 25 46 C 13.390625 46 4 36.609375 4 25 C 4 13.390625 13.390625 4 25 4 Z M 23 17 L 27.292969 21.292969 L 15.292969 33.292969 L 16.707031 34.707031 L 28.707031 22.707031 L 33 27 L 33 17 Z"></path>
+                  </svg>
+                </span>
+              </a>
+            </Link>
+          </div>
         </div>
         <span className="text-gray-300 mb-4 block">
           <time className="cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 px-5 py-1.5 mr-4 rounded-xl">
