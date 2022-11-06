@@ -20,11 +20,12 @@ export default function OpenSource() {
             Top Open Source Contributons to Various Orgs/Companies
           </p>
         </div>
-        {/* <div className="rounded-xl" data-aos="fade-right" data-aos-once="true">
-          Hello World
-        </div> */}
       </div>
-      <div className="max-w-4xl mx-auto flex gap-10 flex-col md:flex-row">
+      <div
+        className="max-w-4xl mx-auto flex gap-10 flex-col md:flex-row"
+        data-aos="fade-up"
+        data-aos-once="true"
+      >
         <div className="flex my-2 md:w-1/4 md:h-1/4 cursor-pointer">
           <Link href="https://novu.co/contributors/Susmita-Dey/">
             <Image
@@ -32,6 +33,7 @@ export default function OpenSource() {
               width={500}
               height={200}
               layout="intrinsic"
+              alt="Novu"
             />
           </Link>
         </div>
@@ -42,6 +44,7 @@ export default function OpenSource() {
               width={500}
               height={200}
               layout="intrinsic"
+              alt="Community Classroom logo"
             />
           </Link>
         </div>
@@ -52,6 +55,7 @@ export default function OpenSource() {
               width={300}
               height={200}
               layout="intrinsic"
+              alt="Hack4Bengal"
             />
           </Link>
         </div>
@@ -62,6 +66,7 @@ export default function OpenSource() {
               width={500}
               height={200}
               layout="intrinsic"
+              alt="dailydotdev"
             />
           </Link>
         </div>
@@ -72,6 +77,7 @@ export default function OpenSource() {
               width={500}
               height={200}
               layout="intrinsic"
+              alt="fueler"
             />
           </Link>
         </div>
@@ -82,17 +88,13 @@ export default function OpenSource() {
               width={172}
               height={106}
               layout="intrinsic"
+              alt="showwcase"
             />
           </Link>
         </div>
         {/* <div className="flex mt-2 md:w-1/4 md:h-1/4 w-full h-full justify-center items-center cursor-pointer">
           <Link href="https://github.com/github/india/pull/1021/">
-            <Image src="/logos/github.png" width={50} height={50} />
-          </Link>
-        </div> */}
-        {/* <div className="flex mt-2 md:w-1/4 md:h-1/4 cursor-pointer">
-          <Link href="https://github.com/AccessibleForAll/Resources/pull/3">
-            <Image src="/logos/AccessibleForAll.png" width={50} height={50} />
+            <Image src="/logos/github.png" width={50} height={50} alt="github" />
           </Link>
         </div> */}
       </div>
