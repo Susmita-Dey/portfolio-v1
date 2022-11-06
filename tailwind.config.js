@@ -10,6 +10,13 @@ module.exports = {
         sans: ["Proxima Nova"],
         Poppins: ["Poppins"],
       },
+      keyframes:{
+        "fade-up":{},
+        "fade-down":{},
+        "fade-left":{},
+        "fade-right":{},
+      },
+      animation:{},
     },
   },
   plugins: [require("@tailwindcss/typography")],
