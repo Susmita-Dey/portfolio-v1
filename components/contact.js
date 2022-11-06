@@ -32,10 +32,17 @@ export default function Contact() {
                 <div className="relative p-2 text-white flex items-center justify-center">
                   <div className="-mt-[42rem]">
                     <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
-                      <div className="px-2 text-center">
+                      <div className="text-center">
                         <div className="text-xl">
                           <p>Psst! Want to know a secret?</p>
                           <p>I respond to mails faster than any forms. 🤫</p>
+                          <br />
+                          <p>I love to help folks in the community. </p>
+                          <p>
+                            Feel free to schedule a call
+                            <br /> if you need any mentorship sessions for free.
+                          </p>
+                          <br />
                           <p>Happy Hacking 😊</p>
                         </div>
                       </div>

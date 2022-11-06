@@ -10,6 +10,7 @@ import ParticlesComponent from "../components/particles";
 import Skills from "../components/mySkills";
 import { getAllPosts, getAllWork } from "../lib/api";
 import Certificates from "../components/certificates";
+import OpenSource from "../components/openSource";
 
 export async function getStaticProps() {
   const posts = getAllPosts();
@@ -50,6 +51,7 @@ export default function Home({ posts, work }) {
         <Skills />
         <Experience />
         <Projects work={work} />
+        <OpenSource />
         <RecentPosts posts={posts} />
         <Certificates />
         <Contact />

@@ -28,7 +28,7 @@ export default function Certificates() {
         <div className="max-w-4xl mx-auto gap-14 items-center flex-col md:flex-row">
           <div className="text-center mb-8">
             <h2 className="text-4xl font-bold text-white">
-              Certificates & Awards 🏆
+              🏆 Certificates & Awards 🏆
             </h2>
             <p className="my-4 text-xl font-medium text-white">
               Apart from my achievements, I worked for the community more to
