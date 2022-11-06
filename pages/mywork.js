@@ -31,7 +31,7 @@ export default function WorkPage({ work }) {
           <ParticlesComponent />
           <h2 className="text-4xl text-center font-bold mb-6 p-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
             Work
-          </h1>
+          </h2>
           {/* <!-- Control buttons --> 
           <div
             id="myBtnContainer"
