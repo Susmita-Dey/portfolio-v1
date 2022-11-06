@@ -33,47 +33,47 @@ export default function WorkPage({ work }) {
             Work
           </h1>
           {/* <!-- Control buttons --> */}
-          <div
-            id="myBtnContainer"
-            className="flex justify-center align-center flex-wrap md:flex-row mb-8"
-          >
-            <button className="btn active" onClick="filterObjects('all')">
-              {" "}
-              Show all
-            </button>
-            <button className="btn" onClick="filterObjects('frontend')">
-              {" "}
-              Frontend
-            </button>
-            <button className="btn" onClick="filterObjects('ui-ux')">
-              {" "}
-              UI/UX
-            </button>
-            <button className="btn" onClick="filterObjects('backend')">
-              {" "}
-              Backend
-            </button>
-            <button className="btn" onClick="filterObjects('web3')">
-              {" "}
-              Web3
-            </button>
-            <button className="btn" onClick="filterObjects('full-stack')">
-              {" "}
-              Full-Stack
-            </button>
-            <button className="btn" onClick="filterObjects('ai')">
-              {" "}
-              AI/ML
-            </button>
-            <button className="btn" onClick="filterObjects('devops')">
-              {" "}
-              DevOps
-            </button>
-            <button className="btn" onClick="filterObjects('freelance')">
-              {" "}
-              Freelance
-            </button>
-          </div>
+//           <div
+//             id="myBtnContainer"
+//             className="flex justify-center align-center flex-wrap md:flex-row mb-8"
+//           >
+//             <button className="btn active" onClick="filterObjects('all')">
+//               {" "}
+//               Show all
+//             </button>
+//             <button className="btn" onClick="filterObjects('frontend')">
+//               {" "}
+//               Frontend
+//             </button>
+//             <button className="btn" onClick="filterObjects('ui-ux')">
+//               {" "}
+//               UI/UX
+//             </button>
+//             <button className="btn" onClick="filterObjects('backend')">
+//               {" "}
+//               Backend
+//             </button>
+//             <button className="btn" onClick="filterObjects('web3')">
+//               {" "}
+//               Web3
+//             </button>
+//             <button className="btn" onClick="filterObjects('full-stack')">
+//               {" "}
+//               Full-Stack
+//             </button>
+//             <button className="btn" onClick="filterObjects('ai')">
+//               {" "}
+//               AI/ML
+//             </button>
+//             <button className="btn" onClick="filterObjects('devops')">
+//               {" "}
+//               DevOps
+//             </button>
+//             <button className="btn" onClick="filterObjects('freelance')">
+//               {" "}
+//               Freelance
+//             </button>
+//           </div>
           {work?.map((workItem) => (
             <Work key={workItem?.title} item={workItem} />
           ))}
