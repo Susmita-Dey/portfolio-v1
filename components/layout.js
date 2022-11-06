@@ -35,7 +35,7 @@ export default function Layout({ children }) {
       <Header />
       <main>{children}</main>
       <Footer />
-      <button className="back-to-top hidden">
+      <button className="back-to-top hidden" role="button">
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           className="back-to-top-icon"
@@ -83,15 +83,15 @@ export default function Layout({ children }) {
       </button>
       <script
         data-name="BMC-Widget"
-        data-cfasync="false"
+        data-cfasync="true"
         src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
         data-id="susmitadey"
         data-description="Support me on Buy me a coffee!"
         data-message="Support My Work!"
-        data-color="#40DCA5"
+        data-color="#0891b2"
         data-position="Right"
-        data-x_margin="18"
-        data-y_margin="18"
+        data-x_margin="12"
+        data-y_margin="12"
         allow="payment"
       ></script>
       {/* <SoundBar /> */}

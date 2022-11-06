@@ -13,22 +13,12 @@ export default function Skills() {
       id="skills"
     >
       <div className="max-w-4xl justify-center mx-auto flex gap-14 items-center flex-col md:flex-row">
-        <div
-        // data-aos="fade-up"
-        // data-aos-offset="200"
-        // data-aos-delay="10"
-        // data-aos-duration="2000"
-        // data-aos-easing="ease-in"
-        >
+        <div data-aos="fade-up" data-aos-once="true">
           <h2 className="text-4xl font-bold mb-8 text-cyan-200">My Skills</h2>
           <div
             className="grid h-50 place-items-center skills"
-            // data-aos="fade-right"
-            // data-aos-offset="50"
-            // data-aos-duration="500"
-            // data-aos-easing="ease-in"
-            // data-aos-mirror="true"
-            // data-aos-once="false"
+            data-aos="fade-right"
+            data-aos-once="true"
           >
             <div className="grid grid-flow-row gap-6">
               <div className="grid grid-cols-5 grid-flow-row gap-4 place-content-center">

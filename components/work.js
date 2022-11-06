@@ -6,6 +6,7 @@ export default function Work({ item }) {
     <article className="flex items-center border-b-2 py-6 flex-col md:flex-row">
       <img
         src={item?.image}
+        alt="Project-Image"
         className="md:w-1/3 w-full md:mb-0 mb-4 md:mr-6 mx-2 rounded-lg"
       />
       <div className="bg-mobile">
@@ -14,7 +15,11 @@ export default function Work({ item }) {
           <div className="mx-2 mt-2 cursor-pointer">
             {" "}
             <Link href={item?.repository}>
-              <a target="_blank" rel="noopener noreferrer">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub Repository Links"
+              >
                 <svg
                   fill="white"
                   xmlns="http://www.w3.org/2000/svg"

@@ -15,10 +15,12 @@ export default function IntroHeader() {
             I&apos;m a final year undergrad college student pursuing B.Sc.
             Computer Science(Hons.) course. I&apos;m a MERN stack web developer
             passionate about Open Source and hackathons.
+            <br />
             <br /> Currently I&apos;m an MLH mentor and Graphic Designer at
             Community Classroom.
           </p>
           <a
+            role="button"
             type="text/html"
             href="https://www.canva.com/design/DAE7lTrsuWE/ah18kbrS5nZ9hvIM8OQIIQ/view?utm_content=DAE7lTrsuWE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
             className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12"
@@ -35,7 +37,7 @@ export default function IntroHeader() {
               width={940}
               height={940}
               loading="eager"
-              priority
+              priority={true}
             />
           </span>
         </div>

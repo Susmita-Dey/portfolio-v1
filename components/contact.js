@@ -11,31 +11,42 @@ export default function Contact() {
   }, []);
   return (
     <>
-      <section className="bg-[#000325] text-white px-6 py-12" id="contact">
+      <section className="bg-[#000325] px-6 py-12" id="contact">
         <div className="max-w-6xl mx-auto">
           <div
             className="flex flex-col md:flex-row"
-            // data-aos="fade-up"
-            // data-aos-offset="50"
-            // data-aos-duration="500"
-            // data-aos-easing="ease-in"
-            // data-aos-mirror="true"
-            // data-aos-once="false"
-            // data-aos-anchor-placement="top-center"
+            data-aos="fade-up"
+            data-aos-once="true"
           >
             <div className="flex mx-12">
-              <Image
-                src="https://images.pexels.com/photos/5473302/pexels-photo-5473302.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="girl-coding"
-                width={580}
-                height={680}
-                // layout="responsive"
-                priority
-              />
+              <div className="relative block group">
+                <Image
+                  src="https://cdn.pixabay.com/photo/2018/03/09/18/06/science-fiction-3212212_960_720.jpg"
+                  alt="sci-fi"
+                  width={580}
+                  height={680}
+                  // layout="responsive"
+                  priority
+                  className="absolute inset-0 object-cover group-hover:opacity-50"
+                />
+                <div className="relative p-2 text-white flex items-center justify-center">
+                  <div className="-mt-[42rem]">
+                    <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
+                      <div className="px-2 text-center">
+                        <div className="text-xl">
+                          <p>Psst! Want to know a secret?</p>
+                          <p>I respond to mails faster than any forms. 🤫</p>
+                          <p>Happy Hacking 😊</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
               <div className="container flex flex-col">
-                <div className="flex flex-col mx-auto my-8">
+                <div className="flex flex-col mx-auto my-8 text-white">
                   <h2 className="text-center text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
                     Contact Me
                   </h2>
@@ -61,7 +72,10 @@ export default function Contact() {
 
                 <form action="https://formspree.io/f/mvoygqdg" method="POST">
                   <div className="my-3 flex flex-col">
-                    <label htmlFor="name" className="mb-3 font-semibold">
+                    <label
+                      htmlFor="name"
+                      className="text-white mb-3 font-semibold"
+                    >
                       Name
                     </label>
                     <input
@@ -74,20 +88,26 @@ export default function Contact() {
                   </div>
 
                   <div className="my-3 flex flex-col">
-                    <label htmlFor="email" className="mb-3 font-semibold">
+                    <label
+                      htmlFor="email"
+                      className="text-white mb-3 font-semibold"
+                    >
                       Email ID
                     </label>
                     <input
                       type="email"
                       name="email"
                       className="email p-3 rounded-xl"
-                      placeholder="Email id"
+                      placeholder="Your Email Address"
                       required
                     />
                   </div>
 
                   <div className="my-3 flex flex-col">
-                    <label htmlFor="subject" className="mb-3 font-semibold">
+                    <label
+                      htmlFor="subject"
+                      className="text-white mb-3 font-semibold"
+                    >
                       Subject
                     </label>
                     <input
@@ -100,24 +120,25 @@ export default function Contact() {
                   </div>
 
                   <div className="my-3 flex flex-col">
-                    <label htmlFor="message" className="mb-3 font-semibold">
+                    <label
+                      htmlFor="message"
+                      className="text-white mb-3 font-semibold"
+                    >
                       Message
                     </label>
                     <textarea
                       type="text"
-                      name="suggestion"
-                      className="suggestion p-3 rounded-xl"
+                      name="message"
+                      className="message p-3 rounded-xl"
                       placeholder="Your Message"
                       required
                     />
                   </div>
 
                   <div className="text-center my-3">
-                    {/* <Link href="mailto:susmitadey475@gmail.com"> */}
-                    <button type="submit" className="btn">
+                    <button type="submit" className="btn" role="button">
                       Submit
                     </button>
-                    {/* </Link> */}
                   </div>
                 </form>
               </div>

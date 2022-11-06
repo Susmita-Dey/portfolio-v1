@@ -23,17 +23,17 @@ export default function Certificates() {
       <section
         className="bg-[#000325] px-6 py-12"
         data-aos="fade-left"
-        data-aos-offset="50"
-        data-aos-duration="500"
-        data-aos-easing="ease-in"
-        data-aos-mirror="true"
-        data-aos-once="false"
+        data-aos-once="true"
       >
         <div className="max-w-4xl mx-auto gap-14 items-center flex-col md:flex-row">
           <div className="text-center mb-8">
             <h2 className="text-4xl font-bold text-white">
               Certificates & Awards 🏆
             </h2>
+            <p className="my-4 text-xl font-medium text-white">
+              Apart from my achievements, I worked for the community more to
+              help them.
+            </p>
           </div>
           <Swiper
             style={{
@@ -91,6 +91,16 @@ export default function Certificates() {
               <Image
                 className="object-fit w-full h-1/2 md:object-fill md:h-96"
                 src="/certificates/UI UX Workshop Certificate.png"
+                alt="image slide 4"
+                width={940}
+                height={640}
+                priority
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image
+                className="object-fit w-full h-1/2 md:object-fill md:h-96"
+                src="/certificates/AutumnHacks.jpg"
                 alt="image slide 4"
                 width={940}
                 height={640}

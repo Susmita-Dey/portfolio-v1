@@ -13,6 +13,7 @@ export default function Experience() {
         type: "IMAGE",
         source: {
           url: "https://cdn.hashnode.com/res/hashnode/image/upload/v1654017856960/InWd0d22B.png",
+          alt: "GSSoC",
         },
       },
     },
@@ -27,6 +28,7 @@ export default function Experience() {
         type: "IMAGE",
         source: {
           url: "https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg",
+          alt: "Codedamn",
         },
       },
     },
@@ -41,6 +43,7 @@ export default function Experience() {
         type: "IMAGE",
         source: {
           url: "https://cdn.pixabay.com/photo/2017/09/08/18/46/volunteers-2729696_960_720.png",
+          alt: "Hack2Skill",
         },
       },
     },
@@ -69,6 +72,7 @@ export default function Experience() {
         type: "IMAGE",
         source: {
           url: "https://media-exp1.licdn.com/dms/image/C4D22AQHNhmEEiJcFIA/feedshare-shrink_1280/0/1657976441771?e=1669852800&v=beta&t=vuSG5lNvY7Ii4kaST1aiPpNh1czRiQdQBHNRUpoHMqc",
+          alt: "SSoC",
         },
       },
     },
@@ -82,6 +86,7 @@ export default function Experience() {
       media: {
         source: {
           url: "https://yt3.ggpht.com/r8tQ1cNtVirJBMOU1cxrfqxBWAFpSezt-eQqBd2dPF2tNlfg_T2W2j5Z3mrpphpm2dtvXs0s=s600-c-k-c0x00ffffff-no-rj-rp-mo",
+          alt: "YouTube",
         },
         type: "IMAGE",
       },
@@ -97,6 +102,7 @@ export default function Experience() {
         type: "IMAGE",
         source: {
           url: "https://pbs.twimg.com/media/FZupmE4akAAJUvt?format=jpg",
+          alt: "Community Classroom",
         },
       },
     },
@@ -113,6 +119,7 @@ export default function Experience() {
         type: "IMAGE",
         source: {
           url: "https://img.freepik.com/free-vector/soft-skills-concept-illustration_114360-8844.jpg?w=740&t=st=1665835200~exp=1665835800~hmac=9072547f5c029f83e9fbdb51fba0772c706a30bf5ef03adab40446f576599bbf",
+          alt: "MLH",
         },
       },
     },
@@ -127,6 +134,7 @@ export default function Experience() {
         type: "IMAGE",
         source: {
           url: "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg",
+          alt: "Hack4Bengal",
         },
       },
     },
@@ -144,6 +152,8 @@ export default function Experience() {
             slideShow
             slideItemDuration={1500}
             mode="VERTICAL_ALTERNATING"
+            alt="experience-images"
+            role="cards"
             fontSizes={{
               cardSubtitle: "1.25rem",
               cardDetailedText: "1.8rem",

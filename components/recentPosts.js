@@ -11,16 +11,7 @@ export default function RecentPosts({ posts }) {
     AOS.init();
   }, []);
   return (
-    <section
-      className=""
-      data-aos="fade-right"
-      data-aos-offset="50"
-      data-aos-duration="500"
-      data-aos-easing="ease-in"
-      data-aos-mirror="true"
-      data-aos-once="false"
-      data-aos-anchor-placement="top-center"
-    >
+    <section className="" data-aos="fade-right" data-aos-once="true">
       <div className="max-w-4xl mx-auto py-12 px-4">
         <SectionHeader title="Recent Posts" href="/blog" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -25,11 +25,13 @@ export default function Header() {
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-100 rounded-md outline-none focus:border-gray-400 focus:border"
+                role="button"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
                   <img
                     className="w-6 h-6"
+                    alt="hamburger"
                     src="https://img.icons8.com/ios-glyphs/30/FFFFFF/multiply.png"
                   />
                 ) : (
