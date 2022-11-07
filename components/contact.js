@@ -30,10 +30,10 @@ export default function Contact() {
                   className="absolute inset-0 object-cover group-hover:opacity-50"
                 />
                 <div className="relative p-2 text-white flex items-center justify-center">
-                  <div className="-mt-[42rem]">
+                  <div className="md:-mt-[42rem] -mt-60">
                     <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                       <div className="text-center">
-                        <div className="text-xl">
+                        <div className="md:text-xl text-xs">
                           <p>Psst! Want to know a secret?</p>
                           <p>I respond to mails faster than any forms. 🤫</p>
                           <br />

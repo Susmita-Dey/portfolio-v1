@@ -112,8 +112,8 @@ export default function Skills() {
                       y2="36.552"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#00c1e0"></stop>
-                      <stop offset="1" stop-color="#009bb8"></stop>
+                      <stop offset="0" stopColor="#00c1e0"></stop>
+                      <stop offset="1" stopColor="#009bb8"></stop>
                     </linearGradient>
                     <path
                       fill="url(#iOmQfjoCC4Hw6zVwRjSDha_x7XMNGh2vdqA_gr1)"
@@ -347,8 +347,8 @@ export default function Skills() {
                       y2="62.905"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#1a6dff"></stop>
-                      <stop offset="1" stop-color="#c822ff"></stop>
+                      <stop offset="0" stopColor="#1a6dff"></stop>
+                      <stop offset="1" stopColor="#c822ff"></stop>
                     </linearGradient>
                     <path
                       fill="url(#NYqtCkFrnKYpo6Y7I~_Wea_FRRACRKRsw2s_gr1)"
@@ -362,8 +362,8 @@ export default function Skills() {
                       y2="62.581"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#1a6dff"></stop>
-                      <stop offset="1" stop-color="#c822ff"></stop>
+                      <stop offset="0" stopColor="#1a6dff"></stop>
+                      <stop offset="1" stopColor="#c822ff"></stop>
                     </linearGradient>
                     <path
                       fill="url(#NYqtCkFrnKYpo6Y7I~_Web_FRRACRKRsw2s_gr2)"
@@ -377,8 +377,8 @@ export default function Skills() {
                       y2="62.957"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#1a6dff"></stop>
-                      <stop offset="1" stop-color="#c822ff"></stop>
+                      <stop offset="0" stopColor="#1a6dff"></stop>
+                      <stop offset="1" stopColor="#c822ff"></stop>
                     </linearGradient>
                     <path
                       fill="url(#NYqtCkFrnKYpo6Y7I~_Wec_FRRACRKRsw2s_gr3)"
@@ -392,8 +392,8 @@ export default function Skills() {
                       y2="62.927"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#1a6dff"></stop>
-                      <stop offset="1" stop-color="#c822ff"></stop>
+                      <stop offset="0" stopColor="#1a6dff"></stop>
+                      <stop offset="1" stopColor="#c822ff"></stop>
                     </linearGradient>
                     <path
                       fill="url(#NYqtCkFrnKYpo6Y7I~_Wed_FRRACRKRsw2s_gr4)"
@@ -407,8 +407,8 @@ export default function Skills() {
                       y2="62.957"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#1a6dff"></stop>
-                      <stop offset="1" stop-color="#c822ff"></stop>
+                      <stop offset="0" stopColor="#1a6dff"></stop>
+                      <stop offset="1" stopColor="#c822ff"></stop>
                     </linearGradient>
                     <path
                       fill="url(#NYqtCkFrnKYpo6Y7I~_Wee_FRRACRKRsw2s_gr5)"
@@ -422,8 +422,8 @@ export default function Skills() {
                       y2="64.288"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#1a6dff"></stop>
-                      <stop offset="1" stop-color="#c822ff"></stop>
+                      <stop offset="0" stopColor="#1a6dff"></stop>
+                      <stop offset="1" stopColor="#c822ff"></stop>
                     </linearGradient>
                     <path
                       fill="url(#NYqtCkFrnKYpo6Y7I~_Wef_FRRACRKRsw2s_gr6)"
@@ -437,8 +437,8 @@ export default function Skills() {
                       y2="62.957"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#1a6dff"></stop>
-                      <stop offset="1" stop-color="#c822ff"></stop>
+                      <stop offset="0" stopColor="#1a6dff"></stop>
+                      <stop offset="1" stopColor="#c822ff"></stop>
                     </linearGradient>
                     <path
                       fill="url(#NYqtCkFrnKYpo6Y7I~_Weg_FRRACRKRsw2s_gr7)"
@@ -452,8 +452,8 @@ export default function Skills() {
                       y2="62.958"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#1a6dff"></stop>
-                      <stop offset="1" stop-color="#c822ff"></stop>
+                      <stop offset="0" stopColor="#1a6dff"></stop>
+                      <stop offset="1" stopColor="#c822ff"></stop>
                     </linearGradient>
                     <path
                       fill="url(#NYqtCkFrnKYpo6Y7I~_Weh_FRRACRKRsw2s_gr8)"
@@ -525,10 +525,10 @@ export default function Skills() {
                       gradientTransform="matrix(1 0 0 -1 0 654)"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#c5f1ff"></stop>
-                      <stop offset=".35" stop-color="#cdf3ff"></stop>
-                      <stop offset=".907" stop-color="#e4faff"></stop>
-                      <stop offset="1" stop-color="#e9fbff"></stop>
+                      <stop offset="0" stopColor="#c5f1ff"></stop>
+                      <stop offset=".35" stopColor="#cdf3ff"></stop>
+                      <stop offset=".907" stopColor="#e4faff"></stop>
+                      <stop offset="1" stopColor="#e9fbff"></stop>
                     </radialGradient>
                     <path
                       fill="url(#undefined)"
@@ -542,9 +542,9 @@ export default function Skills() {
                       y2="11.526"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop offset="0" stop-color="#823af3"></stop>
-                      <stop offset=".36" stop-color="#4b66e1"></stop>
-                      <stop offset=".906" stop-color="#01f1c4"></stop>
+                      <stop offset="0" stopColor="#823af3"></stop>
+                      <stop offset=".36" stopColor="#4b66e1"></stop>
+                      <stop offset=".906" stopColor="#01f1c4"></stop>
                     </linearGradient>
                     <path
                       fill="url(#U0xW9~4yZ8OpqogDQDvGQb_HGd2amAYhRGr_gr1)"
@@ -552,9 +552,9 @@ export default function Skills() {
                     ></path>
                     <path
                       fill="#fff"
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M40.451,41.953c-1.478,1.359-2.438,2.293-4.588,3.392	c-1.232,0.615-2.617,0.985-3.924,0.985c-3.921,0-5.833-3.61-6.214-6.728c-0.977-7.999,6.052-18.994,10.953-18.994	c1.143,0,2.164,0.994,2.354,2.543c0.294,2.411,0.246,4.12-2.247,6.203c-0.273,0.227-0.353,0.596-0.212,0.814	c0.212,0.326,0.882,0.359,2.236-0.326c2.652-1.338,3.608-3.404,3.316-5.796c-0.325-2.654-2.641-4.876-5.747-4.876	c-1.51,0-3.171,0.451-4.654,1.354c-6.463,3.937-10.633,12.921-9.795,19.773c0.265,2.174,1.169,4.554,2.876,6.154	c1.151,1.066,3.231,2.379,5.683,2.379c2.655,0,4.897-1.025,6.908-2.294c1.363-0.873,2.503-1.929,3.466-3.01	C42.441,42.058,41.305,41.147,40.451,41.953z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                 </div>

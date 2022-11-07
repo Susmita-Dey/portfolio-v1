@@ -59,7 +59,10 @@ export default function Header() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-lg md:flex-row md:space-x-6 md:mt-0 md:text-lg md:font-bold md:border-0 font-Poppins">
+            <ul
+              role="list"
+              className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-lg md:flex-row md:space-x-6 md:mt-0 md:text-lg md:font-bold md:border-0 font-Poppins"
+            >
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline">
                 <button onClick={() => router.push("./#about")}>About</button>
               </li>
