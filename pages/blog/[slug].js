@@ -36,7 +36,22 @@ export default function PostPage({ frontmatter, content }) {
             width={1000}
             height={600}
           />
-          <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: md({
+                html: true,
+                xhtmlOut: true,
+                breaks: true,
+                langPrefix: "language-",
+                linkify: true,
+                typographer: true,
+                quotes: "“”‘’",
+                highlight: function (/*str, lang*/) {
+                  return "";
+                },
+              }).render(content),
+            }}
+          />
         </div>
       </div>
     </section>
