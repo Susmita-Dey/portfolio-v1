@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "../components/layout";
 import "../styles/globals.css";
 
@@ -10,9 +11,12 @@ function MyApp({ Component, pageProps }) {
     }
   }, []);
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+      <Analytics />
+    </>
   );
 }
 
