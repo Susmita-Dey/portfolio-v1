@@ -62,7 +62,7 @@ Here's a glimpse of all in one shot.
 
 ---
 
-<a href="https://www.buymeacoffee.com/susmitadey" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 10px !important;width: 10px !important;" ></a>
+<a href="https://www.buymeacoffee.com/susmitadey" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 150px !important;width: 300px !important;" ></a>
 
 ## Hope this helps you. Thank you for reading, and let's connect!
 Thank you for reading my blog. Feel free to subscribe to my [YouTube Channel](https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw) and connect on [LinkedIn](https://www.linkedin.com/in/susmita-dey-15a15a210/) or [Twitter](https://twitter.com/its_SusmitaDey).
