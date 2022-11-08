@@ -18,7 +18,7 @@ export default function Blog({ posts }) {
   return (
     <div>
       <Head>
-        <title>Susmita Dey | Blog</title>
+        <title>Susmita Dey | Blogs</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
@@ -26,7 +26,7 @@ export default function Blog({ posts }) {
         />
         <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index, follow" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <section className="px-6">

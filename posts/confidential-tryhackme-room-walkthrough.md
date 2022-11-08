@@ -49,4 +49,4 @@ Check my profile on TryHackMe: https://tryhackme.com/p/Susmita.Dey
 Thank you for reading my blog. Feel free to subscribe to my [YouTube Channel](https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw) and connect on [LinkedIn](https://www.linkedin.com/in/susmita-dey-15a15a210/) or [Twitter](https://twitter.com/its_SusmitaDey).
 Also, feel free to [support](https://www.buymeacoffee.com/susmitadey) my work.😊
 
-<a href="https://www.buymeacoffee.com/susmitadey" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 20px;width: 20px;" ></a>
+<a href="https://www.buymeacoffee.com/susmitadey" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 150px;width: 300px;" ></a>
