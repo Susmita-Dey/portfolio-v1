@@ -1,6 +1,7 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import loader from "../components/loader";
+// import Image from "next/image";
 
 class MyDocument extends Document {
   render() {
@@ -20,12 +21,16 @@ class MyDocument extends Document {
           <style>{loader}</style>
         </head>
         <body>
-          {/* <div id={"globalLoader"}> */}
           <div onLoad="myFunction()" id={"globalLoader"}>
             <div className="loading-wrapper">
-              {/* <div />
-              <div /> */}
-              <img src="./loader.gif" id="loading" />
+              <img
+                src="/loader.gif"
+                id="loading"
+                // width={540}
+                // height={540}
+                // loading="lazy"
+                // layout="fill"
+              />
             </div>
           </div>
           <Main />

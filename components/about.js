@@ -43,7 +43,7 @@ export default function About() {
               </li>
               <li className="mb-2">
                 <strong>Hobbies:</strong>
-                <br /> Singing, Poetry, Reading Stories, Graphic Designing
+                <br /> Poetry, Reading Stories, Graphic Designing
               </li>
               <li className="mb-2">
                 <strong>Services:</strong>
