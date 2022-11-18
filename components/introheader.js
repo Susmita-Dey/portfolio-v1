@@ -22,24 +22,27 @@ export default function IntroHeader() {
           <a
             role="button"
             type="text/html"
-            href="https://www.canva.com/design/DAE7lTrsuWE/ah18kbrS5nZ9hvIM8OQIIQ/view?utm_content=DAE7lTrsuWE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+            target="_blank"
+            href="https://drive.google.com/file/d/1KAwnHGJmdAcoEh9O80YuFMoev_OG_LjA/view?usp=sharing"
             className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12"
           >
             <em>Hire Me!</em>
           </a>
         </div>
         <div>
-          <span className="m-5 inline-block before:w-full before:aspect-square before:-left-1.5 before:block before:absolute before:bg-blue-400 relative z-0 before:rounded-full">
-            <Image
-              src={profilePic}
-              alt="Image of Susmita"
-              className="z-10 relative rounded-full brightness-95"
-              width={940}
-              height={940}
-              loading="eager"
-              priority={true}
-            />
-          </span>
+          <a title="Hey, I'm Susmita. Nice to meet you.">
+            <span className="m-5 inline-block before:w-full before:aspect-square before:-left-1.5 before:block before:absolute before:bg-blue-400 relative z-0 before:rounded-full">
+              <Image
+                src={profilePic}
+                alt="Image of Susmita"
+                className="z-10 relative rounded-full brightness-95"
+                width={940}
+                height={940}
+                loading="eager"
+                priority={true}
+              />
+            </span>
+          </a>
         </div>
       </div>
     </header>

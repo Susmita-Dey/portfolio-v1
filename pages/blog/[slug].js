@@ -40,8 +40,8 @@ export default function PostPage({ frontmatter, content }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <section className="px-6 bg-green-300">
-        <div className="max-w-6xl mx-auto py-12">
+      <section className="px-6 bg-green-100">
+        <div className="max-w-8xl mx-auto py-12">
           <div className="prose mx-auto">
             <h1>{frontmatter.title}</h1>
             <Image

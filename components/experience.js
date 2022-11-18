@@ -85,7 +85,7 @@ export default function Experience() {
         "This channel is my initiative to spread knowledge based on coding and tech topics(Computer Science) and help people grow, learn and build some amazing web development and simple projects.",
       media: {
         source: {
-          url: "https://yt3.ggpht.com/r8tQ1cNtVirJBMOU1cxrfqxBWAFpSezt-eQqBd2dPF2tNlfg_T2W2j5Z3mrpphpm2dtvXs0s=s600-c-k-c0x00ffffff-no-rj-rp-mo",
+          url: "https://yt3.ggpht.com/9TGjrV3XaTTQ9xbNuX8ihVO4_uyImec9ANRVE9FlSouMouwru9g4az0VNFQcYk4ivBVpItvNwg=s176-c-k-c0x00ffffff-no-rj",
           alt: "YouTube",
         },
         type: "IMAGE",

@@ -37,7 +37,7 @@ display: block;
 }
 .loader div:nth-child(1) {
  z-index: 100;
- animation: spin 1s infinite;
+ animation: spin 5s infinite;
 }
 .loader div:nth-child(2) {
  border: 10px solid #ccc;
