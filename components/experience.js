@@ -93,16 +93,16 @@ export default function Experience() {
     },
     {
       title: "Aug 2022 - Present",
-      cardTitle: "Community Classroom",
+      cardTitle: "WeMakeDevs",
       url: "https://twitter.com/commclassroom/status/1557024652882739202",
-      cardSubtitle: "Graphic Designer at Community Classroom",
+      cardSubtitle: "Graphic Designer at WeMakeDevs",
       cardDetailedText:
-        "Community Classroom is one of the largest student community founded by Kunal Kushwaha. I'm a graphic designer in this community(core team) and my work is to create posters, thumbnails and help the community with all other stuffs using Figma and Canva.",
+        "WeMakeDevs is one of the largest student community founded by Kunal Kushwaha. I'm a graphic designer in this community(core team) and my work is to create posters, thumbnails and help the community with all other stuffs using Figma and Canva.",
       media: {
         type: "IMAGE",
         source: {
           url: "https://pbs.twimg.com/media/FZupmE4akAAJUvt?format=jpg",
-          alt: "Community Classroom",
+          alt: "WeMakeDevs",
         },
       },
     },
