@@ -71,7 +71,7 @@ export default function Experience() {
       media: {
         type: "IMAGE",
         source: {
-          url: "https://media-exp1.licdn.com/dms/image/C4D22AQHNhmEEiJcFIA/feedshare-shrink_1280/0/1657976441771?e=1669852800&v=beta&t=vuSG5lNvY7Ii4kaST1aiPpNh1czRiQdQBHNRUpoHMqc",
+          url: "https://media.licdn.com/dms/image/C4D2DAQEoA6ILmNaVCQ/profile-treasury-image-shrink_800_800/0/1657979016455?e=1673114400&v=beta&t=QIFezxSGauAbhdLi7EwqKPJE5ms5jWZpYNRBYCx_7MA",
           alt: "SSoC",
         },
       },

@@ -19,15 +19,26 @@ export default function IntroHeader() {
             <br /> Currently I&apos;m an MLH mentor and Graphic Designer at
             Community Classroom.
           </p>
-          <a
-            role="button"
-            type="text/html"
-            target="_blank"
-            href="https://drive.google.com/file/d/1KAwnHGJmdAcoEh9O80YuFMoev_OG_LjA/view?usp=sharing"
-            className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12"
-          >
-            <em>Hire Me!</em>
-          </a>
+          <div className="action-buttons mx-auto flex flex-col md:flex-row gap-7">
+            <a
+              role="button"
+              type="text/html"
+              target="_blank"
+              href="https://bio.link/susmitadey"
+              className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12"
+            >
+              <em>Let's Connect!</em>
+            </a>
+            <a
+              role="button"
+              type="text/html"
+              target="_blank"
+              href="Resume-Susmita.pdf"
+              className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12"
+            >
+              <em>Hire Me!</em>
+            </a>
+          </div>
         </div>
         <div>
           <a title="Hey, I'm Susmita. Nice to meet you.">

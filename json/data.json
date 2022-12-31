@@ -19,6 +19,15 @@
       "description": "It has been estimated that more than one million adoptable dogs and cats are euthanized in US each year because there are too many pets that are enrolled into shelters. Here comes PetMe into place to help those innocent pets find a home."
     },
     {
+      "title": "Codezilla",
+      "image": "/Codezilla.png",
+      "year": 2022,
+      "category": "Full-Stack",
+      "repository": "https://github.com/Susmita-Dey/Codezilla",
+      "preview": "http://codezilla-delta.vercel.app/",
+      "description": "It is a chatbot made using OpenAI's API. It's similar to ChatGPT answering all your questions."
+    },
+    {
       "title": "dApp",
       "image": "/My-First-dApp.png",
       "year": 2022,
