@@ -42,17 +42,14 @@ export default function OpenSource() {
           </Link>
         </div>
         <div className="mt-2 md:w-1/4 md:h-1/4 cursor-pointer">
-          <Link
-            href="https://github.com/commclassroom/roadmaps/pull/191"
-            passhref
-          >
+          <Link href="https://github.com/WeMakeDevs/roadmaps/pull/325" passhref>
             <a title="Open in new tab to see my contributions at Community Classroom">
               <Image
-                src="/logos/CC-logo.png"
-                width={500}
-                height={200}
+                src="https://avatars.githubusercontent.com/u/118681893?s=200&v=4"
+                width={70}
+                height={60}
                 layout="intrinsic"
-                alt="Community Classroom logo"
+                alt="WeMakeDevs logo"
               />
             </a>
           </Link>
