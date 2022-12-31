@@ -77,7 +77,7 @@ export default function Contact() {
                   </p>
                 </div>
 
-                <form action="https://formspree.io/f/mvoygqdg" method="POST">
+                <form action="https://formspree.io/f/mlevdloa" method="POST">
                   <div className="my-3 flex flex-col">
                     <label
                       htmlFor="name"
