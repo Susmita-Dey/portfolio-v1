@@ -75,7 +75,7 @@ export default function Footer() {
           </li>
           <li>
             <Link
-              href="https://susmitadey.hashnode.dev/newsletter"
+              href="https://www.youtube.com/@TechWithSusmita"
               target="_blank"
               rel="noopener noreferrer"
             >
