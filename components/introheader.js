@@ -13,11 +13,11 @@ export default function IntroHeader() {
           </h1>
           <p className="text-xl mb-6">
             I&apos;m a final year undergrad college student pursuing B.Sc.
-            Computer Science(Hons.) course. I&apos;m a MERN stack web developer
+            Computer Science(Hons.) course. I&apos;m a full-stack web developer
             passionate about Open Source and hackathons.
             <br />
-            <br /> Currently I&apos;m an MLH mentor and Graphic Designer at
-            Community Classroom.
+            <br /> Currently I&apos;m an MLH mentor and judge and Graphic Designer at
+            WeMakeDevs.
           </p>
           <div className="action-buttons mx-auto flex flex-col md:flex-row gap-7">
             <a
