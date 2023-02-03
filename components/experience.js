@@ -62,21 +62,6 @@ export default function Experience() {
       },
     },
     {
-      title: "10 Jun, 2022 - Oct 1, 2022",
-      cardTitle: "Social Summer of Code",
-      url: "https://ssoc.devfolio.co/",
-      cardSubtitle: "Project Admin at SSoC",
-      cardDetailedText:
-        "SSoC is a 3 Month Open Source Program Organized By Social which aims to promote open source with new age technologies & want everyone to get the right path & gudience via this program. I got selected both as a mentor and also as a project admin with my projects. This helped me to gain a new experience as a maintainer in an open source program.",
-      media: {
-        type: "IMAGE",
-        source: {
-          url: "https://media.licdn.com/dms/image/C4D2DAQEoA6ILmNaVCQ/profile-treasury-image-shrink_800_800/0/1657979016455?e=1673114400&v=beta&t=QIFezxSGauAbhdLi7EwqKPJE5ms5jWZpYNRBYCx_7MA",
-          alt: "SSoC",
-        },
-      },
-    },
-    {
       title: "Jul 2021 - Present",
       cardTitle: "YouTuber",
       url: "https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw",
