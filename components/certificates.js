@@ -9,9 +9,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 // import required modules
-import { Navigation, Pagination } from "swiper";
+import { Autoplay, Navigation, Pagination } from "swiper";
 import Image from "next/image";
 
 export default function Certificates() {
@@ -41,10 +42,11 @@ export default function Certificates() {
               "--swiper-pagination-color": "#000325",
             }}
             navigation={true}
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Autoplay]}
             pagination={{
               clickable: true,
             }}
+            autoplay={true}
             className="mySwiper"
           >
             <SwiperSlide>

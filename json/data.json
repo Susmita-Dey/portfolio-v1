@@ -19,15 +19,6 @@
       "description": "It has been estimated that more than one million adoptable dogs and cats are euthanized in US each year because there are too many pets that are enrolled into shelters. Here comes PetMe into place to help those innocent pets find a home."
     },
     {
-      "title": "Codezilla",
-      "image": "/Codezilla.png",
-      "year": 2022,
-      "category": "Full-Stack",
-      "repository": "https://github.com/Susmita-Dey/Codezilla",
-      "preview": "http://codezilla-delta.vercel.app/",
-      "description": "It is a chatbot made using OpenAI's API. It's similar to ChatGPT answering all your questions."
-    },
-    {
       "title": "dApp",
       "image": "/My-First-dApp.png",
       "year": 2022,
@@ -35,6 +26,15 @@
       "repository": "https://github.com/Susmita-Dey/dApp",
       "preview": "https://first-dapp-lovat.vercel.app/",
       "description": "This is a web3 project. This is my First Decentralized app built using HTML, JS and Solidity which will take mood as input and also output mood. It works on Goerli Test Network. Connect your Ethereum wallet and see the magic. ✨"
+    },
+    {
+      "title": "Swasthi",
+      "image": "/Swasthi.png",
+      "year": 2022,
+      "category": "Frontend",
+      "repository": "https://github.com/Susmita-Dey/Swasthi",
+      "preview": "https://susmita-dey.github.io/Swasthi/",
+      "description": "This is a MLH hackathon winning project representing the 7 Chakras of human body that helps a person live a healthly life.🧘‍♀️"
     },
     {
       "title": "All Round Calculator",
@@ -170,33 +170,6 @@
       "repository": "https://github.com/Susmita-Dey/S-Fitness",
       "preview": "https://susmita-dey.github.io/S-Fitness/",
       "description": "This is a static fitness website made using Tailblocks. It's fully responsive gym website."
-    },
-    {
-      "title": "API World",
-      "image": "/API.jpg",
-      "year": 2023,
-      "category": "Full-Stack",
-      "repository": "https://github.com/Susmita-Dey/API-World",
-      "preview": "https://github.com/Susmita-Dey/API-World",
-      "description": "Inpired by ReactPlay, API World is an web application containing all types of API applications. Basically, it's a collection of various web applications where different types of APIs have been used to build each applications. 🕸️"
-    },
-    {
-      "title": "Devosa",
-      "image": "/bot1.png",
-      "year": 2023,
-      "category": "AI",
-      "repository": "https://github.com/Susmita-Dey/Devosa",
-      "preview": "https://github.com/Susmita-Dey/Devosa",
-      "description": "Devosa is a twitter bot to retweet about Open Source and Developer Resources."
-    },
-    {
-      "title": "Encourage Bot",
-      "image": "/bot2.png",
-      "year": 2023,
-      "category": "AI",
-      "repository": "https://github.com/Susmita-Dey/Encourage-Bot",
-      "preview": "https://github.com/Susmita-Dey/Encourage-Bot",
-      "description": "Encourage bot is a discord bot to encourage people for my own server."
     }
   ]
 }

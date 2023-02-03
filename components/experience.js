@@ -80,7 +80,7 @@ export default function Experience() {
       title: "Aug 2022 - Present",
       cardTitle: "WeMakeDevs",
       url: "https://twitter.com/commclassroom/status/1557024652882739202",
-      cardSubtitle: "Graphic Designer at WeMakeDevs",
+      cardSubtitle: "Content Writer at WeMakeDevs",
       cardDetailedText:
         "WeMakeDevs is one of the largest student community founded by Kunal Kushwaha. I'm a graphic designer in this community(core team) and my work is to create posters, thumbnails and help the community with all other stuffs using Figma and Canva.",
       media: {
