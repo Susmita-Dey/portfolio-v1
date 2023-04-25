@@ -72,7 +72,7 @@ export default function Certificates() {
             <SwiperSlide>
               <Image
                 className="object-fit w-full h-1/2 md:object-fill md:h-96"
-                src="/certificates/FreyHacks Mentor certificate.png"
+                src="https://res.cloudinary.com/dl5xcikio/image/upload/v1682430333/portfolio/FreyHacks_Mentor_certificate_dgpjjm.png"
                 alt="image slide 3"
                 width={940}
                 height={640}

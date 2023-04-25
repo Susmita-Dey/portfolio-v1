@@ -19,15 +19,15 @@ export default function Contact() {
             data-aos-once="true"
           >
             <div className="flex mx-12">
-              <div className="relative block group">
+              <div className="relative block group mt-24">
                 <Image
-                  src="https://cdn.pixabay.com/photo/2018/03/09/18/06/science-fiction-3212212_960_720.jpg"
+                  src="https://cdn.pixabay.com/photo/2015/07/17/22/44/student-849828__340.jpg"
                   alt="sci-fi"
                   width={580}
-                  height={680}
+                  height={580}
                   // layout="responsive"
                   priority
-                  className="absolute inset-0 object-cover group-hover:opacity-50"
+                  className="absolute inset-0 object-cover group-hover:opacity-50 rounded-md"
                 />
                 <div className="relative p-2 text-white flex items-center justify-center">
                   <div className="md:-mt-[42rem] -mt-60">
@@ -88,7 +88,7 @@ export default function Contact() {
                     <input
                       type="text"
                       name="name"
-                      className="name p-3 rounded-xl"
+                      className="name bg-blue-100 p-3 rounded-xl"
                       placeholder="Name"
                       required
                     />
@@ -104,7 +104,7 @@ export default function Contact() {
                     <input
                       type="email"
                       name="email"
-                      className="email p-3 rounded-xl"
+                      className="email p-3 rounded-xl bg-blue-100"
                       placeholder="Your Email Address"
                       required
                     />
@@ -120,7 +120,7 @@ export default function Contact() {
                     <input
                       type="text"
                       name="subject"
-                      className="subject p-4 rounded-xl"
+                      className="subject p-4 rounded-xl bg-blue-100"
                       placeholder="Subject"
                       required
                     />
@@ -136,14 +136,14 @@ export default function Contact() {
                     <textarea
                       type="text"
                       name="message"
-                      className="message p-3 rounded-xl"
+                      className="message p-3 rounded-xl bg-blue-100"
                       placeholder="Your Message"
                       required
                     />
                   </div>
 
                   <div className="text-center my-3">
-                    <button type="submit" className="btn" role="button">
+                    <button type="submit" className="btn rounded-lg" role="button">
                       Submit
                     </button>
                   </div>

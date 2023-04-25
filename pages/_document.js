@@ -26,10 +26,11 @@ class MyDocument extends Document {
               <img
                 src="/loader.gif"
                 id="loading"
-                // width={540}
-                // height={540}
-                // loading="lazy"
-                // layout="fill"
+                className="w-80 h-80"
+              // width={540}
+              // height={540}
+              // loading="lazy"
+              // layout="fill"
               />
             </div>
           </div>

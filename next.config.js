@@ -15,6 +15,7 @@ const nextConfig = {
       "images.pexels.com",
       "susmitadey.hashnode.dev",
       "avatars.githubusercontent.com",
+      "res.cloudinary.com",
     ],
   },
 };
