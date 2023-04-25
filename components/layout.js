@@ -1,4 +1,3 @@
-import Script from "next/script";
 import { useState, useEffect } from "react";
 // import useSound from "use-sound";
 import Footer from "./footer";
@@ -82,21 +81,6 @@ export default function Layout({ children }) {
           ></path>
         </svg>
       </button>
-      <Script
-        data-name="BMC-Widget"
-        data-cfasync="true"
-        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-        data-id="susmitadey"
-        data-description="Support me on Buy me a coffee!"
-        data-message="Support My Work!"
-        data-color="#0891b2"
-        data-position="Right"
-        data-x_margin="12"
-        data-y_margin="12"
-        allow="payment"
-        features="Array.prototype.map"
-        strategy="beforeInteractive"
-      />
       {/* <SoundBar /> */}
       {/* <div className="play-sound">
         <button className="btn-sound">

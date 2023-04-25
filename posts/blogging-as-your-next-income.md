@@ -65,10 +65,7 @@ and they can see the ads pasted beside your article or down below the article in
 Otherwise the readers who are reading your blogs or articles on your website and then clicking on the ads to purchase something and they might be in danger and in this order it can harm your blogging site. 
 
 If you want to write blogs on Hashnode, then they will often have a sponsor button otherwise say you can create an account on [Buy Me A Coffee](https://www.buymeacoffee.com/) website and attach the link here in the Hashnode like-
-> You can support me by this [link](https://www.buymeacoffee.com/susmitadey)
-
-Otherwise you can say like-
-> Feel free to support me via this [link](https://www.buymeacoffee.com/susmitadey)
+> You can support me by this [link](https://susmitadey.hashnode.dev/sponsor)
 
 Or, you can write as - `buy me a coffee`
 
@@ -91,4 +88,4 @@ I hope you have got a brief idea about what is blogging and how you can document
 
 ## Hope this helps you. Thank you for reading, and let's connect!
 Thank you for reading my blog. Feel free to subscribe to my [YouTube Channel](https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw) and connect on [LinkedIn](https://www.linkedin.com/in/susmita-dey-15a15a210/) or [Twitter](https://twitter.com/its_SusmitaDey).
-Also, feel free to [support](https://www.buymeacoffee.com/susmitadey) my work.😊
+Also, feel free to [support](https://susmitadey.hashnode.dev/sponsor) my work.😊
