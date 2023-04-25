@@ -35,4 +35,4 @@ Do check it out and feel free to contribute to any of my repositories. Start doi
 
 ## Hope this helps you. Thank you for reading, and let's connect!
 Thank you for reading my blog. Feel free to subscribe to my [YouTube Channel](https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw) and connect on [LinkedIn](https://www.linkedin.com/in/susmita-dey-15a15a210/) or [Twitter](https://twitter.com/its_SusmitaDey).
-Also, feel free to [support](https://www.buymeacoffee.com/susmitadey) my work.😊
+Also, feel free to [support](https://susmitadey.hashnode.dev/sponsor) my work.😊

@@ -114,7 +114,7 @@ export default function Footer() {
           </li>
           <li>
             <Link
-              href="https://www.buymeacoffee.com/susmitadey"
+              href="https://susmitadey.hashnode.dev/sponsor"
               target="_blank"
               rel="noopener noreferrer"
             >

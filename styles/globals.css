@@ -66,7 +66,7 @@ p {
 
 .back-to-top {
   position: fixed;
-  left: 2rem;
+  right: 2rem;
   bottom: 2rem;
   border-radius: 100%;
   background-color: #0240b3f8;
