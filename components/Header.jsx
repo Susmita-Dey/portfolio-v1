@@ -8,19 +8,23 @@ export default function Header() {
 
   return (
     <nav className="bg-[#000125] border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+      <h3 className="text-xl text-center text-yellow-400">
+        Site is under construction. Please visit after some time.
+      </h3>
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-2.5 md:block">
             <Link
               href="/"
               className="flex items-center text-white mb-4 md:mb-0 cursor-pointer"
+              legacyBehavior
             >
               <Image
                 className="px-16 rounded-2xl w-full h-full"
                 src="/assets/logo.png"
                 alt="name logo"
-                width={0}
-                height={0}
+                width={50}
+                height={50}
               />
             </Link>
             <div className="md:hidden">
@@ -67,13 +71,13 @@ export default function Header() {
               className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-lg md:flex-row md:space-x-6 md:mt-0 md:text-lg md:font-bold md:border-0 font-Poppins"
             >
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline">
-                <Link href="./#about">About</Link>
+                <Link href="/#about">About</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <Link href="./#skills">Skills</Link>
+                <Link href="/#skills">Skills</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <Link href="./#experience">Experience</Link>
+                <Link href="/#experience">Experience</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
                 <Link href="./mywork">Projects</Link>
@@ -82,13 +86,13 @@ export default function Header() {
                 </Link> */}
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <Link href="./blogs">Blogs</Link>
+                <Link href="/blogs">Blogs</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <Link href="./events">Events</Link>
+                <Link href="/events">Events</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <Link href="./#contact">Contact</Link>
+                <Link href="/#contact">Contact</Link>
                 {/* <Link href="./#contact">
                   Contact
                 </Link> */}

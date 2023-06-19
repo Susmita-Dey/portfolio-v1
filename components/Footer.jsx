@@ -10,7 +10,7 @@ export default function Footer() {
               href="mailto:susmitadey475@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              legacyBehavior>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22px"
@@ -27,7 +27,7 @@ export default function Footer() {
               href="https://twitter.com/its_SusmitaDey"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              legacyBehavior>
               <svg
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/susmita-dey-15a15a210/"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              legacyBehavior>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 50 50"
@@ -61,7 +61,7 @@ export default function Footer() {
               href="https://github.com/Susmita-Dey"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              legacyBehavior>
               <svg
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ export default function Footer() {
               href="https://www.youtube.com/@TechWithSusmita"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              legacyBehavior>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -97,7 +97,7 @@ export default function Footer() {
               href="https://susmitadey.hashnode.dev/newsletter"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              legacyBehavior>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="22px"
@@ -117,7 +117,7 @@ export default function Footer() {
               href="https://susmitadey.hashnode.dev/sponsor"
               target="_blank"
               rel="noopener noreferrer"
-            >
+              legacyBehavior>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"

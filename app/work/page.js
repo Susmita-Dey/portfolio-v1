@@ -5,7 +5,7 @@ import Work from "../components/project";
 import { getAllWork } from "../lib/api";
 
 export async function getStaticProps() {
-    const work = getAllWork();
+    const work = await getAllWork();
     return {
         props: {
             work,

@@ -25,7 +25,7 @@ export default function HeroSection() {
               type="text/html"
               target="_blank"
               href="https://bio.link/susmitadey"
-            >
+              legacyBehavior>
               <button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 text-white px-6 py-4 rounded text-lg mb-12">
                 Let&apos;s Connect!
               </button>
@@ -35,7 +35,7 @@ export default function HeroSection() {
               type="text/html"
               target="_blank"
               href="Resume-Susmita.pdf"
-            >
+              legacyBehavior>
               <button className="bg-white text-blue-900 px-6 py-4 rounded text-lg mb-12">
                 Hire Me!
               </button>

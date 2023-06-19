@@ -10,12 +10,12 @@ import Skills from "../components/mySkills";
 import Experience from "../components/Experience";
 import Projects from "../components/featuredWork";
 import OpenSource from "../components/openSource";
-import RecentPosts from "../components/recentPosts";
+// import RecentPosts from "../components/recentPosts";
 import Contact from "../components/contact";
 
 export async function getStaticProps() {
     const posts = await getHashnodeBlogs();
-    const work = getAllWork();
+    const work = await getAllWork();
 
     return {
         props: {
@@ -42,7 +42,7 @@ export default function Home({ posts, work }) {
                 <Experience />
                 <Projects work={work} />
                 <OpenSource />
-                <RecentPosts posts={posts} />
+                {/* <RecentPosts posts={posts} /> */}
                 <Certificates />
                 <Contact />
             </div>

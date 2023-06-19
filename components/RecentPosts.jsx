@@ -17,8 +17,8 @@ export default function RecentPosts({ posts }) {
       <div className="max-w-4xl mx-auto py-12 px-4">
         <SectionHeader title="Recent Posts" url="/blogs" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Article post={posts[0]} />
-          <Article post={posts[1]} />
+          <Article post={posts} />
+          {/* <Article post={posts[1]} /> */}
         </div>
       </div>
     </section>

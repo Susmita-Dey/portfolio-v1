@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Event from "../components/event";
-import ParticlesComponent from "../components/particles";
+import ParticlesComponent from "../../components/particles";
+import Event from "../../components/Event";
 
 export default function Events() {
     return (

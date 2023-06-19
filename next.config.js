@@ -9,6 +9,7 @@ const nextConfig = {
   },
   images: {
     domains: [
+      "img.icons8.com",
       "cdn.pixabay.com",
       "user-images.githubusercontent.com",
       "cdn.hashnode.com",

@@ -1,11 +1,12 @@
 "use client"
 
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { Analytics } from "@vercel/analytics/react";
-import Image from "next/image";
+// import Image from "next/image";
 import Head from "next/head";
 import Layout from "../components/Layout";
-import loader from "../components/loader";
+// import loader from "../components/loader";
+import "../styles/globals.css"
 
 export const metadata = {
     title: 'Home',
@@ -17,21 +18,21 @@ export default function RootLayout({
     // This will be populated with nested layouts or pages
     children,
 }) {
-    useEffect(() => {
-        if (typeof window !== "undefined") {
-            const loader = document.getElementById("globalLoader");
-            if (loader) loader.style.display = "none";
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (typeof window !== "undefined") {
+    //         const loader = document.getElementById("globalLoader");
+    //         if (loader) loader.style.display = "none";
+    //     }
+    // }, []);
     return (
         <>
             <html lang="en">
                 <Head>
                     {/* <style>{loader}</style> */}
-                    <style>{loader}</style>
+                    {/* <style>{loader}</style> */}
                 </Head>
                 <body>
-                    <div id={"globalLoader"}>
+                    {/* <div id={"globalLoader"}>
                         <div className="loading-wrapper">
                             <Image
                                 src="/loader.gif"
@@ -43,7 +44,7 @@ export default function RootLayout({
                                 alt="loader"
                             />
                         </div>
-                    </div>
+                    </div> */}
                     <Layout>
                         {children}
                     </Layout>

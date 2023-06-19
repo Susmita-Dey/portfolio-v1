@@ -35,7 +35,7 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Novu"
             href="https://novu.co/contributors/Susmita-Dey/"
             passhref
-          >
+            legacyBehavior>
             <Image src="/logos/novu.png" width={500} height={200} alt="Novu" />
           </Link>
         </div>
@@ -44,7 +44,7 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Community Classroom"
             href="https://github.com/WeMakeDevs/roadmaps/pull/325"
             passhref
-          >
+            legacyBehavior>
             <Image
               src="https://avatars.githubusercontent.com/u/118681893?s=200&v=4"
               width={70}
@@ -58,7 +58,7 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Hack4Bengal"
             href="https://github.com/orgs/hack4bengal/teams/web-team/members"
             passhref
-          >
+            legacyBehavior>
             <Image
               src="/logos/Hack4Bengal.png"
               width={300}
@@ -72,7 +72,7 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at daily.dev"
             href="https://github.com/dailydotdev/memetoberfest/pull/68"
             passhref
-          >
+            legacyBehavior>
             <Image
               src="/logos/dailydotdev.png"
               width={500}
@@ -86,7 +86,7 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Fueler"
             href="https://github.com/Fueler-io/Web-Development-Resources/pull/63"
             passhref
-          >
+            legacyBehavior>
             <Image
               src="/logos/fueler.png"
               width={500}
@@ -100,7 +100,7 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Showwcase"
             href="https://github.com/Showwcase/hacktoberfest/pull/19"
             passhref
-          >
+            legacyBehavior>
             <Image
               src="/logos/showwcase.jpg"
               width={172}
