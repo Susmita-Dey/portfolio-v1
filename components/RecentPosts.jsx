@@ -6,7 +6,7 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SectionHeader from "./SectionHeader";
-import Article from "./article";
+import Article from "./Article";
 
 export default function RecentPosts({ posts }) {
   useEffect(() => {

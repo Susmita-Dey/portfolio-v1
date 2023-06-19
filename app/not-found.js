@@ -19,7 +19,7 @@ export default function NotFound() {
             />
             <h1>404 - Page Not Found</h1>
             <p className="text-center py-4">
-                If you&apos;re trying to head over to some other page from the blog page,
+                Seems like you have lost your way. If you are looking for something,
                 kindly go back home first and then choose that path.
                 <br /> Happy Routing! 🎃
             </p>

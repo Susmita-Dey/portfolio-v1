@@ -2,14 +2,14 @@ import Head from "next/head";
 import ParticlesComponent from "../../components/particles";
 import Event from "../../components/Event";
 
-export default function Events() {
+export default function Talks() {
     return (
         <div>
             <Head>
-                <title>Susmita Dey | Events</title>
+                <title>Susmita Dey | Talks</title>
                 <meta
                     name="description"
-                    content="Events hosted by Susmita Dey - The Creative Web Developer"
+                    content="Talks hosted by Susmita Dey - The Creative Web Developer"
                 />
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@ export default function Events() {
                 </div>
                 <div className="max-w-4xl mx-auto gap-14 items-center flex-col-reverse md:flex-row">
                     <h2 className="text-3xl font-bold mb-6 p-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
-                        Events
+                        Talks
                     </h2>
                     <div className="text-white">
                         <Event

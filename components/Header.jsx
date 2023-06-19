@@ -89,7 +89,7 @@ export default function Header() {
                 <Link href="/blogs">Blogs</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <Link href="/events">Events</Link>
+                <Link href="/talks">Talks</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
                 <Link href="/#contact">Contact</Link>
