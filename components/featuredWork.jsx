@@ -1,9 +1,11 @@
+"use client";
+
 import React, { useEffect } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SectionHeader from "./sectionHeader";
-import Work from "./work";
+import SectionHeader from "./SectionHeader";
+import Project from "./project";
 
 export default function Projects({ work }) {
   useEffect(() => {
@@ -17,10 +19,10 @@ export default function Projects({ work }) {
       data-aos-once="true"
     >
       <div className="max-w-4xl mx-auto py-12">
-        <SectionHeader title="Featured Work" href="/mywork" />
+        <SectionHeader title="Featured Work" url="/mywork" />
         <div className="flex flex-col gap-2">
           {work?.slice(0, 3).map((workItem) => (
-            <Work key={workItem.title} item={workItem} />
+            <Project key={workItem.title} item={workItem} />
           ))}
         </div>
       </div>

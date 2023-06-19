@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useEffect } from "react";
 // importing aos
 import AOS from "aos";
@@ -29,93 +31,82 @@ export default function OpenSource() {
         data-aos-once="true"
       >
         <div className="my-2 md:w-1/4 md:h-1/4 cursor-pointer">
-          <Link href="https://novu.co/contributors/Susmita-Dey/" passhref>
-            <a title="Open in new tab to see my contributions at Novu">
-              <Image
-                src="/logos/novu.png"
-                width={500}
-                height={200}
-                layout="intrinsic"
-                alt="Novu"
-              />
-            </a>
+          <Link
+            title="Open in new tab to see my contributions at Novu"
+            href="https://novu.co/contributors/Susmita-Dey/"
+            passhref
+          >
+            <Image src="/logos/novu.png" width={500} height={200} alt="Novu" />
           </Link>
         </div>
         <div className="mt-2 md:w-1/4 md:h-1/4 cursor-pointer">
-          <Link href="https://github.com/WeMakeDevs/roadmaps/pull/325" passhref>
-            <a title="Open in new tab to see my contributions at Community Classroom">
-              <Image
-                src="https://avatars.githubusercontent.com/u/118681893?s=200&v=4"
-                width={70}
-                height={60}
-                layout="intrinsic"
-                alt="WeMakeDevs logo"
-              />
-            </a>
+          <Link
+            title="Open in new tab to see my contributions at Community Classroom"
+            href="https://github.com/WeMakeDevs/roadmaps/pull/325"
+            passhref
+          >
+            <Image
+              src="https://avatars.githubusercontent.com/u/118681893?s=200&v=4"
+              width={70}
+              height={60}
+              alt="WeMakeDevs logo"
+            />
           </Link>
         </div>
         <div className="-mt-2 md:w-1/4 md:h-1/4 cursor-pointer">
           <Link
+            title="Open in new tab to see my contributions at Hack4Bengal"
             href="https://github.com/orgs/hack4bengal/teams/web-team/members"
             passhref
           >
-            <a title="Open in new tab to see my contributions at Hack4Bengal">
-              <Image
-                src="/logos/Hack4Bengal.png"
-                width={300}
-                height={200}
-                layout="intrinsic"
-                alt="Hack4Bengal"
-              />
-            </a>
+            <Image
+              src="/logos/Hack4Bengal.png"
+              width={300}
+              height={200}
+              alt="Hack4Bengal"
+            />
           </Link>
         </div>
         <div className="mt-2 md:w-1/4 md:h-1/4 cursor-pointer">
           <Link
+            title="Open in new tab to see my contributions at daily.dev"
             href="https://github.com/dailydotdev/memetoberfest/pull/68"
             passhref
           >
-            <a title="Open in new tab to see my contributions at daily.dev">
-              <Image
-                src="/logos/dailydotdev.png"
-                width={500}
-                height={200}
-                layout="intrinsic"
-                alt="dailydotdev"
-              />
-            </a>
+            <Image
+              src="/logos/dailydotdev.png"
+              width={500}
+              height={200}
+              alt="dailydotdev"
+            />
           </Link>
         </div>
         <div className="mt-2 md:w-1/4 md:h-1/4 cursor-pointer">
           <Link
+            title="Open in new tab to see my contributions at Fueler"
             href="https://github.com/Fueler-io/Web-Development-Resources/pull/63"
             passhref
           >
-            <a title="Open in new tab to see my contributions at Fueler">
-              <Image
-                src="/logos/fueler.png"
-                width={500}
-                height={200}
-                layout="intrinsic"
-                alt="fueler"
-              />
-            </a>
+            <Image
+              src="/logos/fueler.png"
+              width={500}
+              height={200}
+              alt="fueler"
+            />
           </Link>
         </div>
         <div className="mt-1 md:w-1/5 md:h-1/4 cursor-pointer w-full h-full justify-center items-center">
           <Link
+            title="Open in new tab to see my contributions at Showwcase"
             href="https://github.com/Showwcase/hacktoberfest/pull/19"
             passhref
           >
-            <a title="Open in new tab to see my contributions at Showwcase">
-              <Image
-                src="/logos/showwcase.jpg"
-                width={172}
-                height={106}
-                layout="intrinsic"
-                alt="showwcase"
-              />
-            </a>
+            <Image
+              src="/logos/showwcase.jpg"
+              width={172}
+              height={106}
+              alt="showwcase"
+            />
           </Link>
         </div>
         {/* <div className="flex mt-2 md:w-1/4 md:h-1/4 w-full h-full justify-center items-center cursor-pointer">

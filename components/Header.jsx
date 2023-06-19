@@ -1,27 +1,28 @@
-import { useRouter } from "next/router";
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../assets/logo.png";
 import { useState } from "react";
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
-  const router = useRouter();
 
   return (
     <nav className="bg-[#000125] border-gray-200 px-2 sm:px-4 py-2.5 rounded">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-2.5 md:block">
-            <a href="/" className="flex items-center text-white mb-4 md:mb-0">
+            <Link
+              href="/"
+              className="flex items-center text-white mb-4 md:mb-0 cursor-pointer"
+            >
               <Image
-                className="px-16 rounded-2xl"
-                src={Logo}
+                className="px-16 rounded-2xl w-full h-full"
+                src="/assets/logo.png"
                 alt="name logo"
-                width="100rem"
-                height="100rem"
+                width={0}
+                height={0}
               />
-            </a>
+            </Link>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-100 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -29,8 +30,10 @@ export default function Header() {
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
-                  <img
+                  <Image
                     className="w-6 h-6"
+                    width={10}
+                    height={10}
                     alt="hamburger"
                     src="https://img.icons8.com/ios-glyphs/30/FFFFFF/multiply.png"
                   />
@@ -64,33 +67,31 @@ export default function Header() {
               className="flex flex-col p-4 mt-4 bg-[#000125] text-white font-bold text-lg md:flex-row md:space-x-6 md:mt-0 md:text-lg md:font-bold md:border-0 font-Poppins"
             >
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 hover:underline">
-                <button onClick={() => router.push("./#about")}>About</button>
+                <Link href="./#about">About</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <button onClick={() => router.push("./#skills")}>Skills</button>
+                <Link href="./#skills">Skills</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <button onClick={() => router.push("./#experience")}>
-                  Experience
-                </button>
+                <Link href="./#experience">Experience</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
                 <Link href="./mywork">Projects</Link>
-                {/* <button onClick={() => router.push("./mywork")}>
+                {/* <Link href="./mywork">
                   Projects
-                </button> */}
+                </Link> */}
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <button onClick={() => router.push("./blog")}>Blogs</button>
+                <Link href="./blogs">Blogs</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
-                <button onClick={() => router.push("./events")}>Events</button>
+                <Link href="./events">Events</Link>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300 hover:from-green-500 hover:via-cyan-500 hover:to-pink-500 nav-item">
                 <Link href="./#contact">Contact</Link>
-                {/* <button onClick={() => router.push("./#contact")}>
+                {/* <Link href="./#contact">
                   Contact
-                </button> */}
+                </Link> */}
               </li>
             </ul>
           </div>

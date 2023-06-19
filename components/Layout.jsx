@@ -1,7 +1,9 @@
+"use client";
+
 import { useState, useEffect } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 // import useSound from "use-sound";
-import Footer from "./footer";
-import Header from "./header";
 // import SoundBar from "./SoundBar";
 
 export default function Layout({ children }) {
@@ -32,9 +34,11 @@ export default function Layout({ children }) {
 
   return (
     <>
-      <Header />
-      <main>{children}</main>
-      <Footer />
+      <section className="flex flex-col h-screen justify-between">
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </section>
       <button className="back-to-top hidden" role="button">
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"

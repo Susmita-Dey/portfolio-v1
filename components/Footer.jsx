@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#00012c] container mx-auto flex flex-col justify-center items-center h-56 gap-10">
-      <nav>
+    <footer className="bg-[#00012c] grow-0 shrink-0 bottom-0 top-0 relative container mx-auto flex flex-col justify-center items-center h-56 gap-10">
+      <div>
         <ul className="flex gap-6 cursor-pointer">
           <li>
             <Link
@@ -163,7 +163,7 @@ export default function Footer() {
             </Link>
           </li>
         </ul>
-      </nav>
+      </div>
       <p className="text-sm text-slate-100">
         <span>Built with 💖 using NextJS and Tailwind</span>
         <br />

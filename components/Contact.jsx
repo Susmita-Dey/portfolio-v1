@@ -1,8 +1,11 @@
+"use client";
+
 import React, { useEffect } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
+import Link from "next/link";
 // import Link from "next/link";
 
 export default function Contact() {
@@ -60,20 +63,20 @@ export default function Contact() {
                   <p>Feel free to reach out to me by filling this form.</p>
                   <p>
                     Are you bored of filling forms? 🤔 <br /> Shoot an{" "}
-                    <a
+                    <Link
                       href="mailto:susmitadey475@gmail.com"
                       className="text-cyan-300"
                     >
                       email
-                    </a>{" "}
+                    </Link>{" "}
                     directly or{" "}
-                    <a
+                    <Link
                       href="https://calendly.com/susmitadeyofficial/30min"
                       target="_blank"
                       className="text-cyan-300"
                     >
                       schedule a call.
-                    </a>
+                    </Link>
                   </p>
                 </div>
 
@@ -143,7 +146,11 @@ export default function Contact() {
                   </div>
 
                   <div className="text-center my-3">
-                    <button type="submit" className="btn rounded-lg" role="button">
+                    <button
+                      type="submit"
+                      className="btn rounded-lg"
+                      role="button"
+                    >
                       Submit
                     </button>
                   </div>

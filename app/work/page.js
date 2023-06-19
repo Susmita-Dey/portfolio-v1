@@ -1,38 +1,38 @@
 import Head from "next/head";
 import ParticlesComponent from "../components/particles";
-import Work from "../components/work";
+import Work from "../components/project";
 // import { useEffect, useState } from "react";
 import { getAllWork } from "../lib/api";
 
 export async function getStaticProps() {
-  const work = getAllWork();
-  return {
-    props: {
-      work,
-    },
-  };
+    const work = getAllWork();
+    return {
+        props: {
+            work,
+        },
+    };
 }
 
 export default function WorkPage({ work }) {
-  return (
-    <div>
-      <Head>
-        <title>Susmita Dey | Projects</title>
-        <meta
-          name="description"
-          content="Projects done by Susmita Dey - The Creative Web Developer"
-        />
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <section className="px-6 text-white">
-        <div className="max-w-4xl mx-auto">
-          <ParticlesComponent />
-          <h2 className="text-4xl text-center font-bold mb-6 p-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
-            Work
-          </h2>
-          {/* <!-- Control buttons --> 
+    return (
+        <div>
+            <Head>
+                <title>Susmita Dey | Projects</title>
+                <meta
+                    name="description"
+                    content="Projects done by Susmita Dey - The Creative Web Developer"
+                />
+                <meta charSet="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <section className="px-6 text-white">
+                <div className="max-w-4xl mx-auto">
+                    <ParticlesComponent />
+                    <h2 className="text-4xl text-center font-bold mb-6 p-4 text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-cyan-300 to-pink-300">
+                        Work
+                    </h2>
+                    {/* <!-- Control buttons --> 
           <div
             id="myBtnContainer"
             className="flex justify-center align-center flex-wrap md:flex-row mb-8"
@@ -74,11 +74,11 @@ export default function WorkPage({ work }) {
               Freelance
             </button>
            </div>*/}
-          {work?.map((workItem) => (
-            <Work key={workItem?.title} item={workItem} />
-          ))}
+                    {work?.map((workItem) => (
+                        <Work key={workItem?.title} item={workItem} />
+                    ))}
+                </div>
+            </section>
         </div>
-      </section>
-    </div>
-  );
+    );
 }
