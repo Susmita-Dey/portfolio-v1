@@ -1,10 +1,10 @@
 import Head from "next/head";
-import ParticlesComponent from "../components/particles";
-import Work from "../components/project";
+import ParticlesComponent from "../../components/particles";
+import Work from "../../components/project";
+import { getAllWork } from "../../lib/api";
 // import { useEffect, useState } from "react";
-import { getAllWork } from "../lib/api";
 
-export async function getStaticProps() {
+export async function generateStaticParams() {
     const work = await getAllWork();
     return {
         props: {

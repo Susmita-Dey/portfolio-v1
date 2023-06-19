@@ -1,7 +1,7 @@
-"use client"
+// "use client"
 
 // import { useEffect } from "react";
-import { Analytics } from "@vercel/analytics/react";
+// import { Analytics } from "@vercel/analytics/react";
 // import Image from "next/image";
 import Head from "next/head";
 import Layout from "../components/Layout";
@@ -50,7 +50,7 @@ export default function RootLayout({
                     </Layout>
                 </body>
             </html>
-            <Analytics />
+            {/* <Analytics /> */}
         </>
     )
 }

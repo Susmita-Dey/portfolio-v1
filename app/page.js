@@ -13,7 +13,7 @@ import OpenSource from "../components/openSource";
 // import RecentPosts from "../components/recentPosts";
 import Contact from "../components/contact";
 
-export async function getStaticProps() {
+export async function generateStaticParams() {
     const posts = await getHashnodeBlogs();
     const work = await getAllWork();
 
