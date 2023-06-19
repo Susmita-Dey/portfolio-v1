@@ -56,10 +56,127 @@ export const workdata = [
     {
         "title": "Vivida",
         "image": "/Vivida.png",
-        "year": 2021,
+        "year": 2023,
         "category": "UI/UX",
         "repository": "https://www.figma.com/file/XF5QcpBhHmLRPlJ7UUv5WD/Fauxica?type=design&t=7iKKDxqAwCNNTegC-1",
         "preview": "https://www.figma.com/proto/XF5QcpBhHmLRPlJ7UUv5WD/Fauxica?node-id=0%3A1",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "S-ClassCars",
+        "image": "/S-ClassCars.png",
+        "year": 2023,
+        "category": "No-Code",
+        "repository": "https://preview.webflow.com/preview/s-class-cars?utm_medium=preview_link&utm_source=dashboard&utm_content=s-class-cars&preview=59d28fb54437a926fe2301175daa286e&workflow=preview",
+        "preview": "https://s-class-cars.webflow.io/",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "Jobify",
+        "image": "/Jobify.png",
+        "year": 2023,
+        "category": "App-Dev",
+        "repository": "https://github.com/Susmita-Dey/Jobify",
+        "preview": "",
+        "description": "Job search mobile app built using React Native and Job Search API.📱"
+    },
+    {
+        "title": "Zynca Biotics",
+        "image": "/Zynca.png",
+        "year": 2023,
+        "category": "Internship",
+        "repository": "",
+        "preview": "https://zyncabiotics.com/",
+        "description": "Ayurvedic medicine e-commerce web application for a brand made during frontend developer internship under Digitea.📱"
+    },
+    {
+        "title": "Boldknight",
+        "image": "/Boldknight.png",
+        "year": 2023,
+        "category": "Internship",
+        "repository": "",
+        "preview": "https://zyncabiotics.com/",
+        "description": "Ayurvedic medicine e-commerce web application for a brand made during frontend developer internship under Digitea.📱"
+    },
+    {
+        "title": "Fueler Wallpaper",
+        "image": "/Fueler-Wallpaper.png",
+        "year": 2023,
+        "category": "Internship",
+        "repository": "",
+        "preview": "https://zyncabiotics.com/",
+        "description": "Wallpaper Gallery made during frontend developer internship under Fueler.📱"
+    },
+    {
+        "title": "Calendar Website Design",
+        "image": "/Calendar.png",
+        "year": 2023,
+        "category": "No-Code",
+        "repository": "https://preview.webflow.com/preview/space-travel-calendar?utm_medium=preview_link&utm_source=designer&utm_content=space-travel-calendar&preview=65ebb560ab52daf4cb7f440dfdeb42d5&workflow=preview",
+        "preview": "https://space-travel-calendar.webflow.io/",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "Creative Freelancing Agency",
+        "image": "/Creative-Freelancing-Agency.png",
+        "year": 2023,
+        "category": "No-Code",
+        "repository": "#",
+        "preview": "https://creative-freelancing-agency.framer.ai/",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "Burger Website Design",
+        "image": "/Burger.png",
+        "year": 2023,
+        "category": "No-Code",
+        "repository": "#",
+        "preview": "https://confidence-float-144471.framer.app/",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "IntelligenceNow",
+        "image": "/IntelligenceNow.png",
+        "year": 2023,
+        "category": "No-Code",
+        "repository": "#",
+        "preview": "https://white-operation-127823.framer.app/",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "IntelligenceNow",
+        "image": "/IntelligenceNow.png",
+        "year": 2023,
+        "category": "UI/UX",
+        "repository": "https://www.figma.com/file/ebHw3cVe3FfVlZheXXZSPI/Futuristic-AI-Design?type=design&t=ECDStcXSmtaSfaSB-1",
+        "preview": "https://www.figma.com/proto/ebHw3cVe3FfVlZheXXZSPI/Futuristic-AI-Design?node-id=0%3A1",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "Peacify",
+        "image": "/Peacify.png",
+        "year": 2023,
+        "category": "UI/UX",
+        "repository": "https://www.figma.com/file/1r2GCFO19C18OfuS8ZivI7/Peacify?type=design&t=ECDStcXSmtaSfaSB-1",
+        "preview": "https://www.figma.com/proto/1r2GCFO19C18OfuS8ZivI7/Peacify?node-id=0%3A1",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "Appwrite Docs Redesign",
+        "image": "/Appwrite-Docs.png",
+        "year": 2023,
+        "category": "UI/UX",
+        "repository": "https://www.figma.com/file/rjgUeRP3fn8YqhKE8h0FN2/Appwrite-Docs-Redesign?type=design&t=ECDStcXSmtaSfaSB-1",
+        "preview": "https://www.figma.com/proto/rjgUeRP3fn8YqhKE8h0FN2/Appwrite-Docs-Redesign?node-id=1%3A3",
+        "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
+    },
+    {
+        "title": "Agency Website Design",
+        "image": "/Agency.png",
+        "year": 2023,
+        "category": "UI/UX",
+        "repository": "https://www.figma.com/file/Kl0LI1X0xcYxBBm5SeGawL/Agency-Website?type=design&t=ECDStcXSmtaSfaSB-1",
+        "preview": "https://www.figma.com/proto/Kl0LI1X0xcYxBBm5SeGawL/Agency-Website?node-id=0%3A1",
         "description": "Prototype and UI design set for a imaginary apparel shop, Vivida."
     },
     {
