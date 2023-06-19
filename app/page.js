@@ -6,12 +6,12 @@ import ParticlesComponent from "../components/particles";
 import { getAllPosts, getAllWork, getHashnodeBlogs } from "../lib/api";
 import Certificates from "../components/Certificates";
 import HeroSection from "../components/HeroSection";
-import Skills from "../components/mySkills";
+import Skills from "../components/MySkills";
 import Experience from "../components/Experience";
-import Projects from "../components/featuredWork";
-import OpenSource from "../components/openSource";
+import Projects from "../components/FeaturedWork";
+import OpenSource from "../components/OpenSource";
 // import RecentPosts from "../components/recentPosts";
-import Contact from "../components/contact";
+import Contact from "../components/Contact";
 
 export async function generateStaticParams() {
     const posts = await getHashnodeBlogs();

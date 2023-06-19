@@ -1,6 +1,6 @@
 import Head from "next/head";
 import ParticlesComponent from "../../components/particles";
-import Work from "../../components/project";
+import Work from "../../components/Project";
 import { getAllWork } from "../../lib/api";
 // import { useEffect, useState } from "react";
 
