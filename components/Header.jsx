@@ -8,9 +8,9 @@ export default function Header() {
 
   return (
     <nav className="bg-[#000125] border-gray-200 px-2 sm:px-4 py-2.5 rounded">
-      <h3 className="text-xl text-center text-yellow-400">
+      {/* <h3 className="text-xl text-center text-yellow-400">
         Site is under construction. Please visit after some time.
-      </h3>
+      </h3> */}
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-2.5 md:block">

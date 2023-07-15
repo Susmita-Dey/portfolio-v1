@@ -1,3 +1,4 @@
+// "use client";
 // import Image from "next/image";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,7 +23,8 @@ export default function Project({ item }) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Repository Links"
-              legacyBehavior>
+              legacyBehavior
+            >
               <svg
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +42,8 @@ export default function Project({ item }) {
               href={item?.preview}
               target="_blank"
               rel="noopener noreferrer"
-              legacyBehavior>
+              legacyBehavior
+            >
               <span className="flex flex-row text-base">
                 View Demo &nbsp;
                 <svg

@@ -2,22 +2,15 @@
 
 import React, { useEffect } from "react";
 // importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function OpenSource() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section className="bg-[#000325] text-white text-center px-6 py-12">
-      <div
-        className="max-w-4xl mx-auto"
-        data-aos="fade-left"
-        data-aos-once="true"
-      >
+      <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-pink-500">
           Open Source Contributons
         </h2>
@@ -25,17 +18,14 @@ export default function OpenSource() {
           Top Open Source Contributons to Various Orgs/Companies
         </p>
       </div>
-      <div
-        className="max-w-4xl mx-auto flex gap-10 md:flex-row flex-col"
-        data-aos="fade-up"
-        data-aos-once="true"
-      >
+      <div className="max-w-4xl mx-auto flex gap-10 md:flex-row flex-col">
         <div className="my-2 md:w-1/4 md:h-1/4 cursor-pointer">
           <Link
             title="Open in new tab to see my contributions at Novu"
             href="https://novu.co/contributors/Susmita-Dey/"
             passhref
-            legacyBehavior>
+            legacyBehavior
+          >
             <Image src="/logos/novu.png" width={500} height={200} alt="Novu" />
           </Link>
         </div>
@@ -44,7 +34,8 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Community Classroom"
             href="https://github.com/WeMakeDevs/roadmaps/pull/325"
             passhref
-            legacyBehavior>
+            legacyBehavior
+          >
             <Image
               src="https://avatars.githubusercontent.com/u/118681893?s=200&v=4"
               width={70}
@@ -58,7 +49,8 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Hack4Bengal"
             href="https://github.com/orgs/hack4bengal/teams/web-team/members"
             passhref
-            legacyBehavior>
+            legacyBehavior
+          >
             <Image
               src="/logos/Hack4Bengal.png"
               width={300}
@@ -72,7 +64,8 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at daily.dev"
             href="https://github.com/dailydotdev/memetoberfest/pull/68"
             passhref
-            legacyBehavior>
+            legacyBehavior
+          >
             <Image
               src="/logos/dailydotdev.png"
               width={500}
@@ -86,7 +79,8 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Fueler"
             href="https://github.com/Fueler-io/Web-Development-Resources/pull/63"
             passhref
-            legacyBehavior>
+            legacyBehavior
+          >
             <Image
               src="/logos/fueler.png"
               width={500}
@@ -100,7 +94,8 @@ export default function OpenSource() {
             title="Open in new tab to see my contributions at Showwcase"
             href="https://github.com/Showwcase/hacktoberfest/pull/19"
             passhref
-            legacyBehavior>
+            legacyBehavior
+          >
             <Image
               src="/logos/showwcase.jpg"
               width={172}

@@ -12,6 +12,7 @@ import Projects from "../components/FeaturedWork";
 import OpenSource from "../components/OpenSource";
 // import RecentPosts from "../components/recentPosts";
 import Contact from "../components/Contact";
+import { workdata } from "json/workdata";
 
 export async function generateStaticParams() {
     const posts = await getHashnodeBlogs();
@@ -25,7 +26,7 @@ export async function generateStaticParams() {
     };
 }
 
-export default function Home({ posts, work }) {
+export default function Home({ posts }) {
     return (
         <>
             <div className="scroll-smooth">
@@ -40,7 +41,7 @@ export default function Home({ posts, work }) {
                 {/* <About /> */}
                 <Skills />
                 <Experience />
-                <Projects work={work} />
+                <Projects work={workdata} />
                 <OpenSource />
                 {/* <RecentPosts posts={posts} /> */}
                 <Certificates />

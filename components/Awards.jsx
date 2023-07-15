@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 // importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,20 +15,9 @@ import { Navigation, Pagination } from "swiper";
 import Image from "next/image";
 
 export default function Awards() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
-      <section
-        className="bg-[#000325] px-6 py-12"
-        data-aos="fade-right"
-        data-aos-offset="50"
-        data-aos-duration="500"
-        data-aos-easing="ease-in"
-        data-aos-mirror="true"
-        data-aos-once="false"
-      >
+      <section className="bg-[#000325] px-6 py-12">
         <div className="max-w-4xl mx-auto gap-14 items-center flex-col md:flex-row">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-white">

@@ -2,25 +2,16 @@
 
 import React, { useEffect } from "react";
 // importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Image from "next/image";
 import Link from "next/link";
 // import Link from "next/link";
 
 export default function Contact() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
       <section className="bg-[#000325] px-6 py-12" id="contact">
         <div className="max-w-6xl mx-auto">
-          <div
-            className="flex flex-col md:flex-row"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <div className="flex flex-col md:flex-row">
             <div className="flex mx-12">
               <div className="relative block group mt-24">
                 <Image

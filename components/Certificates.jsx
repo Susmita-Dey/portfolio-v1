@@ -1,9 +1,7 @@
-"use client";
-
 import React, { useEffect } from "react";
 // importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -18,16 +16,9 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 import Image from "next/image";
 
 export default function Certificates() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
-      <section
-        className="bg-[#000325] px-6 py-12"
-        data-aos="fade-left"
-        data-aos-once="true"
-      >
+      <section className="bg-[#000325] px-6 py-12">
         <div className="max-w-4xl mx-auto gap-14 items-center flex-col md:flex-row">
           <div className="text-center mb-8">
             <h2 className="text-4xl font-bold text-white">
@@ -40,7 +31,7 @@ export default function Certificates() {
           </div>
           <Swiper
             style={{
-              "--swiper-navigation-color": "#000325",
+              "--swiper-navigation-color": "#0003ff",
               "--swiper-pagination-color": "#000325",
             }}
             navigation={true}
