@@ -38,7 +38,7 @@ export default function HeroSection() {
               href="Resume-Susmita.pdf"
               legacyBehavior
             >
-              <button className="bg-white text-blue-900 px-6 py-4 rounded text-lg mb-12">
+              <button className="bg-transparent hover:bg-gradient-to-r hover:from-cyan-800 hover:to-pink-800 text-white border-blue-500 border-2 px-6 py-4 rounded text-lg mb-12">
                 Hire Me!
               </button>
             </Link>

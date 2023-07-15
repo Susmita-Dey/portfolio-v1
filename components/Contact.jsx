@@ -11,20 +11,20 @@ export default function Contact() {
     <>
       <section className="bg-[#000325] px-6 py-12" id="contact">
         <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col md:flex-row gap-10">
             <div className="flex mx-12">
-              <div className="relative block group mt-24">
+              <div className="relative block group mt-12">
                 <Image
-                  src="https://cdn.pixabay.com/photo/2015/07/17/22/44/student-849828__340.jpg"
+                  src="https://cdn.pixabay.com/photo/2020/10/23/14/54/woman-5678998_1280.jpg"
                   alt="sci-fi"
-                  width={580}
-                  height={580}
+                  width={560}
+                  height={560}
                   // layout="responsive"
                   priority
                   className="absolute inset-0 object-cover group-hover:opacity-50 rounded-md"
                 />
                 <div className="relative p-2 text-white flex items-center justify-center">
-                  <div className="md:-mt-[42rem] -mt-60">
+                  <div className="mt-28">
                     <div className="transition-all transform translate-y-8 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
                       <div className="text-center">
                         <div className="md:text-xl text-xs">
